@@ -29,10 +29,9 @@ fun <T> partition(array: Array<T>, begin: Int, end: Int, func: (T, T) -> Boolean
 }
 
 fun <T> stdCompare(first: T, second: T): Boolean {
-    when {
-        (first is Number) and (second is Number) -> return (first.toString().toDouble() < second.toString().toDouble())
-        else -> throw Exception("Invalid type")
-    }
+    first as Number
+    second as Number
+    return first.toDouble() <= second.toDouble()
 }
 
 fun main() {
