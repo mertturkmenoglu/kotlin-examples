@@ -19,4 +19,11 @@ fun main() {
     val (name, age) = person
     println(name)
     println(age)
+
+    val arr = arrayListOf(3, 4, 5, 6, 7)
+
+    val iter = arr.iterator()
+    for ((index, element) in iter.withIndex()) {
+        println("A[$index]: $element")
+    }
 }
