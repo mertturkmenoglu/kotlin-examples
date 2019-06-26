@@ -13,11 +13,11 @@ fun main() {
 
 fun maxPrime(iterator: Iterator<Int>): Int {
     var max = -1
-
-    for (i in iterator) {
-        if (i > max) {
-            if (isPrime(i)) {
-                max = i
+    sequenceOf(iterator)
+    iterator.forEach {
+        if (it > max) {
+            if (isPrime(it)) {
+                max = it
             }
         }
     }
