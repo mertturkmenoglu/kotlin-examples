@@ -9,9 +9,8 @@ fun main() {
     println(reverse)
 }
 
-fun reverseWords(sentence: String): String {
-    val tokens = sentence.split(" ")
-    return tokens.joinToString(" ", "", "") {
+fun reverseWords(sentence: String) = sentence.split(" ")
+    .joinToString(" ", "", "") {
         it.reversed()
     }
-}
+
