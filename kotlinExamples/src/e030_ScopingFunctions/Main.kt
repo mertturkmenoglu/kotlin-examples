@@ -1,4 +1,4 @@
-package e039_ScopingFunctions
+package e030_ScopingFunctions
 
 fun main() {
     val p1 = Person("Emily", 35)
