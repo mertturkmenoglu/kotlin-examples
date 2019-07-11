@@ -1,10 +1,7 @@
 package e003_dsaproject
 
 fun bfs(matrix: Array<Array<Boolean>>, wordList: ArrayList<Node>, start: Int, end: Int): Path? {
-    for (word in wordList) {
-        word.level = 0
-        word.parent = null
-    }
+    wordList.forEach { it.level = 0; it.parent = null }
 
     val q = Queue<Node>(5000)
     q.enqueue(wordList[start])
@@ -14,9 +11,8 @@ fun bfs(matrix: Array<Array<Boolean>>, wordList: ArrayList<Node>, start: Int, en
 
     while (!q.isEmpty()) {
         var v: Node? = q.dequeue()
-        val result = stringCompare(wordList[end].word, v?.word?:"")
 
-        if (result) {
+        if (stringCompare(wordList[end].word, v?.word?:"")) {
             val path = Path(Array(v!!.level + 1) { -1 }, v.level + 1, v.level)
 
             var j = v.level
@@ -34,12 +30,12 @@ fun bfs(matrix: Array<Array<Boolean>>, wordList: ArrayList<Node>, start: Int, en
 
         val index = getIndex(wordList, v!!.word)
 
-        for (i in 0 until wordList.size) {
-            if (matrix[index][i] and !visited[i]) {
+        wordList.forEachIndexed { i, node ->
+            if (matrix[index][i] && !visited[i]) {
                 visited[i] = true
-                wordList[i].level = v.level + 1
-                wordList[i].parent = v
-                q.enqueue(wordList[i])
+                node.level = v.level + 1
+                node.parent = v
+                q.enqueue(node)
             }
         }
     }
@@ -49,29 +45,12 @@ fun bfs(matrix: Array<Array<Boolean>>, wordList: ArrayList<Node>, start: Int, en
 
 
 fun bfsHandler(matrix: Array<Array<Boolean>>, wordList: ArrayList<Node>) {
-    println("Enter your first word")
-    val first = readLine()!!
-
-    println("Enter your second word")
-    val second = readLine()!!
-
-    val start = getIndex(wordList, first)
-    val end = getIndex(wordList, second)
-
-    if ((start == -1) or (end == -1)) {
-        throw Exception("Invalid input")
-    }
-
-
-    val result = bfs(matrix, wordList, start, end)
+    val result = bfs(matrix, wordList, getIndex(wordList, readLine()!!), getIndex(wordList, readLine()!!))
     if (result != null) {
-        println("There is a transformation between $first and $second: ${result.step} steps")
-        for (i in 0 until result.n) {
-            println(wordList[result.path[i]].word)
-        }
+        println("There is a transformation between words: ${result.step} steps")
+        result.path.forEach { println(wordList[it].word) }
     } else {
-        println("There is no transformation between $first and $second")
-
+        println("There is no transformation between words")
         println("--------------------------\n\n")
     }
 }

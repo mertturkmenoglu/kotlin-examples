@@ -1,25 +1,11 @@
 package e003_dsaproject
 
-fun createAdjacencyMatrix(wordList: ArrayList<Node>): Array<Array<Boolean>> {
-    val lineCount = wordList.size
-    val mtr =  Array(lineCount) { Array(lineCount) {false} }
-
-    for (i in 0 until lineCount) {
-        for (j in 0 until lineCount) {
-            mtr[i][j] = if (i == j) false else connection(wordList[i].word, wordList[j].word)
-            mtr[j][i] = mtr[i][j]
+fun createAdjacencyMatrix(wordList: ArrayList<Node>) = Array(wordList.size) { Array(wordList.size) {false} }.also {
+    it.forEachIndexed { i, row ->
+        row.forEachIndexed { j, _ ->
+            row[j] = (if (i == j) false else connection(wordList[i].word, wordList[j].word))
         }
     }
-
-    return mtr
 }
 
-
-fun <T> printMatrix(mtr: Array<Array<T>>) {
-    for (row in mtr) {
-        for (e in row) {
-            print(e)
-        }
-        println()
-    }
-}
+fun <T> printMatrix(mtr: Array<Array<T>>) = mtr.forEach { row -> row.forEach { e -> print(if (e == true) 1 else 0) } }
