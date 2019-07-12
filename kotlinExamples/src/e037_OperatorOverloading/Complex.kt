@@ -2,6 +2,7 @@ package e037_OperatorOverloading
 
 class Complex(var real: Double, var imag: Double) : Comparable<Complex> {
     constructor(real: Int, imag: Int) : this(real.toDouble(), imag.toDouble())
+    constructor() : this(0.0, 0.0)
 
     override fun compareTo(other: Complex): Int {
         return if (this.real == other.real && this.imag == other.imag) {
