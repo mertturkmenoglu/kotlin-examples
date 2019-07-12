@@ -1,6 +1,6 @@
 package e009_QuickSort
 
-fun <T> quickSort(array: Array<T>, begin: Int, end: Int) {
+fun <T : Comparable<T>> quickSort(array: Array<T>, begin: Int = 0, end: Int = array.size - 1) {
     if (begin < end) {
         val pIndex = partition(array, begin, end)
         quickSort(array, begin, pIndex - 1)
@@ -8,30 +8,21 @@ fun <T> quickSort(array: Array<T>, begin: Int, end: Int) {
     }
 }
 
-fun <T> partition(array: Array<T>, begin: Int, end: Int, func: (T, T) -> Boolean = ::stdCompare): Int {
+private fun <T : Comparable<T>> partition(array: Array<T>, begin: Int, end: Int): Int {
     val pivot = array[end]
     var i = begin - 1
 
     for (j  in begin until end) {
-        if (func(array[j], pivot) or (array[j] == pivot)) {
+        if (array[j] <= pivot) {
             i++
-            val tmp = array[i]
-            array[i] = array[j]
-            array[j] = tmp
+            array[i] = array[j].also { array[j] = array[i] }
         }
     }
 
-    val tmp = array[i+1]
-    array[i+1] = array[end]
-    array[end] = tmp
+    i++
+    array[i] = array[end].also { array[end] = array[i] }
 
-    return i + 1
-}
-
-fun <T> stdCompare(first: T, second: T): Boolean {
-    first as Number
-    second as Number
-    return first.toDouble() <= second.toDouble()
+    return i
 }
 
 fun main() {
