@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/Validate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/AutoPark.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/Date.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/ParkRecord.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/Subscription.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/Time.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/vehicle/OfficialVehicle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/vehicle/RegularVehicle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/vehicle/SubscribedVehicle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/vehicle/Vehicle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/e041_IsogramWords/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,55 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/Date.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/ParkRecord.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/AutoPark.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="79" column="160" selection-start-line="79" selection-start-column="160" selection-end-line="79" selection-end-column="160" />
-              <folding>
-                <element signature="e#30#171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/MainActivity.kt">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e041_IsogramWords/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="e#28#292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/Validate.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1820">
-              <folding>
-                <element signature="e#30#95#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -120,6 +66,7 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/AutoPark.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/Validate.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/e041_IsogramWords/Main.kt" />
       </list>
     </option>
   </component>
@@ -138,7 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,18 +104,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="e038_ScopingFunctions" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="e039_Library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="e041_IsogramWords" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/yusufgithub" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/oop" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -183,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.e040_oopproject.ui.MainActivityKt">
+  <component name="RunManager" selected="Kotlin.e041_IsogramWords.MainKt">
     <configuration name="e009_QuickSort.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -192,19 +151,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="e009_QuickSort.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="e037_OperatorOverloading.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="e037_OperatorOverloading.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -249,13 +195,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="e041_IsogramWords.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="e041_IsogramWords.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.e041_IsogramWords.MainKt" />
         <item itemvalue="Kotlin.e040_oopproject.ui.MainActivityKt" />
         <item itemvalue="Kotlin.e039_Library.MainKt" />
         <item itemvalue="Kotlin.e009_QuickSort.MainKt" />
         <item itemvalue="Kotlin.e038_ScopingFunctions.MainKt" />
-        <item itemvalue="Kotlin.e037_OperatorOverloading.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562941654987</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add OOP Semester Project Kotlin implementation">
+      <created>1562951184257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562951184257</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -315,7 +281,7 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5883015" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5883015" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,7 +340,8 @@
     <MESSAGE value="Add scoping functions example" />
     <MESSAGE value="Update QuickSort example" />
     <MESSAGE value="Add Kotlin Standard Library functions example on quickSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Kotlin Standard Library functions example on quickSort" />
+    <MESSAGE value="Add OOP Semester Project Kotlin implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add OOP Semester Project Kotlin implementation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Any.kt">
@@ -457,20 +424,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e039_QuickSort.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e039_QuickSort.kt" />
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
           <caret line="2009" column="27" lean-forward="true" selection-start-line="2009" selection-start-column="27" selection-end-line="2009" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e039_Library/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -502,9 +460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/Main.kt" />
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e038_ScopingFunctions/Pair.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -526,6 +482,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/String.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/Date.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -535,21 +498,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/ParkRecord.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="75">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e038_ScopingFunctions/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/AutoPark.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
+        <state relative-caret-position="1155">
           <caret line="79" column="160" selection-start-line="79" selection-start-column="160" selection-end-line="79" selection-end-column="160" />
           <folding>
             <element signature="e#30#171#0" expanded="true" />
@@ -557,29 +513,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/String.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/Validate.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1820">
-          <folding>
-            <element signature="e#30#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state>
           <folding>
             <element signature="e#28#292#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e038_ScopingFunctions/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e039_Library/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/e041_IsogramWords/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
