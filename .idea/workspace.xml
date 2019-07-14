@@ -1,84 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="Update project structure">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practise/e001_NextBiggerNumber/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e001_Input/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e002_InfixNotation/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e003_dsaproject/Bfs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Bfs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e003_dsaproject/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Data.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e003_dsaproject/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e003_dsaproject/Matrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Matrix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e003_dsaproject/Util.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Util.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e003_dsaproject/word.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/word.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e004_InheritanceAndConstructors/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e004_InheritanceAndConstructors/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e005_MethodResolution/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e005_MethodResolution/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e006_NestedInnerClasses/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e006_NestedInnerClasses/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e007_SealedClass/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e007_SealedClass/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e008_CompainionObject/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e008_CompainionObject/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e009_QuickSort/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e009_QuickSort/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e010_ExtensionFunction/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e010_ExtensionFunction/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e011_Lambda/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e011_Lambda/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e012_ExceptionHandling/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e012_ExceptionHandling/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e013_JavaInteroperability/KotlinUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/KotlinUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e013_JavaInteroperability/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e013_JavaInteroperability/SpecialJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/SpecialJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e013_JavaInteroperability/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e014_Regex/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e014_Regex/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e015_HigherOrderFunctions/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e015_HigherOrderFunctions/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e016_DestructuringDeclarations/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e016_DestructuringDeclarations/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e017_DsaStack/CharType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e017_DsaStack/CharType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e017_DsaStack/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e017_DsaStack/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e017_DsaStack/Operation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e017_DsaStack/Operation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e017_DsaStack/OperationType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e017_DsaStack/OperationType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e017_DsaStack/Precedence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e017_DsaStack/Precedence.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e017_DsaStack/ReturnType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e017_DsaStack/ReturnType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e018_BigSum/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e018_BigSum/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e019_MaxPrimeInRange/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e019_MaxPrimeInRange/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e020_MatrixRotate/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e020_MatrixRotate/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e021_BuiltInMethods/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e021_BuiltInMethods/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e022_Search/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e022_Search/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e023_Queue/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e023_Queue/Queue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Queue.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e024_LinkedList/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e024_LinkedList/LinkedList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e024_LinkedList/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e024_LinkedList/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e025_Sort/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e025_Sort/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e025_Sort/Sort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e025_Sort/Sort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e026_BFS/Bfs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e026_BFS/Bfs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e026_BFS/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e026_BFS/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e027_ReverseWords/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e027_ReverseWords/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e028_Frequencies/Frequency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e028_Frequencies/Frequency.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e028_Frequencies/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e028_Frequencies/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e029_ArmstrongNumber/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e029_ArmstrongNumber/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e030_ScopingFunctions/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e030_ScopingFunctions/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e030_ScopingFunctions/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e030_ScopingFunctions/Person.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e031_MatrixSort/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e031_MatrixSort/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e032_MinimumOfMatrix/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e032_MinimumOfMatrix/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e033_FunctionLiteralsWithReceiver/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e033_FunctionLiteralsWithReceiver/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e034_Repeat/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e034_Repeat/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e035_HTTPRequest/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e035_HTTPRequest/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e036_ArrayList/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e036_ArrayList/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e037_OperatorOverloading/Complex.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e037_OperatorOverloading/Complex.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e037_OperatorOverloading/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e037_OperatorOverloading/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e038_ScopingFunctions/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e038_ScopingFunctions/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e038_ScopingFunctions/Pair.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e038_ScopingFunctions/Pair.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e039_Library/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e039_Library/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/ui/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/Validate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/ui/Validate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/AutoPark.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/AutoPark.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/Date.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/Date.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/ParkRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/ParkRecord.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/Subscription.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/Subscription.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/util/Time.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/Time.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/vehicle/OfficialVehicle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/vehicle/OfficialVehicle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/vehicle/RegularVehicle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/vehicle/RegularVehicle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/vehicle/SubscribedVehicle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/vehicle/SubscribedVehicle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/vehicle/Vehicle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/vehicle/Vehicle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e041_IsogramWords/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e041_IsogramWords/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e042_RNA/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e042_RNA/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e043_HammingDistance/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e043_HammingDistance/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/e044_Anagram/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e044_Anagram/Main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,11 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Main.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e001_NextBiggerNumber/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="528">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -120,8 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/e040_oopproject/ui/MainActivity.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/e041_IsogramWords/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/e042_RNA/Main.kt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/StringDiff.kts" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/e042_HammingDistance/Main.kt" />
@@ -171,6 +106,8 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Matrix.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e004_InheritanceAndConstructors/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e001_NextBiggerNumber/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/practise/README.md" />
       </list>
     </option>
   </component>
@@ -189,10 +126,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="e027_ReverseWords" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="e039_Library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practise" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,20 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.languageExamples.e044_Anagram.MainKt">
-    <configuration name="languageExamples.e040_oopproject.ui.MainActivityKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.e040_oopproject.ui.MainActivityKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.practise.e001_NextBiggerNumber.MainKt">
     <configuration name="languageExamples.e041_IsogramWords.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -284,13 +249,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practise.e001_NextBiggerNumber.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practise.e001_NextBiggerNumber.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.practise.e001_NextBiggerNumber.MainKt" />
         <item itemvalue="Kotlin.languageExamples.e044_Anagram.MainKt" />
         <item itemvalue="Kotlin.languageExamples.e043_HammingDistance.MainKt" />
         <item itemvalue="Kotlin.languageExamples.e042_RNA.MainKt" />
         <item itemvalue="Kotlin.languageExamples.e041_IsogramWords.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.e040_oopproject.ui.MainActivityKt" />
       </list>
     </recent_temporary>
   </component>
@@ -368,14 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563024410379</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update project structure">
+      <created>1563026916307</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563026916307</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25987193" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25987193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -383,10 +368,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
-      <window_info anchor="bottom" id="Scratch Output" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37457818" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,7 +379,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295838" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3295838" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295838" />
+      <window_info anchor="bottom" id="Scratch Output" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -454,26 +439,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update project structure" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Data.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Bfs.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e009_QuickSort/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -594,9 +559,6 @@
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e019_MaxPrimeInRange/Main.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e018_BigSum/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Queue.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -673,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e027_ReverseWords/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e004_InheritanceAndConstructors/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -696,6 +651,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e018_BigSum/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e027_ReverseWords/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e039_Library/Main.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/generated/_Ranges.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="437" column="21" selection-start-line="437" selection-start-column="21" selection-end-line="437" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e001_NextBiggerNumber/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
