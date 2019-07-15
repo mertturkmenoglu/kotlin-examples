@@ -1,12 +1,11 @@
 package languageExamples.e022_Search
 
 fun <T: Comparable<T>> linearSearch(collection: Collection<T>, value: T): Int {
-    val iterator = collection.iterator().withIndex()
-    iterator.forEach {
-        if (it.value == value) {
-            return it.index
-        }
+    collection.forEachIndexed {i, e ->
+        if (e == value)
+            return i
     }
+
     return -1
 }
 
