@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt" afterDir="false" />
+    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="Add human readable time conversion practie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e019_MaxPrimeInRange/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e019_MaxPrimeInRange/Main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +20,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="1081">
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e019_MaxPrimeInRange/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#47#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +90,6 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e017_DsaStack/Precedence.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e017_DsaStack/ReturnType.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e018_BigSum/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e019_MaxPrimeInRange/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e020_MatrixRotate/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e021_BuiltInMethods/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e022_Search/Main.kt" />
@@ -96,6 +117,7 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e005_DigitDelete/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e006_DigitOne/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e019_MaxPrimeInRange/Main.kt" />
       </list>
     </option>
   </component>
@@ -130,7 +152,28 @@
               <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="e001_Input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="e002_InfixNotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="e019_MaxPrimeInRange" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,15 +207,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.practice.e006_HumanReadableDurationFormat.MainKt">
-    <configuration name="practice.e003_MorseCode.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.languageExamples.e019_MaxPrimeInRange.MainKt">
+    <configuration name="languageExamples.e019_MaxPrimeInRange.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practice.e003_MorseCode.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.e019_MaxPrimeInRange.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.languageExamples.e019_MaxPrimeInRange.MainKt" />
         <item itemvalue="Kotlin.practice.e006_HumanReadableDurationFormat.MainKt" />
         <item itemvalue="Kotlin.practice.e006_DigitOne.MainKt" />
         <item itemvalue="Kotlin.practice.e005_DigitDelete.MainKt" />
         <item itemvalue="Kotlin.practice.e004_WordSeparate.MainKt" />
-        <item itemvalue="Kotlin.practice.e003_MorseCode.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563208129679</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add human readable time conversion practie">
+      <created>1563211502171</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1563211502171</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -453,7 +503,8 @@
     <MESSAGE value="Fix typo in package name" />
     <MESSAGE value="Add word separate practice" />
     <MESSAGE value="Add digit delete practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add digit delete practice" />
+    <MESSAGE value="Add human readable time conversion practie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add human readable time conversion practie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,26 +515,10 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt</url>
-          <line>5</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e010_ExtensionFunction/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e015_HigherOrderFunctions/Main.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -547,9 +582,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e020_MatrixRotate/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e019_MaxPrimeInRange/Main.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Queue.kt">
@@ -756,8 +788,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="1081">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e019_MaxPrimeInRange/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#47#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
