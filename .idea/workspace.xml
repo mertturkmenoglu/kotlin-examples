@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="" />
+    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e004_WordSeparate/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e003_MorsCode/Main.kt">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e004_WordSeparate/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="174">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -42,8 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/e044_Anagram/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Bfs.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Data.kt" />
@@ -93,6 +94,8 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e003_CountingStringSubsequences/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e003_MorsCode/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e003_MorsCode/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e003_MorseCode/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e004_WordSeparate/Main.kt" />
       </list>
     </option>
   </component>
@@ -161,20 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.practice.e003_MorseCode.MainKt">
-    <configuration name="languageExamples.e044_Anagram.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.e044_Anagram.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.practice.e004_WordSeparate.MainKt">
     <configuration name="practice.e001_NextBiggerNumber.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -227,13 +217,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice.e004_WordSeparate.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practice.e004_WordSeparate.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.practice.e004_WordSeparate.MainKt" />
         <item itemvalue="Kotlin.practice.e003_MorseCode.MainKt" />
         <item itemvalue="Kotlin.practice.e003_CountingStringSubsequences.MainKt" />
         <item itemvalue="Kotlin.practice.e002_RangeExtraction.MainKt" />
         <item itemvalue="Kotlin.practice.e001_NextBiggerNumber.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.e044_Anagram.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563204709006</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fix typo in package name">
+      <created>1563204936467</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563204936467</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -356,7 +366,7 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,16 +436,10 @@
     <MESSAGE value="Add next bigger number practice" />
     <MESSAGE value="Add range extraction practice" />
     <MESSAGE value="Add Morse code decode / encoder practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Morse code decode / encoder practice" />
+    <MESSAGE value="Fix typo in package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix typo in package name" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/SpecialJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/Main.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -697,10 +701,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e003_MorsCode/Main.kt">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e003_MorseCode/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="1184">
           <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e004_WordSeparate/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
