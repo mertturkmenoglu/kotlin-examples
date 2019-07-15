@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practise/e002_RangeExtraction/Main.kt" afterDir="false" />
+    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="Add range extraction practice">
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practise/e003_MorsCode/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e001_NextBiggerNumber/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e002_RangeExtraction/Main.kt">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e003_MorsCode/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -54,8 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/StringDiff.kts" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/e042_HammingDistance/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/e043_HammingDistance/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/e044_Anagram/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt" />
@@ -105,6 +94,8 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e001_NextBiggerNumber/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/README.md" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e002_RangeExtraction/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e003_CountingStringSubsequences/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e003_MorsCode/Main.kt" />
       </list>
     </option>
   </component>
@@ -112,7 +103,8 @@
     <option name="directoryName" value="cBdfRsxY" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="26" />
+    <option name="x" value="961" />
+    <option name="y" value="27" />
     <option name="width" value="959" />
     <option name="height" value="1012" />
   </component>
@@ -122,8 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,25 +132,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="practise" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practise" type="462c0819:PsiDirectoryNode" />
-              <item name="e002_RangeExtraction" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Course" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/oop" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -179,33 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.practise.e002_RangeExtraction.MainKt">
-    <configuration name="languageExamples.e042_RNA.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.e042_RNA.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="languageExamples.e043_HammingDistance.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.e043_HammingDistance.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.practice.e003_MorsCode.MainKt">
     <configuration name="languageExamples.e044_Anagram.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -219,27 +178,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practise.e001_NextBiggerNumber.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="practice.e001_NextBiggerNumber.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practise.e001_NextBiggerNumber.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="practice.e001_NextBiggerNumber.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practise.e002_RangeExtraction.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="practice.e002_RangeExtraction.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practise.e002_RangeExtraction.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="practice.e002_RangeExtraction.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.e003_CountingStringSubsequences.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practice.e003_CountingStringSubsequences.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.e003_MorsCode.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practice.e003_MorsCode.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -247,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.practise.e002_RangeExtraction.MainKt" />
-        <item itemvalue="Kotlin.practise.e001_NextBiggerNumber.MainKt" />
+        <item itemvalue="Kotlin.practice.e003_MorsCode.MainKt" />
+        <item itemvalue="Kotlin.practice.e003_CountingStringSubsequences.MainKt" />
+        <item itemvalue="Kotlin.practice.e002_RangeExtraction.MainKt" />
+        <item itemvalue="Kotlin.practice.e001_NextBiggerNumber.MainKt" />
         <item itemvalue="Kotlin.languageExamples.e044_Anagram.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.e043_HammingDistance.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.e042_RNA.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -343,14 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563117768221</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add range extraction practice">
+      <created>1563135677856</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563135677856</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26254" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.54435927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -428,21 +420,10 @@
     <MESSAGE value="Add anagram words example" />
     <MESSAGE value="Update project structure" />
     <MESSAGE value="Add next bigger number practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add next bigger number practice" />
+    <MESSAGE value="Add range extraction practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add range extraction practice" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e008_CompainionObject/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e007_SealedClass/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e006_NestedInnerClasses/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e005_MethodResolution/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/SpecialJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -678,6 +659,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e002_RangeExtraction/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e001_NextBiggerNumber/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -685,10 +673,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e002_RangeExtraction/Main.kt">
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="169">
+          <caret line="1585" selection-start-line="1585" selection-end-line="1585" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e038_ScopingFunctions/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e003_CountingStringSubsequences/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e003_MorsCode/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
         </state>
       </provider>
     </entry>

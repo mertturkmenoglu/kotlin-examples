@@ -1,4 +1,4 @@
-package practise.e002_RangeExtraction
+package practice.e002_RangeExtraction
 
 /**
  * A format for expressing a non-empty ordered list of integers is to use a comma separated list of either

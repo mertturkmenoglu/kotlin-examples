@@ -1,4 +1,4 @@
-package practise.e001_NextBiggerNumber
+package practice.e001_NextBiggerNumber
 
 /**
  * Given a positive integer, return the next bigger number formed by the same digits
