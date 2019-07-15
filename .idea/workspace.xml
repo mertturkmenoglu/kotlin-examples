@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e005_DigitDelete/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e004_WordSeparate/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e005_DigitDelete/Main.kt">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="345">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -54,8 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Bfs.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Data.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Util.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e005_MethodResolution/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e006_NestedInnerClasses/Main.kt" />
@@ -105,6 +94,8 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e003_MorseCode/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e004_WordSeparate/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e005_DigitDelete/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e006_DigitOne/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt" />
       </list>
     </option>
   </component>
@@ -141,13 +132,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="e005_DigitDelete" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,33 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.practice.e005_DigitDelete.MainKt">
-    <configuration name="practice.e002_RangeExtraction.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practice.e002_RangeExtraction.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice.e003_CountingStringSubsequences.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practice.e003_CountingStringSubsequences.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.practice.e006_HumanReadableDurationFormat.MainKt">
     <configuration name="practice.e003_MorseCode.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -246,13 +204,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice.e006_DigitOne.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practice.e006_DigitOne.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.e006_HumanReadableDurationFormat.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practice.e006_HumanReadableDurationFormat.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.practice.e006_HumanReadableDurationFormat.MainKt" />
+        <item itemvalue="Kotlin.practice.e006_DigitOne.MainKt" />
         <item itemvalue="Kotlin.practice.e005_DigitDelete.MainKt" />
         <item itemvalue="Kotlin.practice.e004_WordSeparate.MainKt" />
         <item itemvalue="Kotlin.practice.e003_MorseCode.MainKt" />
-        <item itemvalue="Kotlin.practice.e003_CountingStringSubsequences.MainKt" />
-        <item itemvalue="Kotlin.practice.e002_RangeExtraction.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563206463295</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add digit delete practice">
+      <created>1563208129679</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1563208129679</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -412,7 +403,7 @@
       <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.54435927" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5442903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -422,8 +413,8 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37457818" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39932507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -461,22 +452,28 @@
     <MESSAGE value="Add Morse code decode / encoder practice" />
     <MESSAGE value="Fix typo in package name" />
     <MESSAGE value="Add word separate practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add word separate practice" />
+    <MESSAGE value="Add digit delete practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add digit delete practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_DigitOne/Main.kt</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/KotlinUtil.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e012_ExceptionHandling/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e011_Lambda/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -729,6 +726,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/SequenceBuilder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e005_DigitDelete/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e004_WordSeparate/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
@@ -736,10 +747,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e005_DigitDelete/Main.kt">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_DigitOne/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="377">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
         </state>
       </provider>
     </entry>
