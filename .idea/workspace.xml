@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e045_Require/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e046_Lazy/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e045_Require/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e046_Lazy/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -45,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e007_SealedClass/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e008_CompainionObject/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e009_QuickSort/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e010_ExtensionFunction/Main.kt" />
@@ -96,6 +104,7 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e041_IsogramWords/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e045_Require/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e046_Lazy/Main.kt" />
       </list>
     </option>
   </component>
@@ -133,13 +142,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="e045_Require" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -171,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.languageExamples.MainKt">
+  <component name="RunManager" selected="Kotlin.languageExamples.e046_Lazy.MainKt">
     <configuration name="languageExamples.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -224,14 +226,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.e006_HumanReadableDurationFormat.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="languageExamples.e046_Lazy.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practice.e006_HumanReadableDurationFormat.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.e046_Lazy.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -239,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.languageExamples.e046_Lazy.MainKt" />
         <item itemvalue="Kotlin.languageExamples.MainKt" />
         <item itemvalue="Kotlin.languageExamples.e041_IsogramWords.MainKt" />
         <item itemvalue="Kotlin.languageExamples.e025_Sort.MainKt" />
         <item itemvalue="Kotlin.languageExamples.e019_MaxPrimeInRange.MainKt" />
-        <item itemvalue="Kotlin.practice.e006_HumanReadableDurationFormat.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -405,14 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563217680404</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add require example">
+      <created>1563227854751</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1563227854751</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25453576" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25453576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -422,7 +431,7 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,7 +509,8 @@
     <MESSAGE value="Update linear search example" />
     <MESSAGE value="Update sort example" />
     <MESSAGE value="Update isogram word example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update isogram word example" />
+    <MESSAGE value="Add require example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add require example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -515,13 +525,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e017_DsaStack/Precedence.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e017_DsaStack/OperationType.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -810,6 +813,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e046_Lazy/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
