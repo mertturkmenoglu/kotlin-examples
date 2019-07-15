@@ -1,91 +1,69 @@
 package languageExamples.e025_Sort
 
 
-fun <T : Comparable<T>>insertionSort(array: Array<T>) {
-    val n = array.size
-
-    for (i in 0 until n) {
+fun <T : Comparable<T>> MutableList<T>.insertionSort() {
+    for (i in 0 until size) {
         var j = i - 1
-        val temp = array[i]
-        while((j >= 0) && (array[j] > temp)) {
-            array[j + 1] = array[j]
+        val temp = this[i]
+        while((j >= 0) && (this[j] > temp)) {
+            this[j + 1] = this[j]
             j--
         }
-        array[j+1] = temp
+        this[j+1] = temp
     }
 }
 
-fun <T : Comparable<T>> bubbleSort(array: Array<T>) {
-    val n = array.size
-    for(i in 0 until n - 1) {
-        for(j in 0 until n - i - 1) {
-            if(array[j] > array[j+1]) {
-                array[j] = array[j + 1].also { array[j + 1] = array[j] }
+fun <T : Comparable<T>> MutableList<T>.bubbleSort() {
+    for(i in 0 until size - 1) {
+        for(j in 0 until size - i - 1) {
+            if(this[j] > this[j+1]) {
+                this[j] = this[j + 1].also { this[j + 1] = this[j] }
             }
         }
     }
 }
 
-fun <T : Comparable<T>> quickSort(array: Array<T>, begin: Int = 0, end: Int = array.size - 1) {
-    if (begin < end) {
-        val pIndex = partition(array, begin, end)
-        quickSort(array, begin, pIndex - 1)
-        quickSort(array, pIndex + 1, end)
-    }
-}
-
-private fun <T : Comparable<T>> partition(array: Array<T>, begin: Int, end: Int): Int {
-    val pivot = array[end]
-    var i = begin - 1
-
-    for (j  in begin until end) {
-        if (array[j] <= pivot) {
-            i++
-            array[i] = array[j].also { array[j] = array[i] }
+fun <T : Comparable<T>> List<T>.quickSort(): List<T> =
+        if (size < 2) {
+            this
+        } else {
+            val pivot = first()
+            val (smaller, greater) = drop(1).partition { it <= pivot }
+            smaller.quickSort() + pivot + greater.quickSort()
         }
-    }
 
-    i++
-    array[i] = array[end].also { array[end] = array[i] }
-
-    return i
-}
-
-fun <T : Comparable<T>> selectionSort(array: Array<T>) {
+fun <T : Comparable<T>> MutableList<T>.selectionSort() {
     var location: Int
     var min: T
-    val n = array.size
 
-    for(i in 0 until n - 1) {
+    for(i in 0 until size - 1) {
         location = i
-        min = array[i]
+        min = this[i]
 
-        for(j in i + 1 until n) {
-            if(array[j] < min) {
-                min = array[j]
+        for(j in i + 1 until size) {
+            if(this[j] < min) {
+                min = this[j]
                 location = j
             }
         }
 
-        array[location] = array[i]
-        array[i] = min
+        this[location] = this[i]
+        this[i] = min
     }
 }
 
-
-fun <T : Comparable<T>> shellSort(array: Array<T>) {
-    val n = array.size
-    var h = n / 2
+fun <T : Comparable<T>> MutableList<T>.shellSort() {
+    var h = size / 2
 
     while (h > 0) {
-        for (i in h until n) {
-            val temp = array[i]
+        for (i in h until size) {
+            val temp = this[i]
             var j = i
-            while ((j >= h) && (array[j - h] > temp)) {
-                array[j] = array[j - h]
+            while ((j >= h) && (this[j - h] > temp)) {
+                this[j] = this[j - h]
                 j -= h
             }
-            array[j] = temp
+            this[j] = temp
         }
         h /= 2
     }
