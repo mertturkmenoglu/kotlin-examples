@@ -1,4 +1,4 @@
-package practice.e003_MorsCode
+package practice.e003_MorseCode
 
 import kotlin.Exception
 

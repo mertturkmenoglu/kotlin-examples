@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="Add range extraction practice">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practise/e003_MorsCode/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e003_MorsCode/Main.kt">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e003_MorsCode/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="321">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -45,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/e043_HammingDistance/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/e044_Anagram/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt" />
@@ -96,6 +92,7 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e002_RangeExtraction/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e003_CountingStringSubsequences/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e003_MorsCode/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e003_MorsCode/Main.kt" />
       </list>
     </option>
   </component>
@@ -130,7 +127,7 @@
               <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practise" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.practice.e003_MorsCode.MainKt">
+  <component name="RunManager" selected="Kotlin.practice.e003_MorseCode.MainKt">
     <configuration name="languageExamples.e044_Anagram.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -217,14 +214,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.e003_MorsCode.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="practice.e003_MorseCode.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practice.e003_MorsCode.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="practice.e003_MorseCode.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,7 +229,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.practice.e003_MorsCode.MainKt" />
+        <item itemvalue="Kotlin.practice.e003_MorseCode.MainKt" />
         <item itemvalue="Kotlin.practice.e003_CountingStringSubsequences.MainKt" />
         <item itemvalue="Kotlin.practice.e002_RangeExtraction.MainKt" />
         <item itemvalue="Kotlin.practice.e001_NextBiggerNumber.MainKt" />
@@ -335,14 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563135677856</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Morse code decode / encoder practice">
+      <created>1563204709006</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563204709006</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.54435927" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5442903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -352,7 +356,7 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,7 +379,7 @@
       <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26254" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.54435927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -421,7 +425,8 @@
     <MESSAGE value="Update project structure" />
     <MESSAGE value="Add next bigger number practice" />
     <MESSAGE value="Add range extraction practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add range extraction practice" />
+    <MESSAGE value="Add Morse code decode / encoder practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Morse code decode / encoder practice" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/SpecialJava.java">
@@ -644,7 +649,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/README.md">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -659,14 +664,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e002_RangeExtraction/Main.kt">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e002_RangeExtraction/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-161">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e001_NextBiggerNumber/Main.kt">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e001_NextBiggerNumber/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
@@ -692,10 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practise/e003_MorsCode/Main.kt">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e003_MorsCode/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="321">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
         </state>
       </provider>
     </entry>
