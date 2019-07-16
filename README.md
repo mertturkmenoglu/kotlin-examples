@@ -1,5 +1,6 @@
-![Kotlin Logo](https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png)
-![GitHub top language](https://img.shields.io/github/languages/top/mertturkmenoglu/kotlin.svg?logo=Kotlin) ![GitHub](https://img.shields.io/github/license/mertturkmenoglu/kotlin.svg) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/mertturkmenoglu/kotlin.svg?style=flat) ![GitHub followers](https://img.shields.io/github/followers/mertturkmenoglu.svg?style=social)
+![Kotlin Logo](https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png)  
+
+![GitHub top language](https://img.shields.io/github/languages/top/mertturkmenoglu/kotlin.svg?logo=Kotlin) ![GitHub](https://img.shields.io/github/license/mertturkmenoglu/kotlin.svg) ![GitHub followers](https://img.shields.io/github/followers/mertturkmenoglu.svg?style=social)
 # Kotlin Language Examples
 ***
 # Description
