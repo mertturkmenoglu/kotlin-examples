@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Bool.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +22,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="752">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Bool.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -45,8 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/SpecialJava.java" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/Util.java" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e014_Regex/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e015_HigherOrderFunctions/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e016_DestructuringDeclarations/Main.kt" />
@@ -96,6 +104,8 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e009_Image/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e010_Image/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Bool.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt" />
       </list>
     </option>
   </component>
@@ -138,6 +148,13 @@
               <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
               <item name="e001_Input" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="e002_InfixNotation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -174,7 +191,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.practice.e010_Image.MainKt">
+  <component name="RunManager" selected="Kotlin.languageExamples.e002_InfixNotation.MainKt">
+    <configuration name="languageExamples.e002_InfixNotation.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.e002_InfixNotation.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="practice.e007_Image.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -183,19 +213,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="practice.e007_Image.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice.e007_Image.Test" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practice.e007_Image.Test" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.languageExamples.e002_InfixNotation.MainKt" />
         <item itemvalue="Kotlin.practice.e010_Image.MainKt" />
         <item itemvalue="Kotlin.practice.e009_Image.MainKt" />
         <item itemvalue="Kotlin.practice.e008_Image.MainKt" />
         <item itemvalue="Kotlin.practice.e007_Image.MainKt" />
-        <item itemvalue="Kotlin.practice.e007_Image.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -450,14 +467,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563247793451</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Update input example">
+      <created>1563309415694</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1563309415694</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25987193" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25987193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -524,7 +548,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update QuickSort example" />
     <MESSAGE value="Add Kotlin Standard Library functions example on quickSort" />
     <MESSAGE value="Add OOP Semester Project Kotlin implementation" />
     <MESSAGE value="Add isogram word example" />
@@ -549,7 +572,8 @@
     <MESSAGE value="Add image download example" />
     <MESSAGE value="Add image color read example" />
     <MESSAGE value="Add image display example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add image display example" />
+    <MESSAGE value="Update input example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update input example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -564,27 +588,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Queue.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e024_LinkedList/LinkedList.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e024_LinkedList/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e026_BFS/Bfs.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -737,9 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e018_BigSum/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-424" />
@@ -858,8 +858,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e001_Input/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="80">
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/random/Random.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Bool.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Boolean.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
         </state>
       </provider>
     </entry>
