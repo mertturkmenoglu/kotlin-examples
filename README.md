@@ -1,15 +1,65 @@
-# Kotlin
+![Kotlin Logo](https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png)
+![GitHub top language](https://img.shields.io/github/languages/top/mertturkmenoglu/kotlin.svg?logo=Kotlin) ![GitHub](https://img.shields.io/github/license/mertturkmenoglu/kotlin.svg) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/mertturkmenoglu/kotlin.svg?style=flat) ![GitHub followers](https://img.shields.io/github/followers/mertturkmenoglu.svg?style=social)
+# Kotlin Language Examples
 ***
 # Description
-* This repository contains my **Kotlin** codes.
+* This repository contains my **Kotlin** language example codes.
+* Official Kotlin website: https://kotlinlang.org/
+* See the LICENSE file for details.
 * You need to install **IntelliJ IDEA** to your system(or native compiler). Please follow the [original source].
+# Project Structure
+```
+  |-> .idea
+  |-> kotlinExamples
+        |-> src
+            |-> languageExamples
+            |-> old_examples
+            |-> practice
+  |-> lib
+  .gitignore
+  LICENSE
+  README
+```
+  * `.idea`: IntelliJ settings folder
+  * `kotlinExamples`: Main folder
+    * `src`: Source code folder
+      * `languageExamples`: Code examples focused on language features.
+      * `old_examples`: Old and bad code examples
+      * `practice`: Problem solving or more usable code examples
+  * `lib`: Library dependencies
+  * `.gitignore`: Add unwanted files on your system to this file
+  * `LICENSE`: Project license file.
+  * `README`: Project description
+# Resources For Learning Kotlin
+* https://kotlinlang.org/
+* https://kotlinlang.org/docs/reference/
+* https://play.kotlinlang.org/koans/overview
+* https://developer.android.com/kotlin/resources
+* https://www.kotlinresources.com/
+* https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012
+* https://github.com/KotlinBy/awesome-kotlin
+* https://kotlin.link/
+* https://antonioleiva.com/category/blog/
+* https://superkotlin.com/resources-learn-kotlin/
+* https://blog.kotlin-academy.com/
 # Build
-* You need **IntelliJ IDEA** on your system.
-* Clone the repository:  
-  * `git clone https://github.com/mertturkmenoglu/kotlin.git`
-* After getting repository on your local environment, open the project with **IntelliJ**.
+#### Tools Required
+* JDK
+* JRE
+* Kotlin Compiler or Kotlin Plugin
+* A Java IDE (preferably **IntelliJ**, Eclipse, Netbeans) or a text editor
+#### Setup
+* You need **JDK** on your system.
+* **Fork** and **clone** the repository:
+* After getting repository on your local environment, create a branch.
+* You can edit source code files or you can create **Kotlin** project on your IDE.
+* Project uses **IntelliJ** structure but you do not have to.
 # Contributing
-* All ideas and helps are welcome. Please contact with me.
+* Fork and clone the repository.
+* Follow the steps under the build chapter.
+* Do not add any IDE project files(IntelliJ project files are already added).
+* Push and open a pull request.
+* All ideas and helps are welcome. For more, please contact with me.
 # Authors
 * Mert Türkmenoğlu
 
