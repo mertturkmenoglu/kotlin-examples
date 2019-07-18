@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e001_LastElement/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e002_LastButOne/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,33 +19,12 @@
     <favorites_list name="kotlin" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e001_LastElement/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e002_LastButOne/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="465">
-                <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -73,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e020_MatrixRotate/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e021_BuiltInMethods/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Queue.kt" />
@@ -124,6 +100,7 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e001_LastElement/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e002_LastButOne/Main.kt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt" />
       </list>
     </option>
   </component>
@@ -154,13 +131,26 @@
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
+              <item name="e003_NthElement" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Course" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.kotlinNinetyNine.e002_LastButOne.MainKt">
+  <component name="RunManager" selected="Kotlin.kotlinNinetyNine.e003_NthElement.MainKt">
     <configuration name="kotlinNinetyNine.e001_LastElement.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -217,6 +207,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kotlinNinetyNine.e003_NthElement.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e003_NthElement.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="old_examples.e015_QuickSort.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -225,19 +228,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="old_examples.e015_QuickSort.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice.e011_SudokuValidate.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practice.e011_SudokuValidate.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.kotlinNinetyNine.e003_NthElement.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e002_LastButOne.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e001_LastElement.MainKt" />
         <item itemvalue="Kotlin.old_examples.e015_QuickSort.MainKt" />
         <item itemvalue="Kotlin.practice.e012_WordCounter.MainKt" />
-        <item itemvalue="Kotlin.practice.e011_SudokuValidate.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -501,14 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563393683805</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Add Kotlin-99 examples">
+      <created>1563472332672</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1563472332672</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26520813" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2710779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -518,7 +515,7 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37457818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -529,7 +526,6 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295838" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3295838" />
       <window_info anchor="bottom" id="Scratch Output" order="12" />
-      <window_info anchor="right" id="AwesomeKotlin" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -540,6 +536,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Key Promoter X" order="9" />
+      <window_info anchor="right" id="AwesomeKotlin" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5442903" />
@@ -576,7 +573,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add DNA Hamming Distance example" />
     <MESSAGE value="Add anagram words example" />
     <MESSAGE value="Update project structure" />
     <MESSAGE value="Add next bigger number practice" />
@@ -601,16 +597,10 @@
     <MESSAGE value="Add sudoku validate" />
     <MESSAGE value="Update sudoku example" />
     <MESSAGE value="Add word counter example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add word counter example" />
+    <MESSAGE value="Add Kotlin-99 examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Kotlin-99 examples" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e004_WordSeparate/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_DigitOne/Main.kt" />
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -865,10 +855,21 @@
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e027_ReverseWords/Main.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/a.kt">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/a.kt" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="465">
+            <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e002_LastButOne/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="189">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -879,20 +880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e002_LastButOne/Main.kt">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
-            <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="196">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
