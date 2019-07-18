@@ -13,6 +13,7 @@
   |-> .idea
   |-> kotlinExamples
         |-> src
+            |-> kotlinNinetyNine
             |-> languageExamples
             |-> old_examples
             |-> practice
@@ -24,6 +25,7 @@
   * `.idea`: IntelliJ settings folder
   * `kotlinExamples`: Main folder
     * `src`: Source code folder
+      * `kotlinNinetyNine`: https://github.com/dkandalov/kotlin-99 solutions
       * `languageExamples`: Code examples focused on language features.
       * `old_examples`: Old and bad code examples
       * `practice`: Problem solving or more usable code examples
