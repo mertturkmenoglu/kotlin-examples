@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e004_LengthOfAList/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e004_LengthOfAList/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -50,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e021_BuiltInMethods/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Queue.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e024_LinkedList/LinkedList.kt" />
@@ -101,6 +109,7 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e002_LastButOne/Main.kt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e004_LengthOfAList/Main.kt" />
       </list>
     </option>
   </component>
@@ -142,7 +151,7 @@
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
-              <item name="e003_NthElement" type="462c0819:PsiDirectoryNode" />
+              <item name="e004_LengthOfAList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.kotlinNinetyNine.e003_NthElement.MainKt">
+  <component name="RunManager" selected="Kotlin.kotlinNinetyNine.e004_LengthOfAList.MainKt">
     <configuration name="kotlinNinetyNine.e001_LastElement.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -220,6 +229,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kotlinNinetyNine.e004_LengthOfAList.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e004_LengthOfAList.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="old_examples.e015_QuickSort.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -233,26 +255,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.e012_WordCounter.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practice.e012_WordCounter.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.kotlinNinetyNine.e004_LengthOfAList.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e003_NthElement.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e002_LastButOne.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e001_LastElement.MainKt" />
         <item itemvalue="Kotlin.old_examples.e015_QuickSort.MainKt" />
-        <item itemvalue="Kotlin.practice.e012_WordCounter.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563472332672</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Add n-th element find example">
+      <created>1563472851709</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1563472851710</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -573,7 +589,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add anagram words example" />
     <MESSAGE value="Update project structure" />
     <MESSAGE value="Add next bigger number practice" />
     <MESSAGE value="Add range extraction practice" />
@@ -598,10 +613,10 @@
     <MESSAGE value="Update sudoku example" />
     <MESSAGE value="Add word counter example" />
     <MESSAGE value="Add Kotlin-99 examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Kotlin-99 examples" />
+    <MESSAGE value="Add n-th element find example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add n-th element find example" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_DigitOne/Main.kt" />
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e006_HumanReadableDurationFormat/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1081">
@@ -883,7 +898,14 @@
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e004_LengthOfAList/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
