@@ -17,6 +17,7 @@
             |-> languageExamples
             |-> old_examples
             |-> practice
+            |-> projectEuler
   |-> lib
   .gitignore
   LICENSE
@@ -29,6 +30,7 @@
       * `languageExamples`: Code examples focused on language features.
       * `old_examples`: Old and bad code examples
       * `practice`: Problem solving or more usable code examples
+      * `projectEuler`: https://projecteuler.net/ solutions
   * `lib`: Library dependencies
   * `.gitignore`: Add unwanted files on your system to this file
   * `LICENSE`: Project license file.
