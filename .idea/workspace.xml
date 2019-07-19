@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e015_DuplicateListElementsNTimes/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e017_SplitList/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,11 +29,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e015_DuplicateListElementsNTimes/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="232">
               <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e016_DropEveryNthElement/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e017_SplitList/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -59,8 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e001_NextBiggerNumber/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/practise/README.md" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e002_RangeExtraction/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e003_CountingStringSubsequences/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practise/e003_MorsCode/Main.kt" />
@@ -110,6 +126,8 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e013_DirectRLESolution/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e014_DuplicateElementsOfAList/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e015_DuplicateListElementsNTimes/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e016_DropEveryNthElement/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e017_SplitList/Main.kt" />
       </list>
     </option>
   </component>
@@ -152,7 +170,7 @@
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
-              <item name="e015_DuplicateListElementsNTimes" type="462c0819:PsiDirectoryNode" />
+              <item name="e017_SplitList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,33 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.kotlinNinetyNine.e015_DuplicateListElementsNTimes.MainKt">
-    <configuration name="kotlinNinetyNine.e011_ModifiedRunLengthEncoding.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e011_ModifiedRunLengthEncoding.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kotlinNinetyNine.e012_DecodeRunLengthEncoding.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e012_DecodeRunLengthEncoding.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.kotlinNinetyNine.e017_SplitList.MainKt">
     <configuration name="kotlinNinetyNine.e013_DirectRLESolution.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -255,13 +247,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kotlinNinetyNine.e016_DropEveryNthElement.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e016_DropEveryNthElement.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kotlinNinetyNine.e017_SplitList.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e017_SplitList.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.kotlinNinetyNine.e017_SplitList.MainKt" />
+        <item itemvalue="Kotlin.kotlinNinetyNine.e016_DropEveryNthElement.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e015_DuplicateListElementsNTimes.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e014_DuplicateElementsOfAList.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e013_DirectRLESolution.MainKt" />
-        <item itemvalue="Kotlin.kotlinNinetyNine.e012_DecodeRunLengthEncoding.MainKt" />
-        <item itemvalue="Kotlin.kotlinNinetyNine.e011_ModifiedRunLengthEncoding.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -591,7 +609,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563539848463</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Add list element n-duplication example">
+      <created>1563540026459</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1563540026459</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add drop every nth element example">
+      <created>1563540873549</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1563540873549</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -608,7 +640,7 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37457818" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -666,8 +698,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update isogram word example" />
-    <MESSAGE value="Add require example" />
     <MESSAGE value="Add lazy block example" />
     <MESSAGE value="Add text image example" />
     <MESSAGE value="Add image download example" />
@@ -691,11 +721,11 @@
     <MESSAGE value="Add run length encoding decoder" />
     <MESSAGE value="Add direct solution for run length encoding" />
     <MESSAGE value="Add list element duplication example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add list element duplication example" />
+    <MESSAGE value="Add list element n-duplication example" />
+    <MESSAGE value="Add drop every nth element example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add drop every nth element example" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e007_Earthquake/Main.kt" />
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e007_Earthquake/Earthquake.kt" />
     <entry file="file://$PROJECT_DIR$/digital_image_processing.jpg" />
     <entry file="file://$PROJECT_DIR$/Kotlin-logo.png" />
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e010_Image/Main.kt">
@@ -994,8 +1024,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e015_DuplicateListElementsNTimes/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="232">
           <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e016_DropEveryNthElement/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e017_SplitList/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
         </state>
       </provider>
     </entry>
