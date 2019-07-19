@@ -10,6 +10,6 @@ fun main() {
     print(max)
 }
 
-fun maxPrime(iterable: Iterable<Int>) = iterable.filter { isPrime(it) }.max()!!
+fun maxPrime(iterable: Iterable<Int>) = iterable.last { isPrime(it) }
 
 fun isPrime(n: Int) = (n % 2 != 0) && (3..sqrt(n.toDouble()).roundToInt() step 2).find { n % it == 0 } == null
