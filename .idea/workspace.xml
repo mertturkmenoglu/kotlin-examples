@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e008_ConsecutiveDuplicates/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e009_PackConsecutiveDuplicates/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e008_ConsecutiveDuplicates/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e009_PackConsecutiveDuplicates/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -50,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e026_BFS/Bfs.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e026_BFS/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e027_ReverseWords/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e029_ArmstrongNumber/Main.kt" />
@@ -101,6 +109,7 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e006_PalindromeList/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e007_Flatten/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e008_ConsecutiveDuplicates/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e009_PackConsecutiveDuplicates/Main.kt" />
       </list>
     </option>
   </component>
@@ -119,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,13 +154,19 @@
               <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
               <item name="e008_ConsecutiveDuplicates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
+              <item name="e009_PackConsecutiveDuplicates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,20 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.kotlinNinetyNine.e008_ConsecutiveDuplicates.MainKt">
-    <configuration name="kotlinNinetyNine.e004_LengthOfAList.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e004_LengthOfAList.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKt">
     <configuration name="kotlinNinetyNine.e005_ReverseAList.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -246,13 +249,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e008_ConsecutiveDuplicates.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e007_Flatten.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e006_PalindromeList.MainKt" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e005_ReverseAList.MainKt" />
-        <item itemvalue="Kotlin.kotlinNinetyNine.e004_LengthOfAList.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -533,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563484617559</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Add consecutive duplicates example">
+      <created>1563485637772</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1563485637772</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -608,7 +631,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix typo in package name" />
     <MESSAGE value="Add word separate practice" />
     <MESSAGE value="Add digit delete practice" />
     <MESSAGE value="Add human readable time conversion practie" />
@@ -633,12 +655,10 @@
     <MESSAGE value="Add reverse list example" />
     <MESSAGE value="Add palindrome list example" />
     <MESSAGE value="Add flatten example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add flatten example" />
+    <MESSAGE value="Add consecutive duplicates example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add consecutive duplicates example" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e028_Frequencies/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e028_Frequencies/Frequency.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -922,8 +942,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e008_ConsecutiveDuplicates/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e009_PackConsecutiveDuplicates/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
