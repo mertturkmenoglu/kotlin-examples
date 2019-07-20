@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p010_SummationOfPrimes/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p011_LargestProductInAGrid/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,25 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p010_SummationOfPrimes/Main.kt">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p011_LargestProductInAGrid/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-              <folding>
-                <element signature="e#45#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p007_10001stPrime/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="30" column="139" selection-start-line="30" selection-start-column="139" selection-end-line="30" selection-end-column="139" />
-              <folding>
-                <element signature="e#40#94#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="529">
+              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -58,7 +43,18 @@
     <findStrings>
       <find>yield</find>
       <find>\n</find>
+      <find>+</find>
+      <find>.chunked(3).dropLast(1).map { it.toInt() }</find>
+      <find />
+      <find>,,,,,,,,</find>
+      <find>(&quot;</find>
+      <find>0[0-9]</find>
     </findStrings>
+    <replaceStrings>
+      <replace>,</replace>
+      <replace>(</replace>
+      <replace>\p{digit}</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e025_Sort/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e041_IsogramWords/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e045_Require/Main.kt" />
@@ -117,6 +112,7 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p009_SpecialPythagoreanTriplet/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p007_10001stPrime/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p010_SummationOfPrimes/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p011_LargestProductInAGrid/Main.kt" />
       </list>
     </option>
   </component>
@@ -124,10 +120,9 @@
     <option name="directoryName" value="cBdfRsxY" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="961" />
-    <option name="y" value="27" />
-    <option name="width" value="959" />
-    <option name="height" value="1012" />
+    <option name="y" value="58" />
+    <option name="width" value="1440" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,6 +149,19 @@
               <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="e011_SudokuValidate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="projectEuler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -161,7 +169,14 @@
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="projectEuler" type="462c0819:PsiDirectoryNode" />
-              <item name="p010_SummationOfPrimes" type="462c0819:PsiDirectoryNode" />
+              <item name="p008_LargestProductInASeries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="projectEuler" type="462c0819:PsiDirectoryNode" />
+              <item name="p011_LargestProductInAGrid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.projectEuler.p010_SummationOfPrimes.MainKt">
+  <component name="RunManager" selected="Kotlin.projectEuler.p011_LargestProductInAGrid.MainKt">
     <configuration name="languageExamples.e019_MaxPrimeInRange.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -205,19 +220,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="languageExamples.e019_MaxPrimeInRange.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="projectEuler.p007_10001stPrime.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="projectEuler.p007_10001stPrime.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,13 +264,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="projectEuler.p011_LargestProductInAGrid.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="projectEuler.p011_LargestProductInAGrid.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.projectEuler.p011_LargestProductInAGrid.MainKt" />
         <item itemvalue="Kotlin.projectEuler.p010_SummationOfPrimes.MainKt" />
         <item itemvalue="Kotlin.projectEuler.p009_SpecialPythagoreanTriplet.MainKt" />
         <item itemvalue="Kotlin.projectEuler.p008_LargestProductInASeries.MainKt" />
         <item itemvalue="Kotlin.languageExamples.e019_MaxPrimeInRange.MainKt" />
-        <item itemvalue="Kotlin.projectEuler.p007_10001stPrime.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -282,13 +297,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Update project structure">
-      <created>1563026916307</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1563026916307</updated>
     </task>
     <task id="LOCAL-00011" summary="Add next bigger number practice">
       <created>1563117768221</created>
@@ -626,14 +634,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563559206912</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Add Project Euler - P10 solution">
+      <created>1563559835012</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1563559835012</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1920" height="1013" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2710779" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2710779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -643,7 +658,7 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37457818" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.374477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -701,7 +716,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add n-th element find example" />
     <MESSAGE value="Add size of a list example" />
     <MESSAGE value="Add reverse list example" />
     <MESSAGE value="Add palindrome list example" />
@@ -726,16 +740,10 @@
     <MESSAGE value="Update largest prime number example" />
     <MESSAGE value="Add Project Euler - P8 solution" />
     <MESSAGE value="Add Project Euler - P9 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Project Euler - P9 solution" />
+    <MESSAGE value="Add Project Euler - P10 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Project Euler - P10 solution" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/ui/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2370">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e011_KthSmallest/Main.kt" />
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e005_DigitDelete/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -768,13 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e011_SudokuValidate/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -922,13 +923,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/a.kt" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1049,10 +1044,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p008_LargestProductInASeries/Main.kt">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p010_SummationOfPrimes/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="250">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <element signature="e#45#99#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,13 +1064,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p010_SummationOfPrimes/Main.kt">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p011_LargestProductInAGrid/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding>
-            <element signature="e#45#99#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="529">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e011_SudokuValidate/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p008_LargestProductInASeries/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="33" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>
