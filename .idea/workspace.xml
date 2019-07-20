@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p018_MaximumPathSumI/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p018_MaximumPathSumI/numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p020_FactorialDigitSum/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,32 +20,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p019_CountingSundays/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p018_MaximumPathSumI/Main.kt">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p020_FactorialDigitSum/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="375">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p013_LargeSum/Main.kt">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p015_LatticePaths/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="e#36#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p018_MaximumPathSumI/numbers.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            <state relative-caret-position="255">
+              <caret line="17" column="14" selection-start-line="17" selection-end-line="17" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -85,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Bool.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e002_InfixNotation/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e011_RandomPoints/MainActivity.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e011_RandomPoints/Screen.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e011_RandomPoints/Game.kt" />
@@ -136,6 +130,8 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p017_NumberLetterCounts/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p018_MaximumPathSumI/numbers.txt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p018_MaximumPathSumI/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p019_CountingSundays/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p020_FactorialDigitSum/Main.kt" />
       </list>
     </option>
   </component>
@@ -178,21 +174,14 @@
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="projectEuler" type="462c0819:PsiDirectoryNode" />
-              <item name="p013_LargeSum" type="462c0819:PsiDirectoryNode" />
+              <item name="p015_LatticePaths" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="projectEuler" type="462c0819:PsiDirectoryNode" />
-              <item name="p014_LongestCollatzSequence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="projectEuler" type="462c0819:PsiDirectoryNode" />
-              <item name="p018_MaximumPathSumI" type="462c0819:PsiDirectoryNode" />
+              <item name="p020_FactorialDigitSum" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,33 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.projectEuler.p018_MaximumPathSumI.MainKt">
-    <configuration name="projectEuler.p014_LongestCollatzSequence.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="projectEuler.p014_LongestCollatzSequence.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="projectEuler.p015_LatticePaths.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="projectEuler.p015_LatticePaths.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.projectEuler.p020_FactorialDigitSum.MainKt">
     <configuration name="projectEuler.p016_PowerDigitSum.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -294,13 +257,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="projectEuler.p019_CountingSundays.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="projectEuler.p019_CountingSundays.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="projectEuler.p020_FactorialDigitSum.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="projectEuler.p020_FactorialDigitSum.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.projectEuler.p020_FactorialDigitSum.MainKt" />
+        <item itemvalue="Kotlin.projectEuler.p019_CountingSundays.MainKt" />
         <item itemvalue="Kotlin.projectEuler.p018_MaximumPathSumI.MainKt" />
         <item itemvalue="Kotlin.projectEuler.p017_NumberLetterCounts.MainKt" />
         <item itemvalue="Kotlin.projectEuler.p016_PowerDigitSum.MainKt" />
-        <item itemvalue="Kotlin.projectEuler.p015_LatticePaths.MainKt" />
-        <item itemvalue="Kotlin.projectEuler.p014_LongestCollatzSequence.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -314,20 +303,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Update biggest prime number example">
-      <created>1563214000598</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1563214000598</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Update linear search example">
-      <created>1563214804835</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1563214804835</updated>
     </task>
     <task id="LOCAL-00020" summary="Update sort example">
       <created>1563217304924</created>
@@ -658,7 +633,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563656179599</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Add Project Euler - P18 solution">
+      <created>1563659490934</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1563659490934</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Add Project Euler - P19 solution">
+      <created>1563660738882</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1563660738882</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -675,7 +664,7 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37345332" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37345332" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982002" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -733,8 +722,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add modified run length encoding example" />
-    <MESSAGE value="Add run length encoding decoder" />
     <MESSAGE value="Add direct solution for run length encoding" />
     <MESSAGE value="Add list element duplication example" />
     <MESSAGE value="Add list element n-duplication example" />
@@ -758,30 +745,11 @@
     <MESSAGE value="Add Project Euler - P15 solution" />
     <MESSAGE value="Add Project Euler - P16 solution" />
     <MESSAGE value="Add Project Euler - P17 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Project Euler - P17 solution" />
+    <MESSAGE value="Add Project Euler - P18 solution" />
+    <MESSAGE value="Add Project Euler - P19 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Project Euler - P19 solution" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e008_ConsecutiveDuplicates/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e011_ModifiedRunLengthEncoding/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e012_DecodeRunLengthEncoding/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e009_PackConsecutiveDuplicates/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -1058,13 +1026,6 @@
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e044_Anagram/Main.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p015_LatticePaths/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p016_PowerDigitSum/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1112,8 +1073,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p018_MaximumPathSumI/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="345">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2792" column="5" lean-forward="true" selection-start-line="2792" selection-start-column="5" selection-end-line="2792" selection-end-column="5" />
+          <folding>
+            <element signature="e#112738#112739#0" expanded="true" />
+            <element signature="e#112800#112801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p019_CountingSundays/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p015_LatticePaths/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-end-line="17" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p020_FactorialDigitSum/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
