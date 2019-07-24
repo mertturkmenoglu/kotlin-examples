@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e049_RandomChoice/Main.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p026_ReciprocalCycles/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e001_LastElement/MainKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e002_LastButOne/MainKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e003_NthElement/MainKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/kotlinExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/kotlinExamples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e049_RandomChoice/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e049_RandomChoice/Main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +25,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e049_RandomChoice/Main.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="189">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e001_LastElement/MainKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+              <folding>
+                <element signature="e#45#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e002_LastButOne/MainKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -37,6 +62,7 @@
       <list>
         <option value="Kotlin Script" />
         <option value="Kotlin File" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -64,14 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e004_LengthOfAList/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e005_ReverseAList/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e006_PalindromeList/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e007_Flatten/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e008_ConsecutiveDuplicates/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e009_PackConsecutiveDuplicates/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e010_RunLengthEncoding/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e011_ModifiedRunLengthEncoding/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e012_DecodeRunLengthEncoding/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e013_DirectRLESolution/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e014_DuplicateElementsOfAList/Main.kt" />
@@ -115,6 +133,14 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p026_ReciprocalCycles/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e013_TicTacToe/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e049_RandomChoice/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p001_Multiplesof3and5/MainKtTest.java" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p001_Multiplesof3and5/MainKtTest.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e001_LastElement/MainKtTest.java" />
+        <option value="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e002_LastButOne/MainKtTest.java" />
+        <option value="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e003_NthElement/MainKtTest.java" />
+        <option value="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e002_LastButOne/MainKtTest.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e003_NthElement/MainKtTest.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e001_LastElement/MainKtTest.kt" />
       </list>
     </option>
   </component>
@@ -133,8 +159,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,35 +178,95 @@
               <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="e049_RandomChoice" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
+              <item name="e001_LastElement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
+              <item name="e002_LastButOne" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
+              <item name="e003_NthElement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
+              <item name="e001_LastElement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
+              <item name="e002_LastButOne" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinNinetyNine" type="462c0819:PsiDirectoryNode" />
+              <item name="e003_NthElement" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/kotlinExamples/src/practice/e009_Image" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/kotlinExamples/src/practice/e009_Image" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="kotlinNinetyNine.e003_NthElement" />
+      <recent name="kotlinNinetyNine.e002_LastButOne" />
+      <recent name="kotlinNinetyNine.e001_LastElement" />
+      <recent name="projectEuler.p001_Multiplesof3and5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/kotlinExamples" />
       <recent name="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e028_Frequencies" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kotlinExamples/src/practice/e009_Image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,79 +281,85 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.languageExamples.e049_RandomChoice.MainKt">
-    <configuration name="languageExamples.e049_RandomChoice.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in kotlinExamples">
+    <configuration name="All in kotlinExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.e049_RandomChoice.MainKt" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.e013_TicTacToe.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKtTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="practice.e013_TicTacToe.MainKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kotlinNinetyNine.e002_LastButOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e002_LastButOne" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e002_LastButOne.MainKtTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="projectEuler.p024_LexicographicPermutations.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKtTest.nthElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="projectEuler.p024_LexicographicPermutations.MainKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kotlinNinetyNine.e003_NthElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e003_NthElement" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e003_NthElement.MainKtTest" />
+      <option name="METHOD_NAME" value="nthElement" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="projectEuler.p025_ThousandDigitFibonacciNumber.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKtTest.nthElementEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="projectEuler.p025_ThousandDigitFibonacciNumber.MainKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kotlinNinetyNine.e003_NthElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e003_NthElement" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e003_NthElement.MainKtTest" />
+      <option name="METHOD_NAME" value="nthElementEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="projectEuler.p026_ReciprocalCycles.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKtTest.nthElementNullableList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="projectEuler.p026_ReciprocalCycles.MainKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kotlinNinetyNine.e003_NthElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e003_NthElement" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e003_NthElement.MainKtTest" />
+      <option name="METHOD_NAME" value="nthElementNullableList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.languageExamples.e049_RandomChoice.MainKt" />
-        <item itemvalue="Kotlin.practice.e013_TicTacToe.MainKt" />
-        <item itemvalue="Kotlin.projectEuler.p026_ReciprocalCycles.MainKt" />
-        <item itemvalue="Kotlin.projectEuler.p025_ThousandDigitFibonacciNumber.MainKt" />
-        <item itemvalue="Kotlin.projectEuler.p024_LexicographicPermutations.MainKt" />
+        <item itemvalue="JUnit.All in kotlinExamples" />
+        <item itemvalue="JUnit.MainKtTest.nthElementEmptyList" />
+        <item itemvalue="JUnit.MainKtTest.nthElementNullableList" />
+        <item itemvalue="JUnit.MainKtTest.nthElement" />
+        <item itemvalue="JUnit.MainKtTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -280,13 +373,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Update input example">
-      <created>1563309415694</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1563309415694</updated>
     </task>
     <task id="LOCAL-00029" summary="Update infix notation example">
       <created>1563310520686</created>
@@ -624,14 +710,53 @@
       <option name="project" value="LOCAL" />
       <updated>1563721250885</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Add random list item choice example">
+      <created>1563997908063</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1563997908064</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MainKtTest_lastEmptyList_(1) - 2019.07.25 at 00h 45m 12s.xml">
+      <configuration name="MainKtTest.lastEmptyList (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainKtTest_(1) - 2019.07.25 at 00h 45m 17s.xml">
+      <configuration name="MainKtTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainKtTest_nthElement - 2019.07.25 at 00h 47m 23s.xml">
+      <configuration name="MainKtTest.nthElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainKtTest_nthElement - 2019.07.25 at 00h 47m 33s.xml">
+      <configuration name="MainKtTest.nthElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainKtTest_nthElement - 2019.07.25 at 00h 47m 54s.xml">
+      <configuration name="MainKtTest.nthElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainKtTest_nthElement - 2019.07.25 at 00h 48m 00s.xml">
+      <configuration name="MainKtTest.nthElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainKtTest_nthElementNullableList - 2019.07.25 at 00h 50m 47s.xml">
+      <configuration name="MainKtTest.nthElementNullableList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainKtTest_nthElementEmptyList - 2019.07.25 at 00h 53m 25s.xml">
+      <configuration name="MainKtTest.nthElementEmptyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainKtTest_nthElementEmptyList - 2019.07.25 at 00h 53m 33s.xml">
+      <configuration name="MainKtTest.nthElementEmptyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_kotlinExamples - 2019.07.25 at 00h 53m 44s.xml">
+      <configuration name="All in kotlinExamples" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27748132" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28068304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -641,7 +766,7 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31946006" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31946006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982002" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -665,7 +790,7 @@
       <window_info anchor="right" id="AwesomeKotlin" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5442903" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28068304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -675,8 +800,8 @@
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37457818" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39932507" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31946006" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982002" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -684,7 +809,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295838" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295838" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32845894" />
       <window_info anchor="bottom" id="Scratch Output" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -696,10 +821,10 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Key Promoter X" order="9" />
+      <window_info anchor="right" id="AwesomeKotlin" order="10" />
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Project Euler - P3 solution" />
     <MESSAGE value="Add Project Euler - P4 solution" />
     <MESSAGE value="Add Project Euler - P5 solution" />
     <MESSAGE value="Add Project Euler - P6 solution" />
@@ -724,7 +849,8 @@
     <MESSAGE value="Add Project Euler - P23 solution" />
     <MESSAGE value="Add Project Euler - P24 solution" />
     <MESSAGE value="Add Project Euler - P25 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Project Euler - P25 solution" />
+    <MESSAGE value="Add random list item choice example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add random list item choice example" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -742,57 +868,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Sets.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p002_EvenFibonacciNumbers/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p001_Multiplesof3and5/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p006_SumSquareDifference/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p003_LargestPrimeFactor/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="98" selection-start-line="33" selection-end-line="33" selection-end-column="139" />
-          <folding>
-            <element signature="e#46#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e019_MaxPrimeInRange/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e002_RangeExtraction/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e001_NextBiggerNumber/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p005_SmallestMultiple/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="773">
@@ -1083,17 +1158,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e013_TicTacToe/Main.kt">
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e013_TicTacToe/Main.kt" />
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p001_Multiplesof3and5/MainKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p001_Multiplesof3and5/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e049_RandomChoice/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e001_LastElement/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e002_LastButOne/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e003_NthElement/MainKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1247">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e002_LastButOne/MainKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e001_LastElement/MainKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#45#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
