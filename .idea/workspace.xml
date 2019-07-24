@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p024_LexicographicPermutations/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e049_RandomChoice/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p026_ReciprocalCycles/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p024_LexicographicPermutations/Main.kt">
+        <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e049_RandomChoice/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="240">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -63,10 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e012_WordCounter/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e001_LastElement/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e002_LastButOne/Main.kt" />
-        <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e003_NthElement/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e004_LengthOfAList/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e005_ReverseAList/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e006_PalindromeList/Main.kt" />
@@ -114,6 +111,10 @@
         <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p022_NamesScores/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p023_NonAbundantSums/Main.kt" />
         <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p024_LexicographicPermutations/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p025_ThousandDigitFibonacciNumber/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/projectEuler/p026_ReciprocalCycles/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/practice/e013_TicTacToe/Main.kt" />
+        <option value="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e049_RandomChoice/Main.kt" />
       </list>
     </option>
   </component>
@@ -132,7 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Course" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,28 +151,27 @@
               <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="projectEuler" type="462c0819:PsiDirectoryNode" />
+              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlinExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="projectEuler" type="462c0819:PsiDirectoryNode" />
-              <item name="p024_LexicographicPermutations" type="462c0819:PsiDirectoryNode" />
+              <item name="languageExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="e049_RandomChoice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/kotlinExamples/src/practice/e009_Image" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -193,54 +194,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.projectEuler.p024_LexicographicPermutations.MainKt">
-    <configuration name="languageExamples.e048_AnonymousObject.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.languageExamples.e049_RandomChoice.MainKt">
+    <configuration name="languageExamples.e049_RandomChoice.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.e048_AnonymousObject.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.e049_RandomChoice.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="projectEuler.p021_AmicableNumbers.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="practice.e013_TicTacToe.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="projectEuler.p021_AmicableNumbers.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="projectEuler.p022_NamesScores.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="projectEuler.p022_NamesScores.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="projectEuler.p023_NonAbundantSums.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="projectEuler.p023_NonAbundantSums.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="practice.e013_TicTacToe.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -259,13 +234,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="projectEuler.p025_ThousandDigitFibonacciNumber.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="projectEuler.p025_ThousandDigitFibonacciNumber.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="projectEuler.p026_ReciprocalCycles.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="projectEuler.p026_ReciprocalCycles.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.languageExamples.e049_RandomChoice.MainKt" />
+        <item itemvalue="Kotlin.practice.e013_TicTacToe.MainKt" />
+        <item itemvalue="Kotlin.projectEuler.p026_ReciprocalCycles.MainKt" />
+        <item itemvalue="Kotlin.projectEuler.p025_ThousandDigitFibonacciNumber.MainKt" />
         <item itemvalue="Kotlin.projectEuler.p024_LexicographicPermutations.MainKt" />
-        <item itemvalue="Kotlin.projectEuler.p023_NonAbundantSums.MainKt" />
-        <item itemvalue="Kotlin.projectEuler.p022_NamesScores.MainKt" />
-        <item itemvalue="Kotlin.projectEuler.p021_AmicableNumbers.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.e048_AnonymousObject.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -279,20 +280,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Add image color read example">
-      <created>1563247176101</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1563247176101</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Add image display example">
-      <created>1563247793451</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1563247793451</updated>
     </task>
     <task id="LOCAL-00028" summary="Update input example">
       <created>1563309415694</created>
@@ -623,14 +610,28 @@
       <option name="project" value="LOCAL" />
       <updated>1563717050313</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Add Project Euler - P24 solution">
+      <created>1563720837423</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1563720837425</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Add Project Euler - P25 solution">
+      <created>1563721250885</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1563721250885</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27427962" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27748132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -698,8 +699,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Project Euler - P1 solution" />
-    <MESSAGE value="Add Project Euler - P2 solution" />
     <MESSAGE value="Add Project Euler - P3 solution" />
     <MESSAGE value="Add Project Euler - P4 solution" />
     <MESSAGE value="Add Project Euler - P5 solution" />
@@ -723,7 +722,9 @@
     <MESSAGE value="Add Project Euler - P21 solution" />
     <MESSAGE value="Add Project Euler - P22 solution" />
     <MESSAGE value="Add Project Euler - P23 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Project Euler - P23 solution" />
+    <MESSAGE value="Add Project Euler - P24 solution" />
+    <MESSAGE value="Add Project Euler - P25 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Project Euler - P25 solution" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -741,31 +742,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e014_DuplicateElementsOfAList/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/a.kt" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="584">
-            <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p004_LargestPalindromeProduct/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Sets.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -1090,6 +1066,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p025_ThousandDigitFibonacciNumber/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/projectEuler/p026_ReciprocalCycles/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/practice/e013_TicTacToe/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlinExamples/src/languageExamples/e049_RandomChoice/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
