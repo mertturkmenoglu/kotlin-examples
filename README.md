@@ -18,6 +18,7 @@
             |-> old_examples
             |-> practice
             |-> projectEuler
+        |-> test
   |-> lib
   .gitignore
   LICENSE
@@ -31,6 +32,7 @@
       * `old_examples`: Old and bad code examples
       * `practice`: Problem solving or more usable code examples
       * `projectEuler`: https://projecteuler.net/ solutions
+    * `test`: Unit test folder
   * `lib`: Library dependencies
   * `.gitignore`: Add unwanted files on your system to this file
   * `LICENSE`: Project license file.
