@@ -1,8 +1,18 @@
 package kotlinNinetyNine.e014_DuplicateElementsOfAList
 
 fun main() {
-    val result = duplicate("abccd".toList())
+    val result = "abccd".toList().duplicate()
     println(result)
 }
 
-fun duplicate(list: List<Char>) = ArrayList<Char>().apply { list.forEach { repeat(2) { _ -> add(it) } } }
+fun <T> List<T>.duplicate(): List<T> {
+    val result = ArrayList<T>()
+
+    this.forEach {
+        repeat(2) { _ ->
+            result.add(it)
+        }
+    }
+
+    return result
+}

@@ -13,7 +13,7 @@ class MainKtTest {
     fun nthElement() {
         val list = listOf(1, 2, 3, 4, 5, 6, 7)
         val expected = 4
-        val actual = nth(3, list)
+        val actual = list.nth(3)
 
         assertEquals("List element is different", expected, actual)
     }
@@ -22,7 +22,7 @@ class MainKtTest {
     fun nthElementNullableList() {
         val list = listOf(1, 2, 3, 4, null, 5, 6, 7)
         val expected: Int? = null
-        val actual = nth(4, list)
+        val actual = list.nth(4)
 
         assertEquals("List element is different", expected, actual)
     }
@@ -30,7 +30,7 @@ class MainKtTest {
     @Test(expected = IndexOutOfBoundsException::class)
     fun nthElementEmptyList() {
         val list = listOf<Int>()
-        val actual = nth(10, list)
+        val actual = list.nth(10)
     }
 
 }

@@ -1,8 +1,18 @@
 package kotlinNinetyNine.e015_DuplicateListElementsNTimes
 
 fun main() {
-    val result = duplicateN(3, "abccd".toList())
+    val result = "abccd".toList().duplicateN(3)
     println(result)
 }
 
-fun duplicateN(n: Int, list: List<Char>) = ArrayList<Char>().apply { list.forEach { repeat(n) { _ -> add(it) } } }
+fun <T> List<T>.duplicateN(n: Int): List<T> {
+    val result = ArrayList<T>()
+
+    this.forEach {
+        repeat(n) { _ ->
+            result.add(it)
+        }
+    }
+
+    return result
+}

@@ -8,19 +8,19 @@ import org.junit.Assert.*
 
 class MainKtTest {
     @Test
-    fun lastIntegerList() {
+    fun getLastIntegerList() {
         val list = listOf(1, 2, 3, 4, 3, 2)
         val expected = 2
-        val actual = last(list)
+        val actual = list.getLast()
 
         assertEquals(expected, actual)
     }
 
     @Test
-    fun lastNullableList() {
+    fun getLastNullableList() {
         val list = listOf(1, 2, 3, null, 4, null)
         val expected = null
-        val actual = last(list)
+        val actual = list.getLast()
 
         assertEquals(expected, actual)
     }
@@ -28,6 +28,6 @@ class MainKtTest {
     @Test(expected = NoSuchElementException::class)
     fun lastEmptyList() {
         val list = listOf<Int>()
-        val actual = last(list)
+        val actual = list.getLast()
     }
 }

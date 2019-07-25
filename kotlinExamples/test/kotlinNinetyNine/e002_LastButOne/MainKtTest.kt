@@ -12,7 +12,7 @@ class MainKtTest {
     fun penultimateIntegerList() {
         val list = listOf(1, 2, 3, 4, 5)
         val expected = 4
-        val actual = penultimate(list)
+        val actual = list.penultimate()
         assertEquals(expected, actual)
     }
 
@@ -20,7 +20,7 @@ class MainKtTest {
     fun penultimateNullableList() {
         val list = listOf(1, 2, 3, null, 4)
         val expected = null
-        val actual = penultimate(list)
+        val actual = list.penultimate()
 
         assertEquals(expected, actual)
     }
@@ -28,6 +28,6 @@ class MainKtTest {
     @Test(expected = IndexOutOfBoundsException::class)
     fun penultimateEmptyList() {
         val list = listOf<Int>()
-        val actual = penultimate(list)
+        val actual = list.penultimate()
     }
 }

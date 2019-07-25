@@ -1,13 +1,18 @@
 package kotlinNinetyNine.e008_ConsecutiveDuplicates
 
 fun main() {
-    val result = compress("aaaabccaadeeee".toList())
+    val result = "aaaabccaadeeee".toList().compress()
     println(result)
 }
 
-fun compress(list: List<Char>) = ArrayList<Char>().apply { add(list.first()) }.also { result ->
-        list.drop(1).forEach {
-            if (it != result.last())
-                result.add(it)
-        }
+fun <T> List<T>.compress(): List<T> {
+    val result = ArrayList<T>()
+    result.add(this.first())
+
+    this.drop(1).forEach {
+        if (it != result.last())
+            result.add(it)
     }
+
+    return result
+}

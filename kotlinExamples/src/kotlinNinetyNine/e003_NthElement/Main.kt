@@ -1,8 +1,8 @@
 package kotlinNinetyNine.e003_NthElement
 
 fun main() {
-    val result = nth(2, listOf(1, 1, 2, 3, 4, 5))
+    val result = listOf(1, 1, 2, 3, 4, 5).nth(2)
     println(result)
 }
 
-fun <T> nth(n: Int, list: List<T>) = list[n]
+fun <T> List<T>.nth(n: Int) = this[n]

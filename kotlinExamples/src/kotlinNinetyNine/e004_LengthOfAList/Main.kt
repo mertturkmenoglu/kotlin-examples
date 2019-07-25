@@ -1,8 +1,8 @@
 package kotlinNinetyNine.e004_LengthOfAList
 
 fun main() {
-    val result = length(listOf(1, 2, 3, 4, 5, 6))
+    val result = listOf(1, 2, 3, 4, 5, 6).listLength()
     println(result)
 }
 
-fun <T> length(list: List<T>) = list.size
+fun <T> List<T>.listLength() = this.size

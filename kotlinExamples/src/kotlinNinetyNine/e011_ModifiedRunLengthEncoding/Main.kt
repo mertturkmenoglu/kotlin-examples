@@ -3,15 +3,19 @@ package kotlinNinetyNine.e011_ModifiedRunLengthEncoding
 import kotlinNinetyNine.e009_PackConsecutiveDuplicates.pack
 
 fun main() {
-    val result = encode("aaaabccaadeeee".toList())
+    val result = "aaaabccaadeeee".toList().encode()
     println(result)
 }
 
-fun encode(list: List<Char>) = ArrayList<Any>().apply {
-    pack(list).forEach {
+fun <T> List<T>.encode(): ArrayList<Any> {
+    val result = ArrayList<Any>()
+
+    this.pack().forEach {
         if (it.size == 1)
-            add(it.first())
+            result.add(it.first().toString())
         else
-            add(Pair(it.size, it.first()))
+            result.add(Pair(it.size, it.first()))
     }
+
+    return result
 }

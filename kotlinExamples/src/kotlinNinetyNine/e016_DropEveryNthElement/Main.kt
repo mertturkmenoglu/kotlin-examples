@@ -1,16 +1,16 @@
 package kotlinNinetyNine.e016_DropEveryNthElement
 
 fun main() {
-    val result = drop(3, "abcdefghijk".toList())
+    val result = "abcdefghijk".toList().dropEveryN(3)
     println(result)
 }
 
-fun drop(n: Int, list: List<Char>): List<Char> {
-    val result = ArrayList<Char>()
+fun <T> List<T>.dropEveryN(n: Int): List<T> {
+    val result = ArrayList<T>()
 
-    for (i in 1 .. list.size) {
+    for (i in 1 .. this.size) {
         if (i % n != 0) {
-            result.add(list[i - 1])
+            result.add(this[i - 1])
         }
     }
 

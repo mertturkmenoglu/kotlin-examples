@@ -2,20 +2,21 @@ package kotlinNinetyNine.e013_DirectRLESolution
 
 
 fun main() {
-    val result = encode("aaaabccaadeeee".toList())
+    val result = "aaaabccaadeeee".toList().encode()
     println(result)
 }
 
-fun encode(list: List<Char>): ArrayList<Pair<Int, Char>> {
-    val result = ArrayList<Pair<Int, Char>>()
-    val pack = ArrayList<MutableList<Char>>()
-    pack.add(mutableListOf(list.first()))
+fun <T> List<T>.encode(): ArrayList<Pair<Int, T>> {
+    val result = ArrayList<Pair<Int, T>>()
+    val pack = ArrayList<MutableList<T>>()
 
-    for (i in 1 until list.size) {
-        if (list[i] == pack.last().first()) {
-            pack.last().add(list[i])
+    pack.add(mutableListOf(this.first()))
+
+    for (i in 1 until this.size) {
+        if (this[i] == pack.last().first()) {
+            pack.last().add(this[i])
         } else {
-            pack.add(mutableListOf(list[i]))
+            pack.add(mutableListOf(this[i]))
         }
     }
 

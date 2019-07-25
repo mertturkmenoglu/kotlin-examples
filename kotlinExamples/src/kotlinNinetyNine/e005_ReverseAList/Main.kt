@@ -1,8 +1,8 @@
 package kotlinNinetyNine.e005_ReverseAList
 
 fun main() {
-    val result = reverse(listOf(1, 2, 3, 4, 5))
+    val result = listOf(1, 2, 3, 4, 5).reverseOfTheList()
     println(result)
 }
 
-fun <T> reverse(list: List<T>) = list.reversed()
+fun <T> List<T>.reverseOfTheList() = this.reversed()

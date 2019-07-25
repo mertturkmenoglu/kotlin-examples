@@ -1,8 +1,8 @@
 package kotlinNinetyNine.e006_PalindromeList
 
 fun main() {
-    val result = isPalindrome(listOf(1, 2, 3, 2, 1))
+    val result = listOf(1, 2, 3, 2, 1).isPalindrome()
     println(result)
 }
 
-fun <T> isPalindrome(list: List<T>) = list == list.reversed()
+fun <T> List<T>.isPalindrome() = this == this.reversed()

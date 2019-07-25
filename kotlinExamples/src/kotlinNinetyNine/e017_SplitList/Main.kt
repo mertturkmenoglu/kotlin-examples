@@ -1,8 +1,8 @@
 package kotlinNinetyNine.e017_SplitList
 
 fun main() {
-    val result = split(3, "abcdefghijk".toList())
+    val result = "abcdefghijk".toList().splitList(3)
     println(result)
 }
 
-fun split(n: Int, list: List<Char>) = Pair(list.take(n), list.takeLast(list.size - n))
+fun <T> List<T>.splitList(n: Int) = Pair(this.take(n), this.takeLast(this.size - n))
