@@ -1,6 +1,6 @@
 package old_examples.e003_Array
 
-fun main(args: Array<String>) {
+fun main() {
 
     val len = 10
 
@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     println(array2.asList())
 
     //Dynamic array it needs initialization
-    val array3 = Array<Int>(len){0}
+    val array3 = Array(len){0}
     for(i in 0 until len)
         array3[i] = i
     println(array3.asList())
@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
 
     //Create an array with lambda
     //Similar to array3
-    val array5 = Array<Int>(len, {i: Int -> 0} )
+    val array5 = Array(len) { i: Int -> if (i % 2 == 0) 1 else 0 }
     println(array5.asList())
 
 }

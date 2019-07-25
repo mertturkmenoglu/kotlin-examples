@@ -1,3 +1,5 @@
+@file:Suppress("SpellCheckingInspection")
+
 package kotlinNinetyNine.e010_RunLengthEncoding
 
 import kotlinNinetyNine.e009_PackConsecutiveDuplicates.pack

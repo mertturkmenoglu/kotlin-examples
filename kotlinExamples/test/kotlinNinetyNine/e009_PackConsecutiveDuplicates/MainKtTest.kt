@@ -8,6 +8,7 @@ import org.junit.Assert.*
 
 class MainKtTest {
 
+    @Suppress("SpellCheckingInspection")
     @Test
     fun pack() {
         val list = "aaaabccaadeeee".toList()

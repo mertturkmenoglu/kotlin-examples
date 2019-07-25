@@ -2,7 +2,7 @@ package old_examples.e017_When
 
 import java.util.*
 
-fun main(args: Array<String>) {
+fun main() {
 
     dayOfWeek()
 

@@ -1,3 +1,5 @@
+@file:Suppress("SpellCheckingInspection")
+
 package practice.e004_WordSeparate
 
 val menu = listOf("Burger", "Fries", "Chicken", "Pizza", "Sandwich", "Onionrings", "Milkshake", "Coke")

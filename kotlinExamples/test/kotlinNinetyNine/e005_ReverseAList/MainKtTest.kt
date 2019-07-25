@@ -2,10 +2,8 @@
 
 package kotlinNinetyNine.e005_ReverseAList
 
+import org.junit.Assert.assertEquals
 import org.junit.Test
-
-import org.junit.Assert.*
-import java.lang.IndexOutOfBoundsException
 
 class MainKtTest {
 
@@ -30,6 +28,7 @@ class MainKtTest {
     @Test
     fun nthElementEmptyList() {
         val list = listOf<Int>()
+        @Suppress("UnnecessaryVariable")
         val expected = list
         val actual = list.reverseOfTheList()
 

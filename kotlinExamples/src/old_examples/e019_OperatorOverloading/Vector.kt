@@ -1,6 +1,6 @@
 package old_examples.e019_OperatorOverloading
 
-class Vector(var x: Float = 0f, var y: Float = 0f) {
+class Vector(private var x: Float = 0f, private var y: Float = 0f) {
     operator fun plus(other: Vector) = Vector(x + other.x, y + other.y)
     operator fun minus(other: Vector) = Vector(x - other.x, y - other.y)
     operator fun times(other: Vector) = x * other.x + y * other.y

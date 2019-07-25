@@ -4,15 +4,16 @@ import languageExamples.e040_oopproject.vehicle.OfficialVehicle
 import languageExamples.e040_oopproject.vehicle.RegularVehicle
 import languageExamples.e040_oopproject.vehicle.SubscribedVehicle
 
-class AutoPark(var hourlyFee: Double, var capacity: Int) {
-    val subscribedVehicles = ArrayList<SubscribedVehicle>(capacity)
-    val parkRecords = ArrayList<ParkRecord>(capacity)
-    var incomeDaily = 0.0
+class AutoPark(private var hourlyFee: Double, private var capacity: Int) {
+    private val subscribedVehicles = ArrayList<SubscribedVehicle>(capacity)
+    private val parkRecords = ArrayList<ParkRecord>(capacity)
+    private var incomeDaily = 0.0
 
     fun searchVehicle(plate: String) = subscribedVehicles.find { it.getPlate() == plate }
 
     fun isParked(plate: String) = parkRecords.find { it.vehicle?.getPlate() == plate } != null
 
+    @Suppress("unused")
     fun enlargeVehicleArray() = subscribedVehicles.ensureCapacity(subscribedVehicles.size * 2)
 
     fun addVehicle(v: SubscribedVehicle): Boolean {
@@ -32,11 +33,11 @@ class AutoPark(var hourlyFee: Double, var capacity: Int) {
 
         if (searchVehicle(plate) != null) {
             val vehicle = subscribedVehicles.find { it.getPlate() == plate }!!
-            if (vehicle.getSubscription().isValid()) {
+            return if (vehicle.getSubscription().isValid()) {
                 parkRecords.add(ParkRecord(enter, null, vehicle))
-                return true
+                true
             } else {
-                return false
+                false
             }
         } else {
             parkRecords.add(ParkRecord(enter, null, if (isOfficial) {
@@ -75,7 +76,7 @@ class AutoPark(var hourlyFee: Double, var capacity: Int) {
         return true
     }
 
-    fun calculateFee(p: ParkRecord) = (p.getParkingDuration() / 60) * hourlyFee
+    private fun calculateFee(p: ParkRecord) = (p.getParkingDuration() / 60) * hourlyFee
 
     override fun toString() = "Subscribed Vehicles: $subscribedVehicles\nPark Records: $parkRecords\nFee: $hourlyFee\nIncome: $incomeDaily\nCapacity: $capacity"
 }

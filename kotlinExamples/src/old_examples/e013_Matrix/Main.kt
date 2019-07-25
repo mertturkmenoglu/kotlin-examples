@@ -1,6 +1,6 @@
 package old_examples.e013_Matrix
 
-fun main(args: Array<String>) {
+fun main() {
     val n = readLine()!!.toInt()
     val mtr = Array(n) {Array(n) {0}}
 

@@ -2,6 +2,7 @@ package kotlinNinetyNine.e012_DecodeRunLengthEncoding
 
 import kotlinNinetyNine.e010_RunLengthEncoding.encode
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     val result = "aaaabccaadeeee".toList().encode().decode()
     println(result)

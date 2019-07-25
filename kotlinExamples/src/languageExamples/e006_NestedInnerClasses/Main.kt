@@ -1,6 +1,7 @@
 package languageExamples.e006_NestedInnerClasses
 
 class Canvas {
+    @Suppress("unused")
     val outerClassName = "Canvas"
 
     fun introduce() {

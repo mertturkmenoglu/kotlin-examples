@@ -1,6 +1,6 @@
 package old_examples.e001_Inheritance
 
-fun main(args: Array<String>) {
+fun main() {
 
     val myCat = Cat()
     val myDog = Dog()

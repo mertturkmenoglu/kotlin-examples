@@ -1,5 +1,6 @@
 package kotlinNinetyNine.e014_DuplicateElementsOfAList
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     val result = "abccd".toList().duplicate()
     println(result)

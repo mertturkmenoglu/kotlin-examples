@@ -1,8 +1,8 @@
 package old_examples.e011_Input
 
-import java.util.Scanner;
+import java.util.Scanner
 
-fun main(args: Array<String>) {
+fun main() {
 
     print("Please enter an integer: ")
     var number = (readLine() !!).toInt()
@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     val reader = Scanner(System.`in`)
     print("Enter a number: ")
 
-    var integer: Int = reader.nextInt()
+    val integer: Int = reader.nextInt()
 
     println("You entered: $integer. I read it with Java...")
 

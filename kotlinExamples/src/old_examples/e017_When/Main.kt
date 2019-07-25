@@ -1,5 +1,6 @@
 package old_examples.e017_When
 
+@Suppress("UnusedMainParameter")
 fun main(args: Array<String>) {
 
     repeat(10) {

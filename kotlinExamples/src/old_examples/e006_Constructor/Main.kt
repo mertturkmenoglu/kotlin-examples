@@ -1,7 +1,7 @@
 package old_examples.e006_Constructor
 
 
-fun main(args: Array<String>) {
+fun main() {
 
     val person1 = Person("person1", 20, true)
     val person2 = Person("person2")

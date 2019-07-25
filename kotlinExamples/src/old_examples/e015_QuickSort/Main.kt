@@ -4,11 +4,11 @@ package old_examples.e015_QuickSort
  * Quick Sort test
  */
 
-fun main(args: Array<String>) {
+fun main() {
 
     println("Please enter your array size: ")
     val len = readLine()!!.toInt()
-    var array = Array<Int>(len, {i:Int -> 0})
+    val array = Array(len) { i:Int -> 0}
 
     for(i in 0 until len) {
         println("A[$i]: ")

@@ -12,8 +12,11 @@ fun main(){
     val regex3 = "^a{2,3}[a,b]$".toRegex()
     val matched3 = regex3.matches(input = "ab")
     println(matched3)
+
     val matched4 = regex3.matches(input = "aab")
     println(matched4)
+
+    @Suppress("SpellCheckingInspection")
     val matched5 = regex3.matches(input = "aaaa")
     println(matched5)
 

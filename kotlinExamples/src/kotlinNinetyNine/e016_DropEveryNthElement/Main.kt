@@ -1,5 +1,6 @@
 package kotlinNinetyNine.e016_DropEveryNthElement
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     val result = "abcdefghijk".toList().dropEveryN(3)
     println(result)

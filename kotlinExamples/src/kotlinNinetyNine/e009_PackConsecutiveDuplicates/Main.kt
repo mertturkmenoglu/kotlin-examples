@@ -1,5 +1,6 @@
 package kotlinNinetyNine.e009_PackConsecutiveDuplicates
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     val result = "aaaabccaadeeee".toList().pack()
     println(result)

@@ -32,6 +32,7 @@ class Graph<T>(val n: Int) {
         adjList[secondID].add(firstID)
     }
 
+    @Suppress("unused")
     fun addConnection(connection: Pair<Node<T>, Node<T>>) {
         adjList[connection.first.id].add(connection.second.id)
     }

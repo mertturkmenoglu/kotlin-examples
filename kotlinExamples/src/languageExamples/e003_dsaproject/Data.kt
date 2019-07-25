@@ -30,6 +30,6 @@ class Queue<T>(private val capacity: Int = 10) {
         }
     }
 
-    fun isFull() = (size == capacity)
+    private fun isFull() = (size == capacity)
     fun isEmpty() = (size == 0)
 }

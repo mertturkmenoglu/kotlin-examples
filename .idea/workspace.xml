@@ -1,12 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="Add unit tests&#10;&#10;KotlinNinetyNine 6-9 unit tests">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e006_PalindromeList/MainKtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e007_Flatten/MainKtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e008_ConsecutiveDuplicates/MainKtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e009_PackConsecutiveDuplicates/MainKtTest.kt" afterDir="false" />
+    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="Fix general project warnings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e008_ConsecutiveDuplicates/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e008_ConsecutiveDuplicates/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e009_PackConsecutiveDuplicates/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e009_PackConsecutiveDuplicates/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e010_RunLengthEncoding/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e010_RunLengthEncoding/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e011_ModifiedRunLengthEncoding/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e011_ModifiedRunLengthEncoding/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e012_DecodeRunLengthEncoding/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e012_DecodeRunLengthEncoding/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e013_DirectRLESolution/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e013_DirectRLESolution/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e014_DuplicateElementsOfAList/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e014_DuplicateElementsOfAList/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e015_DuplicateListElementsNTimes/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e015_DuplicateListElementsNTimes/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e016_DropEveryNthElement/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e016_DropEveryNthElement/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e017_SplitList/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e017_SplitList/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e003_dsaproject/Data.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e006_NestedInnerClasses/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e006_NestedInnerClasses/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e007_SealedClass/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e007_SealedClass/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e008_CompainionObject/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e008_CompainionObject/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/SpecialJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e013_JavaInteroperability/SpecialJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e014_Regex/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e014_Regex/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Queue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e023_Queue/Queue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e026_BFS/Bfs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e026_BFS/Bfs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e038_ScopingFunctions/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e038_ScopingFunctions/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e038_ScopingFunctions/Pair.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e038_ScopingFunctions/Pair.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/ui/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/AutoPark.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/AutoPark.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/Subscription.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/Subscription.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/Time.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e040_oopproject/util/Time.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e048_AnonymousObject/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e048_AnonymousObject/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e001_Inheritance/Animal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e001_Inheritance/Animal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e001_Inheritance/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e001_Inheritance/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e002_Inheritance/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e002_Inheritance/Aquarium.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e002_Inheritance/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e002_Inheritance/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e003_Array/arrayCreate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e003_Array/arrayCreate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e003_Array/arrayInputOutput.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e003_Array/arrayInputOutput.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e003_Array/arraySum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e003_Array/arraySum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e003_Array/twoArraySum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e003_Array/twoArraySum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e004_OOP/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e004_OOP/Book.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e004_OOP/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e004_OOP/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e006_Constructor/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e006_Constructor/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e007_Enum/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e007_Enum/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e008_ExtensionFunction/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e008_ExtensionFunction/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e009_List/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e009_List/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e010_Mixed/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e010_Mixed/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e011_Input/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e011_Input/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e012_Random/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e012_Random/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e013_Matrix/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e013_Matrix/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e014_Pair/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e014_Pair/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e015_QuickSort/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e015_QuickSort/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e016_BogoSort/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e016_BogoSort/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e017_When/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e017_When/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e017_When/calender.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e017_When/calender.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e018_InfixNotation/Extension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e018_InfixNotation/Extension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e019_OperatorOverloading/Vector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e019_OperatorOverloading/Vector.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e020_ReferentialEquality/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/old_examples/e020_ReferentialEquality/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/src/practice/e004_WordSeparate/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e004_WordSeparate/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e005_ReverseAList/MainKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e005_ReverseAList/MainKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e008_ConsecutiveDuplicates/MainKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e008_ConsecutiveDuplicates/MainKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e009_PackConsecutiveDuplicates/MainKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e009_PackConsecutiveDuplicates/MainKtTest.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,11 +162,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.kotlinNinetyNine.e010_RunLengthEncoding.MainKt">
-    <configuration name="All in kotlinExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SpecialJava">
+    <configuration name="SpecialJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="languageExamples.e013_JavaInteroperability.SpecialJava" />
       <module name="kotlinExamples" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="languageExamples.e013_JavaInteroperability.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpecialJava" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e010_RunLengthEncoding.MainKt" />
         <item itemvalue="JUnit.MainKtTest.packEmptyList" />
         <item itemvalue="JUnit.MainKtTest (1)" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKt" />
-        <item itemvalue="JUnit.All in kotlinExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -197,13 +253,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Add Kotlin-99 examples">
-      <created>1563472332672</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1563472332672</updated>
     </task>
     <task id="LOCAL-00034" summary="Add n-th element find example">
       <created>1563472851709</created>
@@ -541,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564063958254</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Add unit tests&#10;&#10;KotlinNinetyNine 6-9 unit tests">
+      <created>1564068238629</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1564068238629</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -558,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Project Euler - P8 solution" />
     <MESSAGE value="Add Project Euler - P9 solution" />
     <MESSAGE value="Add Project Euler - P10 solution" />
     <MESSAGE value="Add Project Euler - P11 solution" />
@@ -583,7 +638,8 @@
     <MESSAGE value="Refactor Kotlin Ninety Nine Examples&#10;&#10;Change functions to List extension functions" />
     <MESSAGE value="Add unit tests&#10;&#10;KotlinNinetyNine 1-5 unit tests" />
     <MESSAGE value="Add unit tests&#10;&#10;KotlinNinetyNine 6-9 unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add unit tests&#10;&#10;KotlinNinetyNine 6-9 unit tests" />
+    <MESSAGE value="Fix general project warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix general project warnings" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">

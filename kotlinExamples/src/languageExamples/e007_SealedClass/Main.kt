@@ -5,6 +5,7 @@ class Const(val value: Int) : Expr()
 class Sum(val left: Expr, val right: Expr) : Expr()
 object NotANumber : Expr()
 
+@Suppress("unused")
 fun eval(e: Expr): Int =
     when (e) {
         is Const -> e.value

@@ -1,6 +1,7 @@
 package kotlinNinetyNine.e013_DirectRLESolution
 
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     val result = "aaaabccaadeeee".toList().encode()
     println(result)

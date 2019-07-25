@@ -1,5 +1,6 @@
 package old_examples.e003_Array
 
+@Suppress("UnusedMainParameter")
 fun main(args: Array<String>) {
 
     println("Please enter size of the arrays: ")

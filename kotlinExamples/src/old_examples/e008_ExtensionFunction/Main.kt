@@ -8,6 +8,6 @@ fun String.hasSpaces(): Boolean {
     return found != null
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println("Does it have spaces?".hasSpaces())
 }

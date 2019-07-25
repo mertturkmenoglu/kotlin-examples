@@ -191,8 +191,8 @@ class MainActivity : JFrame() {
 
         do {
             beginDay = JOptionPane.showInputDialog("Beginning day: ").toString()
-            beginMonth = JOptionPane.showInputDialog("Beggining month: ").toString()
-            beginYear = JOptionPane.showInputDialog("Beggining year: ").toString()
+            beginMonth = JOptionPane.showInputDialog("Beginning month: ").toString()
+            beginYear = JOptionPane.showInputDialog("Beginning year: ").toString()
 
             endDay = JOptionPane.showInputDialog("End day: ").toString()
             endMonth = JOptionPane.showInputDialog("End month: ").toString()

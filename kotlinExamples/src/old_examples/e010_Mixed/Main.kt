@@ -1,6 +1,6 @@
 package old_examples.e010_Mixed
 
-fun main(args: Array<String>) {
+fun main() {
 
     println("Kotlin Basics test")
 
@@ -64,10 +64,10 @@ fun stringTemplates() {
 }
 
 fun maxOf1(a: Int, b: Int): Int {
-    if(a>b) {
-        return a
+    return if(a>b) {
+        a
     } else {
-        return b
+        b
     }
 }
 

@@ -1,7 +1,8 @@
 package languageExamples.e008_CompainionObject
 
 class Math {
-    private val PI: Double = 3.1415
+    @Suppress("unused")
+    private val pi: Double = 3.1415
 
     companion object A {
         fun introduce() {

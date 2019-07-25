@@ -1,6 +1,6 @@
 package old_examples.e002_Inheritance
 
-fun main(args: Array<String>) {
+fun main() {
 
     buildAquarium()
     makeFish()
@@ -22,6 +22,7 @@ fun buildAquarium() {
 
 }
 
+@Suppress("unused")
 fun feedFish(fish: FishAction) {
     fish.eat()
 }

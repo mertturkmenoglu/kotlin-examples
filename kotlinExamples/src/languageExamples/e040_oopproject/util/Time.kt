@@ -1,6 +1,6 @@
 package languageExamples.e040_oopproject.util
 
-class Time(var hour: Int = 0, var minute: Int = 0) {
+class Time(private var hour: Int = 0, private var minute: Int = 0) {
     fun getDifference(other: Time): Int {
         var diff = 0
         if (this.hour >= other.hour) {

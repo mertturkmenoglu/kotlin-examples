@@ -26,7 +26,7 @@ class Queue<T>(private val capacity: Int = 10) {
         return values.toString()
     }
 
-    fun isFull() = (size == capacity)
+    private fun isFull() = (size == capacity)
 
     fun isEmpty() = (size == 0)
 }

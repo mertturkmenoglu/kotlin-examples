@@ -1,3 +1,4 @@
+@file:Suppress("unused")
 package old_examples.e002_Inheritance
 
 import kotlin.math.PI
@@ -20,7 +21,7 @@ open class Aquarium(var length: Int = 100, var width: Int = 20, var height: Int 
 
 }
 
-class TowerTank(): Aquarium() {
+class TowerTank : Aquarium() {
 
     override var water = volume * 0.8
     override var volume: Int

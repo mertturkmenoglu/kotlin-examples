@@ -54,7 +54,7 @@ fun main() {
 
     val cNumber2 = Complex().apply { real = 3.0; imag = 4.0 }
     log(cNumber2)
-    val pair = Pair().Key(3).Value("Emily")
+    val pair = Pair().getKey(3).getValue("Emily")
     log(pair)
 
     //////////////////////////////////////////////////////////////////////////////

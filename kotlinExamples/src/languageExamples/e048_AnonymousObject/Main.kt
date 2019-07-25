@@ -1,7 +1,7 @@
 package languageExamples.e048_AnonymousObject
 
 open class Sherlock(val name: String, val surname: String) {
-    fun saySomething() = println("221B")
+    @Suppress("unused") fun saySomething() = println("221B")
 }
 
 fun main() {

@@ -17,12 +17,12 @@ class Game {
         println("Game Over")
         println(path)
         path.clear()
-        false;
+        false
     }
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val myGame = Game()
     println(myGame.path)
     myGame.north()

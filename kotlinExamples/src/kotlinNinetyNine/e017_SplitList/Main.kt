@@ -1,5 +1,6 @@
 package kotlinNinetyNine.e017_SplitList
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     val result = "abcdefghijk".toList().splitList(3)
     println(result)

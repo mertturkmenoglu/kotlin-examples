@@ -1,3 +1,5 @@
+@file:Suppress("SpellCheckingInspection", "SpellCheckingInspection", "SpellCheckingInspection")
+
 package old_examples.e001_Inheritance
 
 abstract class Animal {

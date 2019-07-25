@@ -14,6 +14,7 @@ fun main() {
     println(isEqual1)
 
     // Assigning a reference of a memory location to a pointer
+    @Suppress("UnnecessaryVariable")
     val thirdBook = firstBook
     thirdBook.printBookInfo()
     print("isEqual: ")

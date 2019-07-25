@@ -2,6 +2,7 @@ package kotlinNinetyNine.e011_ModifiedRunLengthEncoding
 
 import kotlinNinetyNine.e009_PackConsecutiveDuplicates.pack
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     val result = "aaaabccaadeeee".toList().encode()
     println(result)

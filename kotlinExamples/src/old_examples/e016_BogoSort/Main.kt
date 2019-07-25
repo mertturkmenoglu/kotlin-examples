@@ -2,14 +2,14 @@ package old_examples.e016_BogoSort
 
 import java.util.*
 
-fun main(args: Array<String>) {
+fun main() {
 
 //    for(i in 0..20) {
 //        print("${Random().nextInt(8)}\t")
 //    }
 
     val len = 10
-    val array = Array<Int>(len, {i: Int -> Random().nextInt(len) })
+    val array = Array(len) { i: Int -> Random().nextInt(len) }
     println(array.asList())
     val counter = bogoSort(array, len)
     println("Tried: $counter\n${array.asList()}")
