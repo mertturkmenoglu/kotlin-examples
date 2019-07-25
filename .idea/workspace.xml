@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e004_LengthOfAList/MainKtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e005_ReverseAList/MainKtTest.kt" afterDir="false" />
+    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="Add unit tests&#10;&#10;KotlinNinetyNine 6-9 unit tests">
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e006_PalindromeList/MainKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e007_Flatten/MainKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e008_ConsecutiveDuplicates/MainKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e009_PackConsecutiveDuplicates/MainKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e002_LastButOne/MainKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e002_LastButOne/MainKtTest.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Script" />
-        <option value="JUnit4 Test Class" />
         <option value="Kotlin File" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -76,15 +77,16 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/kotlinExamples/src/practice/e009_Image" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Kotlin" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="kotlinNinetyNine.e009_PackConsecutiveDuplicates" />
+      <recent name="kotlinNinetyNine.e008_ConsecutiveDuplicates" />
+      <recent name="kotlinNinetyNine.e007_Flatten" />
+      <recent name="kotlinNinetyNine.e006_PalindromeList" />
       <recent name="kotlinNinetyNine.e004_LengthOfAList" />
-      <recent name="kotlinNinetyNine.e003_NthElement" />
-      <recent name="kotlinNinetyNine.e002_LastButOne" />
-      <recent name="kotlinNinetyNine.e001_LastElement" />
-      <recent name="projectEuler.p001_Multiplesof3and5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/kotlinExamples/src/practice/e009_Image" />
@@ -109,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainKtTest (1)">
+  <component name="RunManager" selected="Kotlin.kotlinNinetyNine.e010_RunLengthEncoding.MainKt">
     <configuration name="All in kotlinExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="PACKAGE_NAME" value="" />
@@ -122,70 +124,65 @@
       <module name="kotlinExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kotlinNinetyNine.e005_ReverseAList.*" />
+          <option name="PATTERN" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e005_ReverseAList" />
-      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e005_ReverseAList.MainKtTest" />
+      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKtTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKtTest.packEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kotlinNinetyNine.e004_LengthOfAList.*" />
+          <option name="PATTERN" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e004_LengthOfAList" />
-      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e004_LengthOfAList.MainKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKtTest.nthElementEmptyList (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kotlinNinetyNine.e005_ReverseAList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e005_ReverseAList" />
-      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e005_ReverseAList.MainKtTest" />
-      <option name="METHOD_NAME" value="nthElementEmptyList" />
+      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKtTest" />
+      <option name="METHOD_NAME" value="packEmptyList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKtTest.nthElementEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kotlinNinetyNine.e004_LengthOfAList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e004_LengthOfAList" />
-      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e004_LengthOfAList.MainKtTest" />
-      <option name="METHOD_NAME" value="nthElementEmptyList" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kotlinNinetyNine.e010_RunLengthEncoding.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e010_RunLengthEncoding.MainKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.kotlinNinetyNine.e010_RunLengthEncoding.MainKt" />
+        <item itemvalue="JUnit.MainKtTest.packEmptyList" />
         <item itemvalue="JUnit.MainKtTest (1)" />
-        <item itemvalue="JUnit.MainKtTest.nthElementEmptyList (1)" />
-        <item itemvalue="JUnit.MainKtTest" />
-        <item itemvalue="JUnit.MainKtTest.nthElementEmptyList" />
+        <item itemvalue="Kotlin.kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKt" />
         <item itemvalue="JUnit.All in kotlinExamples" />
       </list>
     </recent_temporary>
@@ -200,13 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Add word counter example">
-      <created>1563393683804</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1563393683805</updated>
     </task>
     <task id="LOCAL-00033" summary="Add Kotlin-99 examples">
       <created>1563472332672</created>
@@ -544,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564062892782</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Add unit tests&#10;&#10;KotlinNinetyNine 1-5 unit tests">
+      <created>1564063958254</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1564063958254</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,8 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Project Euler - P7 solution" />
-    <MESSAGE value="Update largest prime number example" />
     <MESSAGE value="Add Project Euler - P8 solution" />
     <MESSAGE value="Add Project Euler - P9 solution" />
     <MESSAGE value="Add Project Euler - P10 solution" />
@@ -586,7 +581,9 @@
     <MESSAGE value="Add unit tests" />
     <MESSAGE value="Update README" />
     <MESSAGE value="Refactor Kotlin Ninety Nine Examples&#10;&#10;Change functions to List extension functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Kotlin Ninety Nine Examples&#10;&#10;Change functions to List extension functions" />
+    <MESSAGE value="Add unit tests&#10;&#10;KotlinNinetyNine 1-5 unit tests" />
+    <MESSAGE value="Add unit tests&#10;&#10;KotlinNinetyNine 6-9 unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add unit tests&#10;&#10;KotlinNinetyNine 6-9 unit tests" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
