@@ -7,6 +7,7 @@ import org.junit.Test
 import org.junit.Assert.*
 
 class MainKtTest {
+
     @Test
     fun getLastIntegerList() {
         val list = listOf(1, 2, 3, 4, 3, 2)
@@ -30,4 +31,5 @@ class MainKtTest {
         val list = listOf<Int>()
         val actual = list.getLast()
     }
+
 }

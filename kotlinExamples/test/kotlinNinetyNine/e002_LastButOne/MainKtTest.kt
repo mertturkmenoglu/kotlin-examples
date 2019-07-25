@@ -8,6 +8,7 @@ import org.junit.Assert.*
 import java.lang.IndexOutOfBoundsException
 
 class MainKtTest {
+
     @Test
     fun penultimateIntegerList() {
         val list = listOf(1, 2, 3, 4, 5)
@@ -30,4 +31,5 @@ class MainKtTest {
         val list = listOf<Int>()
         val actual = list.penultimate()
     }
+
 }
