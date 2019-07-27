@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/map/e002_Contains/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/map/e003_GetOrDefault/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.languageExamples.collections.map.e002_Contains.MainKt">
+  <component name="RunManager" selected="Kotlin.languageExamples.collections.map.e003_GetOrDefault.MainKt">
     <configuration name="SpecialJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="languageExamples.other.e004_JavaInteroperability.SpecialJava" />
       <module name="kotlinExamples" />
@@ -100,22 +100,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKtTest.packEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates" />
-      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e009_PackConsecutiveDuplicates.MainKtTest" />
-      <option name="METHOD_NAME" value="packEmptyList" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,13 +143,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="languageExamples.collections.map.e003_GetOrDefault.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.map.e003_GetOrDefault.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.languageExamples.collections.map.e003_GetOrDefault.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.map.e002_Contains.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.map.e001_GetValue.MainKt" />
         <item itemvalue="Application.SpecialJava" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e010_RunLengthEncoding.MainKt" />
-        <item itemvalue="JUnit.MainKtTest.packEmptyList" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Add palindrome list example">
-      <created>1563483190591</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1563483190591</updated>
     </task>
     <task id="LOCAL-00038" summary="Add flatten example">
       <created>1563484617559</created>
@@ -523,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564236410641</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Add collection example&#10;&#10;Add Map.contains(), Map.containsKey() and Map.containsValue() examples">
+      <created>1564240813872</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1564240813873</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Project Euler - P11 solution" />
     <MESSAGE value="Add Project Euler - P12 solution" />
     <MESSAGE value="Add Project Euler - P13 solution" />
     <MESSAGE value="Add Project Euler - P14 solution" />
@@ -565,7 +561,8 @@
     <MESSAGE value="Fix general project warnings" />
     <MESSAGE value="Update project structure" />
     <MESSAGE value="Add collection example&#10;&#10;Add Map.getValue() example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add collection example&#10;&#10;Add Map.getValue() example" />
+    <MESSAGE value="Add collection example&#10;&#10;Add Map.contains(), Map.containsKey() and Map.containsValue() examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add collection example&#10;&#10;Add Map.contains(), Map.containsKey() and Map.containsValue() examples" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
