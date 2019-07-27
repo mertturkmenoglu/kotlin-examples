@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/map/e005_Operations/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/map/e006_NonGenericMap/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,20 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.languageExamples.collections.map.e005_Operations.MainKt">
-    <configuration name="languageExamples.collections.map.e001_GetValue.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.map.e001_GetValue.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.languageExamples.collections.map.e006_NonGenericMap.MainKt">
     <configuration name="languageExamples.collections.map.e002_Contains.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -156,13 +143,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="languageExamples.collections.map.e006_NonGenericMap.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.map.e006_NonGenericMap.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.languageExamples.collections.map.e006_NonGenericMap.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.map.e005_Operations.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.map.e004_Conversion.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.map.e003_GetOrDefault.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.map.e002_Contains.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.collections.map.e001_GetValue.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -176,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Add pack consecutive duplicates example">
-      <created>1563538214412</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1563538214412</updated>
     </task>
     <task id="LOCAL-00041" summary="Add run length encoding example">
       <created>1563538687602</created>
@@ -520,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564241490189</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Add collection example&#10;&#10;Add Map operations example">
+      <created>1564242199385</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1564242199385</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -537,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Project Euler - P14 solution" />
     <MESSAGE value="Add Project Euler - P15 solution" />
     <MESSAGE value="Add Project Euler - P16 solution" />
     <MESSAGE value="Add Project Euler - P17 solution" />
@@ -562,7 +561,8 @@
     <MESSAGE value="Add collection example&#10;&#10;Add Map.contains(), Map.containsKey() and Map.containsValue() examples" />
     <MESSAGE value="Add collection example&#10;&#10;Add Map.getOrDefault() examples" />
     <MESSAGE value="Add collection example&#10;&#10;Add Map to Sequence, Map to Iterable conversions and getting Map iterator&#10;examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add collection example&#10;&#10;Add Map to Sequence, Map to Iterable conversions and getting Map iterator&#10;examples" />
+    <MESSAGE value="Add collection example&#10;&#10;Add Map operations example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add collection example&#10;&#10;Add Map operations example" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
