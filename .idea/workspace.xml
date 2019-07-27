@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/map/e007_HashMapConstruction/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/kotlinNinetyNine/e018_ExtractASliceFromAList/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/test/kotlinNinetyNine/e018_ExtractASliceFromAList/MainKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Script" />
-        <option value="JUnit4 Test Class" />
         <option value="Kotlin File" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -55,21 +56,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="kotlinNinetyNine.e018_ExtractASliceFromAList" />
       <recent name="kotlinNinetyNine.e009_PackConsecutiveDuplicates" />
       <recent name="kotlinNinetyNine.e008_ConsecutiveDuplicates" />
       <recent name="kotlinNinetyNine.e007_Flatten" />
       <recent name="kotlinNinetyNine.e006_PalindromeList" />
-      <recent name="kotlinNinetyNine.e004_LengthOfAList" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/kotlinExamples" />
-      <recent name="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e028_Frequencies" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kotlinExamples/src/practice/e009_Image" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/kotlinExamples/src/practice/e009_Image" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kotlinExamples" />
+      <recent name="$PROJECT_DIR$/kotlinExamples/src/languageExamples/e028_Frequencies" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,41 +85,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.languageExamples.collections.map.e007_HashMapConstruction.MainKt">
-    <configuration name="languageExamples.collections.map.e003_GetOrDefault.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainKtTest">
+    <configuration name="MainKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.map.e003_GetOrDefault.MainKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kotlinNinetyNine.e018_ExtractASliceFromAList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e018_ExtractASliceFromAList" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e018_ExtractASliceFromAList.MainKtTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="languageExamples.collections.map.e004_Conversion.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKtTest.extractSliceEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.map.e004_Conversion.MainKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kotlinNinetyNine.e018_ExtractASliceFromAList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e018_ExtractASliceFromAList" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e018_ExtractASliceFromAList.MainKtTest" />
+      <option name="METHOD_NAME" value="extractSliceEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="languageExamples.collections.map.e005_Operations.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="kotlinNinetyNine.e018_ExtractASliceFromAList.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.map.e005_Operations.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e018_ExtractASliceFromAList.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainKtTest" />
+        <item itemvalue="JUnit.MainKtTest.extractSliceEmptyList" />
+        <item itemvalue="Kotlin.kotlinNinetyNine.e018_ExtractASliceFromAList.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.map.e007_HashMapConstruction.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.map.e006_NonGenericMap.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.collections.map.e005_Operations.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.collections.map.e004_Conversion.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.collections.map.e003_GetOrDefault.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -170,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Add modified run length encoding example">
-      <created>1563538840202</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1563538840202</updated>
     </task>
     <task id="LOCAL-00043" summary="Add run length encoding decoder">
       <created>1563539204593</created>
@@ -514,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564242519877</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Add collection example&#10;&#10;Add HashMap constructors example">
+      <created>1564243318656</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1564243318656</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Project Euler - P16 solution" />
     <MESSAGE value="Add Project Euler - P17 solution" />
     <MESSAGE value="Add Project Euler - P18 solution" />
     <MESSAGE value="Add Project Euler - P19 solution" />
@@ -556,7 +561,8 @@
     <MESSAGE value="Add collection example&#10;&#10;Add Map to Sequence, Map to Iterable conversions and getting Map iterator&#10;examples" />
     <MESSAGE value="Add collection example&#10;&#10;Add Map operations example" />
     <MESSAGE value="Add collection example&#10;&#10;Add non-generic map example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add collection example&#10;&#10;Add non-generic map example" />
+    <MESSAGE value="Add collection example&#10;&#10;Add HashMap constructors example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add collection example&#10;&#10;Add HashMap constructors example" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
