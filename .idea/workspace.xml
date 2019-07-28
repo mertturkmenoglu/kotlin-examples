@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/list/a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/list/e001_MutableList/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/general/e002_Filter/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,18 +84,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.languageExamples.collections.list.e001_MutableList.MainKt">
-    <configuration name="MainKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.languageExamples.collections.general.e002_Filter.MainKt">
+    <configuration name="languageExamples.collections.general.e002_Filter.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kotlinNinetyNine.e018_ExtractASliceFromAList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kotlinNinetyNine.e018_ExtractASliceFromAList" />
-      <option name="MAIN_CLASS_NAME" value="kotlinNinetyNine.e018_ExtractASliceFromAList.MainKtTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.general.e002_Filter.MainKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.languageExamples.collections.general.e002_Filter.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.list.e001_MutableList.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.set.e002_HashSet.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.set.e001_SetMethods.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.map.e008_HashMapMethods.MainKt" />
-        <item itemvalue="JUnit.MainKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,20 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Add drop every nth element example">
-      <created>1563540873549</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1563540873549</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Add list split example">
-      <created>1563541073546</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1563541073546</updated>
     </task>
     <task id="LOCAL-00049" summary="Add Project Euler - P1 solution">
       <created>1563552629145</created>
@@ -517,7 +500,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564319832861</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Add collection example&#10;&#10;Add MutableList methods example">
+      <created>1564320693087</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1564320693087</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Add collection example&#10;&#10;Add ArrayList methods example">
+      <created>1564320844158</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1564320844158</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -534,8 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add anonymous object example" />
-    <MESSAGE value="Add Project Euler - P21 solution" />
     <MESSAGE value="Add Project Euler - P22 solution" />
     <MESSAGE value="Add Project Euler - P23 solution" />
     <MESSAGE value="Add Project Euler - P24 solution" />
@@ -559,7 +554,9 @@
     <MESSAGE value="Add collection example&#10;&#10;Add HashMap methods example" />
     <MESSAGE value="Add collection example&#10;&#10;Add Set methods example" />
     <MESSAGE value="Add collection example&#10;&#10;Add HashSet methods example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add collection example&#10;&#10;Add HashSet methods example" />
+    <MESSAGE value="Add collection example&#10;&#10;Add MutableList methods example" />
+    <MESSAGE value="Add collection example&#10;&#10;Add ArrayList methods example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add collection example&#10;&#10;Add ArrayList methods example" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
