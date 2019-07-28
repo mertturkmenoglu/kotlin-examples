@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/map/e008_HashMapMethods/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/set/e001_SetMethods/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.languageExamples.collections.map.e008_HashMapMethods.MainKt">
+  <component name="RunManager" selected="Kotlin.languageExamples.collections.set.e001_SetMethods.MainKt">
     <configuration name="MainKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <extension name="coverage">
@@ -129,19 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="languageExamples.collections.map.e007_HashMapConstruction.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.map.e007_HashMapConstruction.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="languageExamples.collections.map.e008_HashMapMethods.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -155,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="languageExamples.collections.set.e001_SetMethods.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.set.e001_SetMethods.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.languageExamples.collections.set.e001_SetMethods.MainKt" />
         <item itemvalue="Kotlin.languageExamples.collections.map.e008_HashMapMethods.MainKt" />
         <item itemvalue="JUnit.MainKtTest" />
         <item itemvalue="JUnit.MainKtTest.extractSliceEmptyList" />
         <item itemvalue="Kotlin.kotlinNinetyNine.e018_ExtractASliceFromAList.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.collections.map.e007_HashMapConstruction.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -175,13 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Add direct solution for run length encoding">
-      <created>1563539600468</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1563539600468</updated>
     </task>
     <task id="LOCAL-00045" summary="Add list element duplication example">
       <created>1563539848463</created>
@@ -519,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564259041205</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Add collection example&#10;&#10;Add HashMap methods example">
+      <created>1564300784884</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1564300784884</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Project Euler - P18 solution" />
     <MESSAGE value="Add Project Euler - P19 solution" />
     <MESSAGE value="Add Project Euler - P20 solution" />
     <MESSAGE value="Add anonymous object example" />
@@ -561,7 +560,8 @@
     <MESSAGE value="Add collection example&#10;&#10;Add non-generic map example" />
     <MESSAGE value="Add collection example&#10;&#10;Add HashMap constructors example" />
     <MESSAGE value="Add Kotlin-99 example&#10;&#10;Extract a slice from a list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Kotlin-99 example&#10;&#10;Extract a slice from a list" />
+    <MESSAGE value="Add collection example&#10;&#10;Add HashMap methods example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add collection example&#10;&#10;Add HashMap methods example" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
