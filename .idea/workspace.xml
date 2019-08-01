@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/collections/general/e002_Filter/Main.kt" afterDir="false" />
+    <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="Add spread operator example">
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/functional/e009_LambdaParameter/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Script" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin Script" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -84,67 +84,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.languageExamples.collections.general.e002_Filter.MainKt">
-    <configuration name="languageExamples.collections.general.e002_Filter.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.languageExamples.functional.e009_LambdaParameter.MainKt">
+    <configuration name="languageExamples.functional.e008_FunctionCall.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.general.e002_Filter.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.functional.e008_FunctionCall.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="languageExamples.collections.list.e001_MutableList.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="languageExamples.functional.e009_LambdaParameter.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.list.e001_MutableList.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.functional.e009_LambdaParameter.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="languageExamples.collections.map.e008_HashMapMethods.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="languageExamples.other.e010_JVMStatic.App" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.map.e008_HashMapMethods.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.other.e010_JVMStatic.App" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="languageExamples.collections.set.e001_SetMethods.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="languageExamples.other.e010_JVMStatic.Main" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.set.e001_SetMethods.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.other.e010_JVMStatic.Main" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="languageExamples.collections.set.e002_HashSet.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="languageExamples.other.e011_SpreadOperator.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.collections.set.e002_HashSet.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="languageExamples.other.e011_SpreadOperator.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.languageExamples.collections.general.e002_Filter.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.collections.list.e001_MutableList.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.collections.set.e002_HashSet.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.collections.set.e001_SetMethods.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.collections.map.e008_HashMapMethods.MainKt" />
+        <item itemvalue="Kotlin.languageExamples.functional.e009_LambdaParameter.MainKt" />
+        <item itemvalue="Kotlin.languageExamples.functional.e008_FunctionCall.MainKt" />
+        <item itemvalue="Kotlin.languageExamples.other.e011_SpreadOperator.MainKt" />
+        <item itemvalue="Kotlin.languageExamples.other.e010_JVMStatic.App" />
+        <item itemvalue="Kotlin.languageExamples.other.e010_JVMStatic.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,41 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Add Project Euler - P1 solution">
-      <created>1563552629145</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1563552629145</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Add Project Euler - P2 solution">
-      <created>1563553071959</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1563553071960</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Add Project Euler - P3 solution">
-      <created>1563553621717</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1563553621717</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Add Project Euler - P4 solution">
-      <created>1563554116294</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1563554116294</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Add Project Euler - P5 solution">
-      <created>1563556466126</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1563556466126</updated>
     </task>
     <task id="LOCAL-00054" summary="Add Project Euler - P6 solution">
       <created>1563556968734</created>
@@ -514,7 +479,42 @@
       <option name="project" value="LOCAL" />
       <updated>1564320844158</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Add collection example&#10;&#10;Add filter example">
+      <created>1564321225755</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1564321225755</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Add Jvmstatic annotation example">
+      <created>1564677687365</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1564677687366</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Add spread operator example">
+      <created>1564679043353</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1564679043353</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Add random choice example">
+      <created>1564679131371</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1564679131371</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Add lambda function example">
+      <created>1564680235521</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1564680235521</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,11 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Project Euler - P22 solution" />
-    <MESSAGE value="Add Project Euler - P23 solution" />
-    <MESSAGE value="Add Project Euler - P24 solution" />
-    <MESSAGE value="Add Project Euler - P25 solution" />
-    <MESSAGE value="Add random list item choice example" />
     <MESSAGE value="Add unit tests" />
     <MESSAGE value="Update README" />
     <MESSAGE value="Refactor Kotlin Ninety Nine Examples&#10;&#10;Change functions to List extension functions" />
@@ -556,7 +551,12 @@
     <MESSAGE value="Add collection example&#10;&#10;Add HashSet methods example" />
     <MESSAGE value="Add collection example&#10;&#10;Add MutableList methods example" />
     <MESSAGE value="Add collection example&#10;&#10;Add ArrayList methods example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add collection example&#10;&#10;Add ArrayList methods example" />
+    <MESSAGE value="Add collection example&#10;&#10;Add filter example" />
+    <MESSAGE value="Add Jvmstatic annotation example" />
+    <MESSAGE value="Add spread operator example" />
+    <MESSAGE value="Add random choice example" />
+    <MESSAGE value="Add lambda function example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lambda function example" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
