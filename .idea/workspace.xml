@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/languageExamples/oop/e009_ClassDelegation/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e034_Acronym/Cagdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e034_Acronym/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +27,7 @@
         <option value="JUnit4 Test Class" />
         <option value="Kotlin Script" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -84,16 +86,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.languageExamples.oop.e009_ClassDelegation.MainKt">
-    <configuration name="languageExamples.functional.e008_FunctionCall.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.practice.e034_Acronym.MainKt">
+    <configuration name="Cagdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.e034_Acronym.Cagdas" />
       <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.functional.e008_FunctionCall.MainKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.e034_Acronym.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,19 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="languageExamples.other.e011_SpreadOperator.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.other.e011_SpreadOperator.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="languageExamples.other.e012_SmartCast.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -150,13 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice.e034_Acronym.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practice.e034_Acronym.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.practice.e034_Acronym.MainKt" />
+        <item itemvalue="Application.Cagdas" />
         <item itemvalue="Kotlin.languageExamples.oop.e009_ClassDelegation.MainKt" />
         <item itemvalue="Kotlin.languageExamples.other.e012_SmartCast.MainKt" />
         <item itemvalue="Kotlin.languageExamples.functional.e009_LambdaParameter.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.functional.e008_FunctionCall.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.other.e011_SpreadOperator.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -170,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Update largest prime number example">
-      <created>1563557553156</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1563557553156</updated>
     </task>
     <task id="LOCAL-00057" summary="Add Project Euler - P8 solution">
       <created>1563558779808</created>
@@ -514,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564688920087</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Add class delegation example">
+      <created>1564689499018</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1564689499018</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactor Kotlin Ninety Nine Examples&#10;&#10;Change functions to List extension functions" />
     <MESSAGE value="Add unit tests&#10;&#10;KotlinNinetyNine 1-5 unit tests" />
     <MESSAGE value="Add unit tests&#10;&#10;KotlinNinetyNine 6-9 unit tests" />
     <MESSAGE value="Fix general project warnings" />
@@ -556,7 +557,8 @@
     <MESSAGE value="Add lambda function example" />
     <MESSAGE value="Add lambda parameter example" />
     <MESSAGE value="Add smart cast example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add smart cast example" />
+    <MESSAGE value="Add class delegation example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class delegation example" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
