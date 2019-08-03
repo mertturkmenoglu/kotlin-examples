@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e034_Acronym/Cagdas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e034_Acronym/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e036_SumOfIntervals/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +25,8 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Kotlin Script" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -86,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.practice.e034_Acronym.MainKt">
+  <component name="RunManager" selected="Kotlin.practice.e036_SumOfIntervals.MainKt">
     <configuration name="Cagdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.e034_Acronym.Cagdas" />
       <module name="kotlinExamples" />
@@ -96,45 +95,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="languageExamples.functional.e009_LambdaParameter.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.functional.e009_LambdaParameter.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="languageExamples.oop.e009_ClassDelegation.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.oop.e009_ClassDelegation.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="languageExamples.other.e012_SmartCast.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinExamples" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="languageExamples.other.e012_SmartCast.MainKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,13 +112,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice.e035_MexicanWave.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practice.e035_MexicanWave.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.e035_MexicanWave.ThanosKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practice.e035_MexicanWave.ThanosKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.e036_SumOfIntervals.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practice.e036_SumOfIntervals.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.practice.e034_Acronym.MainKt" />
+        <item itemvalue="Kotlin.practice.e036_SumOfIntervals.MainKt" />
+        <item itemvalue="Kotlin.practice.e035_MexicanWave.MainKt" />
+        <item itemvalue="Kotlin.practice.e035_MexicanWave.ThanosKt" />
         <item itemvalue="Application.Cagdas" />
-        <item itemvalue="Kotlin.languageExamples.oop.e009_ClassDelegation.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.other.e012_SmartCast.MainKt" />
-        <item itemvalue="Kotlin.languageExamples.functional.e009_LambdaParameter.MainKt" />
+        <item itemvalue="Kotlin.practice.e034_Acronym.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -172,20 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Add Project Euler - P8 solution">
-      <created>1563558779808</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1563558779808</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Add Project Euler - P9 solution">
-      <created>1563559206912</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1563559206912</updated>
     </task>
     <task id="LOCAL-00059" summary="Add Project Euler - P10 solution">
       <created>1563559835012</created>
@@ -516,7 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564689499018</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Add acronym example">
+      <created>1564785235790</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1564785235790</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Add Mexican wave practice">
+      <created>1564820803716</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1564820803717</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,8 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add unit tests&#10;&#10;KotlinNinetyNine 1-5 unit tests" />
-    <MESSAGE value="Add unit tests&#10;&#10;KotlinNinetyNine 6-9 unit tests" />
     <MESSAGE value="Fix general project warnings" />
     <MESSAGE value="Update project structure" />
     <MESSAGE value="Add collection example&#10;&#10;Add Map.getValue() example" />
@@ -558,7 +555,9 @@
     <MESSAGE value="Add lambda parameter example" />
     <MESSAGE value="Add smart cast example" />
     <MESSAGE value="Add class delegation example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add class delegation example" />
+    <MESSAGE value="Add acronym example" />
+    <MESSAGE value="Add Mexican wave practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Mexican wave practice" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
