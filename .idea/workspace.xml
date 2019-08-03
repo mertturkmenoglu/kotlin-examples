@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc11eb2d-51a6-4b8f-bba8-504300c514f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e037_BitSort/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinExamples/src/practice/e038_SymmetricDifference/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,20 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.practice.e037_BitSort.MainKt">
-    <configuration name="Cagdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.e034_Acronym.Cagdas" />
-      <module name="kotlinExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.e034_Acronym.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.practice.e038_SymmetricDifference.MainKt">
     <configuration name="practice.e035_MexicanWave.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinExamples" />
       <option name="VM_PARAMETERS" />
@@ -151,13 +138,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice.e038_SymmetricDifference.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinExamples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="practice.e038_SymmetricDifference.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.practice.e038_SymmetricDifference.MainKt" />
         <item itemvalue="Kotlin.practice.e037_BitSort.MainKt" />
         <item itemvalue="Kotlin.practice.e036_SumOfIntervals.MainKt" />
         <item itemvalue="Kotlin.practice.e035_MexicanWave.MainKt" />
         <item itemvalue="Kotlin.practice.e035_MexicanWave.ThanosKt" />
-        <item itemvalue="Application.Cagdas" />
       </list>
     </recent_temporary>
   </component>
@@ -171,13 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562866806605</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Add Project Euler - P11 solution">
-      <created>1563589734873</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1563589734874</updated>
     </task>
     <task id="LOCAL-00061" summary="Add Project Euler - P12 solution">
       <created>1563590973371</created>
@@ -515,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564822276073</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Add bit sort practice">
+      <created>1564825140367</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1564825140367</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update project structure" />
     <MESSAGE value="Add collection example&#10;&#10;Add Map.getValue() example" />
     <MESSAGE value="Add collection example&#10;&#10;Add Map.contains(), Map.containsKey() and Map.containsValue() examples" />
     <MESSAGE value="Add collection example&#10;&#10;Add Map.getOrDefault() examples" />
@@ -557,7 +556,8 @@
     <MESSAGE value="Add acronym example" />
     <MESSAGE value="Add Mexican wave practice" />
     <MESSAGE value="Add interval practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add interval practice" />
+    <MESSAGE value="Add bit sort practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add bit sort practice" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
