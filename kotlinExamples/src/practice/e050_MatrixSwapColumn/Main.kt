@@ -2,7 +2,6 @@ package practice.e050_MatrixSwapColumn
 
 import kotlin.random.Random
 
-@ExperimentalUnsignedTypes
 fun main() {
     val n = 5
     val input = Array(n) { Array(n) { Random.nextInt(0, 10) } }
