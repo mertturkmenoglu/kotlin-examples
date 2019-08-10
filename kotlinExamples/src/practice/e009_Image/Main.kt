@@ -12,7 +12,7 @@ class Pixel {
 
     init {
         try {
-            val input = File(System.getProperty("user.dir") + "/kotlinExamples/anitkabir.jpeg")
+            val input = File(System.getProperty("user.dir") + "/kotlinExamples/img/anitkabir.jpeg")
             image = ImageIO.read(input)
             width = image.width
             height = image.height

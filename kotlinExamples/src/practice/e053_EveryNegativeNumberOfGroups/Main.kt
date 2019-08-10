@@ -14,5 +14,5 @@ fun main() {
 }
 
 fun firstNegative(l: List<Int>, k: Int): List<Int> {
-    return l.chunked(k).mapNotNull { it.firstOrNull() { e -> e < 0 } }
+    return l.chunked(k).mapNotNull { it.firstOrNull { e -> e < 0 } }
 }
