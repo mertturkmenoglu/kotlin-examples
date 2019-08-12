@@ -8,6 +8,7 @@ fun main() {
     }
 
     for (i in 5..10) {
+        @Suppress("ReplaceWithOperatorAssignment")
         counter = counter + i
     }
 }
