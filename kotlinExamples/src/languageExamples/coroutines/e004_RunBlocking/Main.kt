@@ -1,4 +1,4 @@
-package languageExamples.coroutines.e004_
+package languageExamples.coroutines.e004_RunBlocking
 
 import kotlinx.coroutines.*
 import java.time.LocalTime
