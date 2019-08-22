@@ -7,7 +7,7 @@ fun main() {
 }
 
 fun duplicateCount(str: String): String {
-    val duplicates =  str.groupingBy { it }.eachCount().filter { it.value > 1 }
+    val duplicates =  str.toLowerCase().groupingBy { it }.eachCount().filter { it.value > 1 }
 
     val strBuilder = StringBuilder()
     for ((k, v) in duplicates) {
