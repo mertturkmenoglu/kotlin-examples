@@ -36,5 +36,5 @@ fun parseEarthquakeData(response: String): List<Earthquake> {
     val parsed = klaxon.parseJsonObject(StringReader(response))
     val parsedArray = parsed.array<Any>("features")
 
-    return parsedArray?.let { klaxon.parseFromJsonArray(it) } ?: throw Exception()
+    return parsedArray?.let { klaxon.parseFromJsonArray<Earthquake>(it) } ?: throw Exception()
 }
