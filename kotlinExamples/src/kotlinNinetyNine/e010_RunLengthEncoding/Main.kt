@@ -9,8 +9,11 @@ fun main() {
     println(result)
 }
 
-fun <T> List<T>.encode(): List<Pair<Int, T>> {
-    val result = ArrayList<Pair<Int, T>>()
+fun List<Char>.encode(): List<Pair<Int, Char>> {
+    if (this.isEmpty())
+        return emptyList()
+
+    val result = ArrayList<Pair<Int, Char>>()
 
     this.pack().forEach {
         result.add(Pair(it.size, it.first()))
