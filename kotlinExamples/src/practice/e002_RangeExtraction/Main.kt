@@ -8,26 +8,37 @@ package practice.e002_RangeExtraction
  *      both endpoints. It is not considered a range unless it spans at least 3 numbers.
  *      For example ("12, 13, 15-17")
  */
+fun main() {
+    val input = listOf(-6, -3, -2, -1, 0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20)
+    val result = extractRange(input)
+    println(result)
+}
+
 fun extractRange(numbers: List<Int>): String {
     val ranges = ArrayList<String>()
     val stack = ArrayList<Int>()
 
-    numbers.forEach {
-        if (stack.isNotEmpty() && it != stack.last() + 1) {
+    for (e in numbers) {
+        // Check for a breakpoint
+        if (stack.isNotEmpty() && e != stack.last() + 1) {
             if (stack.size < 3)
-                stack.forEach { e -> ranges.add("$e") }
+                stack.forEach { ranges.add("$it") }
             else
                 ranges.add("${stack.first()}-${stack.last()}")
 
             stack.clear()
         }
 
-        stack.add(it)
+        stack.add(e)
     }
 
-    return ranges.also { if (stack.isNotEmpty()) ranges.add("${stack.first()}-${stack.last()}") }.joinToString()
-}
+    // Check if there are elements in the stack
+    if (stack.isNotEmpty()) {
+        if (stack.size < 3)
+            stack.forEach { ranges.add("$it") }
+        else
+            ranges.add("${stack.first()}-${stack.last()}")
+    }
 
-fun main() {
-    println(extractRange(listOf(-6, -3, -2, -1, 0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20)))
+    return ranges.joinToString()
 }
