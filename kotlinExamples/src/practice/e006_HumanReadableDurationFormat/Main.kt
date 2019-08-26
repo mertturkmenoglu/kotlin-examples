@@ -1,54 +1,55 @@
 package practice.e006_HumanReadableDurationFormat
 
-import java.lang.IllegalArgumentException
-
 fun format(n: Int): String {
-    if (n < 0) throw IllegalArgumentException("Negative value")
+    require(n >= 0) { "Can not operate on negative value" }
 
     if (n == 0) return "Now"
 
-    var years = 0
-    var days = 0
-    var hours = 0
-    var minutes = 0
-    var seconds = 0
+    val y = TimeUnit("year", Int.MAX_VALUE)
+    val d = TimeUnit("day", 365)
+    val h = TimeUnit("hour", 24)
+    val m = TimeUnit("minute", 60)
+    val s = TimeUnit("second", 60)
 
+    val l = listOf(y, d, h, m, s)
     var time = n
 
     while (time > 0) {
-        if (time > 60) {
-            seconds += 60
+        if (time >= 60) {
+            l.last() += 60
         } else {
-            seconds = time % 60
+            l.last().value = time % 60
         }
 
-        if (seconds >= 60) {
-            minutes++
-            seconds %= 60
-        }
-
-        if (minutes >= 60) {
-            hours++
-            minutes %= 60
-        }
-
-        if (hours >= 24) {
-            days++
-            hours %= 24
-        }
-
-        if (days >= 365) {
-            years++
-            days %= 365
+        l.drop(1).reversed().forEachIndexed { i, e ->
+            if (e.value >= e.mod) {
+                l.reversed()[i+1] += 1
+                e.resetValue()
+            }
         }
 
         time -= 60
     }
 
-    return "$years years, $days days, $hours hours, $minutes minutes and $seconds seconds"
+    val sb = StringBuilder()
+    for (e in l.dropLast(1)) {
+        if (e.value != 0)
+            sb.append("${e.value} ${e.name}${if (e.value > 1) "s" else ""}, ")
+    }
+
+    val trimmed = sb.trim { it == ' ' || it == ',' }.toString()
+    val tail =
+            if (l.last().value != 0)
+                " ${ if (sb.isNotEmpty()) "and " else ""}${l.last().value} second${if (l.last().value > 1) "s" else ""}"
+            else
+                ""
+
+    return (trimmed + tail).trim()
 }
 
 fun main() {
+    println(format(42))
+    println(format(60))
     println(format(62))
     println(format(3662))
     println(format(90061))
