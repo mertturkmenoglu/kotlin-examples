@@ -1,18 +1,20 @@
 package practice.e005_DigitDelete
 
-import java.lang.IllegalArgumentException
-
 fun deleteDigit(number: Int): Int {
-    if (number !in 10..1000000) {
-        throw IllegalArgumentException("Argument is out of range")
+    require(number in 10..1_000_000) { "Argument is out of range" }
+
+    val str = number.toString()
+    val numbers = sequence {
+        str.forEach {
+            val n = str.toCharArray()
+                    .filter { c -> c != it }
+                    .joinToString("")
+                    .toInt()
+            yield(n)
+        }
     }
 
-    return number.toString().let { str ->
-        sequence {
-            str.forEach { yield(str.toCharArray().filter { c -> c != it }
-                    .joinToString(separator = "").toInt()) }
-        }.maxBy { it }!!.toInt()
-    }
+    return numbers.max() ?: throw Exception()
 }
 
 fun main() {
