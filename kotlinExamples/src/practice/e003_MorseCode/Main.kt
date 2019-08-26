@@ -6,27 +6,33 @@ val morse = arrayOf(null, 'T', 'E', 'M','N', 'A','I','O','G','K', 'D', 'W', 'R',
 
 
 fun encode(str: String): String {
+    require(!str.toUpperCase().filterNot { it == ' ' }.any { morse.indexOf(it) == -1 })
     var result = ""
-    str.forEach {
-        if (it == ' ')
+
+    str.toUpperCase().forEach {
+        if (it == ' ') {
             result += " "
-        else {
+        } else {
             var index = morse.indexOf(it) + 1
             var tmp = ""
+
             while (index != 1) {
                 tmp += if (index % 2 == 0)  '-'  else  '.'
                 index /= 2
             }
+
             result += tmp.reversed() + ' '
         }
     }
 
-    return result
+    return result.trim()
 }
 
 fun decode(str: String): String {
+    require(!str.any { it !in listOf(' ', '-', '.') })
     var result = ""
     var index = 1
+
     for (c in str) {
         when (c) {
             '.' -> index = index * 2 + 1
