@@ -9,21 +9,18 @@ fun main() {
     println(nextNumber(432))
 }
 
-fun nextNumber(number: Int): Int {
-    require(number > 0) { "Works on positive numbers" }
-    val digits = number.toString().toCharArray()
-    val greaterNumbers = ArrayList<Int>()
+fun nextNumber(n: Int): Int {
+    require(n > 0) { "Works on positive numbers" }
 
-    digits.reversed().forEachIndexed { i, _ ->
+    val digits = n.toString().toCharArray()
+    var max = Int.MAX_VALUE
+
+    for (i in digits.indices) {
         for (j in i - 1 downTo 0) {
-            run {
-                digits[i] = digits[j].also { digits[j] = digits[i] }
-                val tmp = digits.joinToString(separator = "").toInt()
-                if (tmp > number)
-                    greaterNumbers.add(tmp)
-            }
+            digits[i] = digits[j].also { digits[j] = digits[i] }
+            digits.joinToString("").toInt().let { if (it in n .. max) max = it }
         }
     }
 
-    return greaterNumbers.sorted().find { it > number } ?: -1
+    return if (max != Int.MAX_VALUE) max else -1
 }
