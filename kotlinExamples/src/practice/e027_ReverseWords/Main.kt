@@ -9,8 +9,5 @@ fun main() {
     println(reverse)
 }
 
-fun reverseWords(sentence: String) = sentence.split(" ")
-    .joinToString(" ", "", "") {
-        it.reversed()
-    }
+fun reverseWords(sentence: String) = sentence.split(" ").joinToString(" ") { it.reversed() }
 
