@@ -49,6 +49,7 @@
 * https://antonioleiva.com/category/blog/
 * https://superkotlin.com/resources-learn-kotlin/
 * https://blog.kotlin-academy.com/
+* https://github.com/KotlinBy/awesome-kotlin
 # Build
 #### Tools Required
 * JDK
