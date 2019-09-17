@@ -50,6 +50,10 @@
 * https://superkotlin.com/resources-learn-kotlin/
 * https://blog.kotlin-academy.com/
 * https://github.com/KotlinBy/awesome-kotlin
+* https://www.geeksforgeeks.org/kotlin-programming-language/
+* https://learnxinyminutes.com/docs/kotlin/
+* https://android.jlelse.eu/learn-kotlin-while-developing-an-android-app-introduction-567e21ff9664
+* https://www.kotlindevelopment.com/
 # Build
 #### Tools Required
 * JDK
