@@ -8,6 +8,7 @@ fun main() {
     println(fst)
     println(snd)
     println(result)
+    println(recMerge(fst, snd))
 }
 
 fun <T: Comparable<T>> merge(fst: List<T>, snd: List<T>): List<T> {
@@ -22,4 +23,16 @@ fun <T: Comparable<T>> merge(fst: List<T>, snd: List<T>): List<T> {
     result.addAll(fst.drop(i) + snd.drop(j))
 
     return result
+}
+
+tailrec fun <T: Comparable<T>> recMerge(fst: List<T>, snd: List<T>, result: ArrayList<T> = arrayListOf()): List<T> {
+    return when {
+        fst.isEmpty() && snd.isEmpty() -> result
+        fst.isEmpty() -> recMerge(fst, snd.drop(1), result.apply { add(snd.first()) })
+        snd.isEmpty() -> recMerge(fst.drop(1), snd, result.apply { add(fst.first()) })
+        else -> when {
+            fst.first() <= snd.first() -> recMerge(fst.drop(1), snd, result.apply { add(fst.first()) })
+            else -> recMerge(fst, snd.drop(1), result.apply { add(snd.first()) })
+        }
+    }
 }
