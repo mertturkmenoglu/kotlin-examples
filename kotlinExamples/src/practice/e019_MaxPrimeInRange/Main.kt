@@ -1,15 +1,20 @@
 package practice.e019_MaxPrimeInRange
 
-import kotlin.math.roundToInt
 import kotlin.math.sqrt
 
 // Find the biggest prime number in given collection
 fun main() {
-    val arr = arrayOf(3, 5, 9, 12, 27, 43, 79, 86)
-    val max = maxPrime(arr.asIterable())
-    print(max)
+    val input = listOf(3, 5, 9, 12, 27, 43, 79, 86)
+    val result = maxPrime(input)
+    print(result)
 }
 
-fun maxPrime(iterable: Iterable<Int>) = iterable.last { isPrime(it) }
+fun maxPrime(c: Collection<Int>) = c.filter(Int::isPrime).max() ?: throw Exception()
 
-fun isPrime(n: Int) = (n % 2 != 0) && (3..sqrt(n.toDouble()).roundToInt() step 2).find { n % it == 0 } == null
+fun Int.isPrime() = when {
+    this < 2 -> false
+    this == 2 -> true
+    this % 2 == 0 -> false
+    (3 .. sqrt(this.toDouble()).toInt()).any { this % it == 0 } -> false
+    else -> true
+}
