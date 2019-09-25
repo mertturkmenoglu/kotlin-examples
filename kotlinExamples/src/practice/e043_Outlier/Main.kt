@@ -8,5 +8,5 @@ fun main() {
 
 fun findOutlier(l: List<Int>): Int {
     require(l.size >= 3) { "Invalid number of integers" }
-    return l.find { (it % 2 == 1) == l.take(2).all { n -> n % 2 == 0 } } ?: throw Exception()
+    return l.find { (it % 2 == 1) != (l.take(3).count { n -> n % 2 == 0 } < 2) } ?: throw Exception()
 }
