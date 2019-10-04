@@ -1,4 +1,4 @@
-package languageExamples.other.e005_TimeMeasurement
+package languageExamples.other.e004_TimeMeasurement
 
 import kotlin.system.measureNanoTime
 

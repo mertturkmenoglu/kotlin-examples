@@ -1,4 +1,4 @@
-package languageExamples.other.e006_ParallelStream
+package languageExamples.other.e005_ParallelStream
 
 fun main() {
     listOf(2, 3, 5, 7, 11, 13, 17).parallelStream().forEach(::showNumber)

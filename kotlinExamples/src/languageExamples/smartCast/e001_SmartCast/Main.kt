@@ -1,4 +1,4 @@
-package languageExamples.other.e004_SmartCast
+package languageExamples.smartCast.e001_SmartCast
 
 fun main() {
     // Let's define a nullable string
