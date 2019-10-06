@@ -8,35 +8,30 @@ fun main() {
     println(result)
 }
 
-fun iterationCountUntilLoop(l: List<String>): List<Int> {
-    return l.map {
-        val seq = neumannRandomNumberGenerator(it.toInt())
-        var counter = 0
-        val iter = seq.iterator()
-        var curr: Int by Delegates.observable(initialValue = iter.next()) { _, _, _ -> counter++ }
-        curr = iter.next()
+fun iterationCountUntilLoop(l: List<String>) = l.map(::iterationCount)
 
-        while (curr !in seq.take(counter)) {
-            curr = iter.next()
-        }
+private fun iterationCount(str: String): Int {
+    val seq = neumannRandomNumberGenerator(str.toInt())
+    var counter = 0
+    val iterator = seq.iterator()
+    var curr: Int by Delegates.observable(initialValue = iterator.next()) { _, _, _ -> counter++ }
+    curr = iterator.next()
 
-        counter
-    }
+    while (curr !in seq.take(counter)) curr = iterator.next()
+
+    return counter
 }
 
-fun neumannRandomNumberGenerator(n: Int) = sequence {
+private fun neumannRandomNumberGenerator(n: Int) = sequence {
     var num = n
     yield(num)
 
     while (true) {
-        val squared = num * num
-        var str = squared.toString()
+        val str = (num * num).toString()
 
-        if (str.length != 8) {
-            str = Array(8 - str.length) { 0 }.joinToString("") + str
-        }
+        num = (if (str.length != 8) Array(8 - str.length) { 0 }.joinToString("") + str else str)
+                .drop(2).dropLast(2).toInt()
 
-        num = str.drop(2).dropLast(2).toInt()
         yield(num)
     }
 }
