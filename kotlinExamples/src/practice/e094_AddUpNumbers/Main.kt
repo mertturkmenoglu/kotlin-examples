@@ -8,6 +8,8 @@ fun main() {
     if (result.first) {
         println(result.second)
     }
+
+    improved(list, k).run { if (first) println(second) }
 }
 
 // Brute force solution
@@ -22,4 +24,16 @@ fun isThereAnyAddUps(l: List<Int>, k: Int): Pair<Boolean, List<Int>> {
     return false to emptyList()
 }
 
-// TODO: Add improved solution uses set
+// Improved solution
+fun improved(l: List<Int>, k: Int): Pair<Boolean, List<Int>> {
+    val passed = mutableSetOf<Int>()
+
+    for (e in l) {
+        if (k - e in passed) {
+            return true to listOf(e, k-e)
+        }
+        passed.add(e)
+    }
+
+    return false to emptyList()
+}
