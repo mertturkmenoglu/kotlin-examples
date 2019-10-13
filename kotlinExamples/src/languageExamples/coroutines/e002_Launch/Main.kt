@@ -1,6 +1,8 @@
 package languageExamples.coroutines.e002_Launch
 
-import kotlinx.coroutines.*
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import java.time.LocalTime
 
 fun main() {

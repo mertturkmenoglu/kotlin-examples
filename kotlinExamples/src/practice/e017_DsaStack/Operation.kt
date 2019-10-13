@@ -6,8 +6,8 @@ import practice.e017_DsaStack.Values.Companion.NegativeFlag
 
 
 fun typeOfChar(c: Char): CharType = when (c) {
-    ' '-> CharType.SPACE
-    in '0' .. '9' -> CharType.DIGIT
+    ' ' -> CharType.SPACE
+    in '0'..'9' -> CharType.DIGIT
     in charArrayOf('+', '-', '*', '/', '(', ')') -> CharType.PUNCTUATION
     else -> CharType.WRONG
 }
@@ -85,7 +85,6 @@ fun operate(c: Char, precedence: Precedence, flag: Boolean, operator: ArrayList<
         }
     }
 }
-
 
 
 fun compare(input: Char, peekValue: Char): Precedence {

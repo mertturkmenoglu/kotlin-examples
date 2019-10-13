@@ -8,7 +8,7 @@ fun printNeighbours(mtr: Array<Array<Boolean>>, wordList: ArrayList<Node>, index
 
 fun connection(first: String, second: String) = first.take(5).toList().zip(second.take(5).toList()).count { it.first != it.second } < 2
 
-fun connectionHandler() = println( if (connection(readLine()!!, readLine()!!)) "Same or one letter difference" else "More than one letter is different" )
+fun connectionHandler() = println(if (connection(readLine()!!, readLine()!!)) "Same or one letter difference" else "More than one letter is different")
 
 fun getIndex(wordList: ArrayList<Node>, string: String) = wordList.indexOfFirst { stringCompare(it.word, string) }
 

@@ -1,6 +1,6 @@
 package practice.e008_Image
 
-import java.io.*
+import java.io.FileOutputStream
 import java.net.URL
 
 fun main() {

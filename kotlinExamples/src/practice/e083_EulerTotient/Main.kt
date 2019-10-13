@@ -6,16 +6,16 @@ fun main() {
     println(result)
 }
 
-fun totient(n: Long): Int{
+fun totient(n: Long): Int {
     require(n >= 1L) { "Function is valid for n >= 1" }
-    return (1L .. n).count { gcd(n, it) == 1L }
+    return (1L..n).count { gcd(n, it) == 1L }
 }
 
 fun gcd(a: Long, b: Long): Long {
     var max = 0L
     val limit = if (a < b) a else b
 
-    for (i in 1 .. limit) {
+    for (i in 1..limit) {
         if (a % i == 0L && b % i == 0L)
             max = i
     }

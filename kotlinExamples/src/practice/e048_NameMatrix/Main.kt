@@ -1,6 +1,7 @@
 package practice.e048_NameMatrix
 
-import kotlin.math.*
+import kotlin.math.ceil
+import kotlin.math.sqrt
 
 fun main() {
     val input = "emily"

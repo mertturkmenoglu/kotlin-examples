@@ -9,7 +9,7 @@ fun main() {
 }
 
 fun consonantValue(input: String): Int {
-    require(input.all { it.isLetter() && !it.isWhitespace() }) { "Only alphabet letters are allowed"}
+    require(input.all { it.isLetter() && !it.isWhitespace() }) { "Only alphabet letters are allowed" }
     val parts = input.toLowerCase().map { if (it in vowels) '_' else it }
             .joinToString("").split('_').filterNot { it.isEmpty() }
 

@@ -11,10 +11,10 @@ fun main() {
     mList.addAll(listOf("selina", "dinah", "lois"))
     println(mList)
 
-    val iter = mList.listIterator()
+    val iterator = mList.listIterator()
 
-    while(iter.hasNext()) {
-        print(iter.next())
+    while (iterator.hasNext()) {
+        print(iterator.next())
         print('\t')
     }
 

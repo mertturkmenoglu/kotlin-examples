@@ -12,11 +12,11 @@ fun main() {
 // Tail recursion is a concept comes from functional programming
 // It gives a hint to compiler for stack usage optimisation
 tailrec fun factorial(n: Long, r: Long = 1L): Long {
-    return if (n < 1L) r else factorial(n-1, r * n)
+    return if (n < 1L) r else factorial(n - 1, r * n)
 }
 
 // Good old recursive function.
 // Keep an eye on stack overflows
 fun oldFactorial(n: Int): Long {
-    return if (n < 1) 1 else n.toLong() * oldFactorial(n-1)
+    return if (n < 1) 1 else n.toLong() * oldFactorial(n - 1)
 }

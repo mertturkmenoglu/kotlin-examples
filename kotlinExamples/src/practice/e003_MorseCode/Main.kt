@@ -1,8 +1,6 @@
 package practice.e003_MorseCode
 
-import kotlin.Exception
-
-val morse = arrayOf(null, 'T', 'E', 'M','N', 'A','I','O','G','K', 'D', 'W', 'R', 'U', 'S', '?', '.', 'Q', 'Z', 'Y', 'C' , 'X', 'B', 'J', 'P', null, 'L', '-', 'F', 'V', 'H', '0', '9', '8', null, '7', null, null, null, null, null, null, null, null, '6', '1', null, null, null, null, null, null, null, '2', null, null, null, '3', null, '4', '5')
+val morse = arrayOf(null, 'T', 'E', 'M', 'N', 'A', 'I', 'O', 'G', 'K', 'D', 'W', 'R', 'U', 'S', '?', '.', 'Q', 'Z', 'Y', 'C', 'X', 'B', 'J', 'P', null, 'L', '-', 'F', 'V', 'H', '0', '9', '8', null, '7', null, null, null, null, null, null, null, null, '6', '1', null, null, null, null, null, null, null, '2', null, null, null, '3', null, '4', '5')
 
 
 fun encode(str: String): String {
@@ -17,7 +15,7 @@ fun encode(str: String): String {
             var tmp = ""
 
             while (index != 1) {
-                tmp += if (index % 2 == 0)  '-'  else  '.'
+                tmp += if (index % 2 == 0) '-' else '.'
                 index /= 2
             }
 

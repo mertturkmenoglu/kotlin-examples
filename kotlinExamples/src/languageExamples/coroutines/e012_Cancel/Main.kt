@@ -1,10 +1,12 @@
 package languageExamples.coroutines.e012_Cancel
 
-import kotlinx.coroutines.*
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 fun main() = runBlocking {
     val job = launch {
-        repeat (1000) {
+        repeat(1000) {
             println("$it")
             delay(300L)
         }

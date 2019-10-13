@@ -11,15 +11,15 @@ fun main() {
 
 @ExperimentalUnsignedTypes
 fun totalPrimes(begin: UInt, end: UInt): List<UInt> {
-    val primes = (begin .. end).filter { it.isPrime() }
+    val primes = (begin..end).filter { it.isPrime() }
     return ArrayList<UInt>().apply { primes.forEach { if (it.isTotalPrime()) add(it) } }
 }
 
 @ExperimentalUnsignedTypes
 fun UInt.isPrime(): Boolean {
-    if (this < 2U)          return false
-    if (this == 2U)         return true
-    if (this % 2U == 0U)    return false
+    if (this < 2U) return false
+    if (this == 2U) return true
+    if (this % 2U == 0U) return false
     return (3..sqrt(this.toDouble()).roundToInt() step 2).find { this % it.toUInt() == 0U } == null
 }
 

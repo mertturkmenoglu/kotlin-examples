@@ -15,9 +15,9 @@ fun nthCatalanNumber(n: Int): BigInteger {
 
 fun comb(n: Int, r: Int): BigInteger {
     assert(n >= r)
-    return fact(n) / (fact(r) * fact(n-r))
+    return fact(n) / (fact(r) * fact(n - r))
 }
 
 fun fact(n: Int): BigInteger {
-    return if (n == 0 || n == 1) 1.toBigInteger() else n.toBigInteger() * fact(n-1)
+    return if (n == 0 || n == 1) 1.toBigInteger() else n.toBigInteger() * fact(n - 1)
 }

@@ -9,5 +9,5 @@ fun main() {
 }
 
 fun fact(n: Int): BigInteger {
-    return (1 .. n).map { it.toBigInteger() }.fold(BigInteger("1")) { acc, e -> acc * e }
+    return (1..n).map { it.toBigInteger() }.fold(BigInteger("1")) { acc, e -> acc * e }
 }

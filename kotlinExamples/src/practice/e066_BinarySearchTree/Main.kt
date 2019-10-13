@@ -20,7 +20,7 @@ fun main() {
         println("Enter your choice: ")
         val choice = readLine()?.toInt() ?: throw Exception()
 
-        if (choice !in 0 .. 10)
+        if (choice !in 0..10)
             println("Invalid input")
 
         if (choice == 0)
@@ -60,7 +60,7 @@ fun caseHandler(root: Node?, choice: Int): Node? {
 }
 
 fun createNewUser(id: Int, name: String, friends: List<Int>?) =
-        Node(Person(id, name, friends?.let { ArrayList(friends)}), null, null)
+        Node(Person(id, name, friends?.let { ArrayList(friends) }), null, null)
 
 fun search(root: Node?, id: Int): Node? {
     if (root == null) return null
@@ -71,7 +71,11 @@ fun search(root: Node?, id: Int): Node? {
 
 fun parseString(inp: String): Node {
     val parts = inp.split(",")
-    val friends = if (parts.size == 3) { parts[2].split("-").map { it.toInt() } } else { null }
+    val friends = if (parts.size == 3) {
+        parts[2].split("-").map { it.toInt() }
+    } else {
+        null
+    }
 
     return createNewUser(parts[0].toInt(), parts[1], friends)
 }
@@ -95,7 +99,7 @@ fun importFromFile(root: Node?): Node? {
     return r
 }
 
-fun friends(root: Node?, id: Int): Unit? =  search(root, id)?.run {
+fun friends(root: Node?, id: Int): Unit? = search(root, id)?.run {
     value.friends?.forEach { printUserInfo(search(root, it)) }
 }
 
@@ -137,7 +141,11 @@ fun manualInput(root: Node?): Node? {
     return root
 }
 
-fun size(root: Node?): Int = if (root == null) { 0 } else { size(root.rightNode) + size(root.leftNode) + 1 }
+fun size(root: Node?): Int = if (root == null) {
+    0
+} else {
+    size(root.rightNode) + size(root.leftNode) + 1
+}
 
 fun deleteUserHandler(root: Node?): Node? {
     println("Enter user id: ")
@@ -203,7 +211,7 @@ fun printNextHandler(root: Node?): Node? {
     return root
 }
 
-fun printInOrder(root: Node?):Unit? = root?.let {
+fun printInOrder(root: Node?): Unit? = root?.let {
     printInOrder(root.leftNode)
     printUserInfo(root)
     printInOrder(root.rightNode)

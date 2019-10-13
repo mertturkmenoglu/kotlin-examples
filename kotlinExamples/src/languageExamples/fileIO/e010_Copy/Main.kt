@@ -1,6 +1,7 @@
 package languageExamples.fileIO.e010_Copy
 
 import java.io.File
+
 val path = System.getProperty("user.dir") + "/kotlinExamples/src/languageExamples/fileIO/e010_Copy"
 fun main() {
     println("Content of the first file: ")

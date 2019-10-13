@@ -1,6 +1,7 @@
 package kotlinNinetyNine.e019_RotateListNToLeft
 
 fun main() {
+    @Suppress("SpellCheckingInspection")
     val input = "abcdefghijk".toList()
     val n = -2
     val result = input.rotateLeftN(n)

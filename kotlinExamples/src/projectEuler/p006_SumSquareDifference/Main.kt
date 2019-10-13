@@ -14,7 +14,7 @@ fun main() {
 }
 
 fun sumSquareDifference(begin: Int, end: Int): Long {
-    val sumOfTheSquares: Long = (begin.toLong()..end.toLong()).reduce { acc, l -> acc + l * l}
+    val sumOfTheSquares: Long = (begin.toLong()..end.toLong()).reduce { acc, l -> acc + l * l }
     val squareOfTheSum: Long = (begin.toLong()..end.toLong()).reduce { acc, l -> acc + l }.let { it * it }
     return squareOfTheSum - sumOfTheSquares
 }

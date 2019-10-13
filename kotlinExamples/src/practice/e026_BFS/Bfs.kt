@@ -7,7 +7,7 @@ data class Node<T>(val id: Int = 0, val value: T, var parent: Node<T>? = null) {
 }
 
 class Graph<T>(val n: Int) {
-    val adjList = Array<ArrayList<Int>>(n) {ArrayList(n) }
+    val adjList = Array<ArrayList<Int>>(n) { ArrayList(n) }
     val nodeList = ArrayList<Node<T>>(n)
 
     fun printGraph() {
@@ -52,7 +52,7 @@ fun <T> bfs(g: Graph<T>, start: Node<T>, end: Node<T>): ArrayList<Node<T>>? {
     val visited = Array(g.n) { false }
     visited[start.id] = true
 
-    while (! q.isEmpty() ) {
+    while (!q.isEmpty()) {
         val u = q.dequeue()
 
         if (u.id == end.id) {

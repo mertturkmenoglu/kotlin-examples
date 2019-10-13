@@ -4,10 +4,10 @@ import practice.e033_oopproject.vehicle.Vehicle
 
 class ParkRecord(var enterTime: Time? = null, exitTime: Time? = null, var vehicle: Vehicle? = null) {
     var exitTime = exitTime
-    set(value) {
-        if (value?.getDifference(enterTime!!) != -1)
-            field = value
-    }
+        set(value) {
+            if (value?.getDifference(enterTime!!) != -1)
+                field = value
+        }
 
     fun getParkingDuration() = exitTime!!.getDifference(enterTime ?: Time())
 

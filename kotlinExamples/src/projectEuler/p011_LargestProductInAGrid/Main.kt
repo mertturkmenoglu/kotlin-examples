@@ -34,7 +34,7 @@ fun rowCheck(grid: List<List<Int>>): Long {
     val temp = grid.map { row -> row.map { it.toLong() } }
 
     for (row in temp) {
-        for (i in 0 until row.size) {
+        for (i in row.indices) {
             val numbers = row.slice(i until row.size).take(4)
             max = maxOf(max, numbers.fold(1) { acc: Long, l: Long -> acc * l })
         }
@@ -53,7 +53,7 @@ fun columnCheck(grid: List<List<Int>>): Long {
     }
 
     for (col in cols) {
-        for (i in 0 until col.size) {
+        for (i in col.indices) {
             val numbers = col.slice(i until col.size).take(4)
             max = maxOf(max, numbers.fold(1) { acc: Long, l: Long -> acc * l })
         }
@@ -71,7 +71,7 @@ fun rDiagonal(grid: List<List<Int>>): Long {
 
     for (i in 0 until g.size - 3) {
         for (j in 0 until g[i].size - 3) {
-            val result = g[i][j] * g[i+1][j+1] * g[i+2][j+2] * g[i+3][j+3]
+            val result = g[i][j] * g[i + 1][j + 1] * g[i + 2][j + 2] * g[i + 3][j + 3]
             max = maxOf(max, result)
         }
     }

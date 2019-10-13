@@ -4,7 +4,7 @@ fun main() {
     val list = listOf("Emily", "Diana", "Barbara", "Selina")
 
     // Iterating like C style
-    for (i in 0 until list.size) {
+    for (i in list.indices) {
         println("Index: $i Value: ${list[i]}")
     }
 

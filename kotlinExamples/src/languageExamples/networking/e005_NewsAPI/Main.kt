@@ -3,7 +3,7 @@
 
 package languageExamples.networking.e005_NewsAPI
 
-import com.beust.klaxon.*
+import com.beust.klaxon.Klaxon
 import java.io.StringReader
 import java.net.URL
 

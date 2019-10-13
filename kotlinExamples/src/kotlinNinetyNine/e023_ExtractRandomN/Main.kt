@@ -1,6 +1,7 @@
 package kotlinNinetyNine.e023_ExtractRandomN
 
 fun main() {
+    @Suppress("SpellCheckingInspection")
     val input = "abdcdefgh".toList()
     val result = input.randomSelect(3)
     println(result)

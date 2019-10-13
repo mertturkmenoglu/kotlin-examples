@@ -16,7 +16,7 @@ fun countSundays(begin: GregorianCalendar, end: GregorianCalendar): Int {
 
     while (begin < end) {
         if (begin[Calendar.DAY_OF_MONTH] == 1 && begin[Calendar.DAY_OF_WEEK] == Calendar.SUNDAY)
-                counter++
+            counter++
         begin.add(Calendar.DAY_OF_WEEK, 1)
     }
 

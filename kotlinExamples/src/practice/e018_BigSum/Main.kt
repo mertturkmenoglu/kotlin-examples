@@ -16,7 +16,6 @@ fun main() {
     }
 
 
-
     val sum = addBigNumbers(num1, num2)
 
     if (sum.size > num1.size) {

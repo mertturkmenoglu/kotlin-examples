@@ -1,6 +1,7 @@
 package practice.e057_MaxPrefixSuffix
 
 fun main() {
+    @Suppress("SpellCheckingInspection")
     val input = "abcdabc"
     val result = input.maxPrefixSuffix()
     println(result)

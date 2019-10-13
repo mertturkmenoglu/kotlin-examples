@@ -5,5 +5,6 @@ class Squirrel : Animal {
 
     override fun makeSound() = println("Little Squirrel Sounds")
 
+    @Suppress("unused")
     fun specialSquirrelFunction() = println("Very special squirrel function")
 }

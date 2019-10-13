@@ -22,8 +22,8 @@ fun jumpingNumber(input: Int): Boolean {
 
     if (str.length == 1) return true
 
-    for (i in 1 .. str.lastIndex) {
-        if (str[i] != str[i-1]+1 && str[i] != str[i-1] - 1)
+    for (i in 1..str.lastIndex) {
+        if (str[i] != str[i - 1] + 1 && str[i] != str[i - 1] - 1)
             return false
     }
 

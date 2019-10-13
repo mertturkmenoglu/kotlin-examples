@@ -7,6 +7,7 @@ import java.net.URL
 data class Earthquake(val type: String, val properties: EarthquakeProperty, val geometry: EarthquakeGeometry, val id: String)
 data class EarthquakeProperty(val mag: Double, val place: String, val time: Long, val updated: Long,
                               val url: String, val title: String)
+
 data class EarthquakeGeometry(val type: String, val coordinates: List<Double>)
 
 fun main() {
@@ -18,6 +19,7 @@ fun main() {
     println("Minimum magnitude: ")
     val magnitude = readLine()?.toDouble() ?: throw Exception()
 
+    @Suppress("SpellCheckingInspection")
     val url = URL("$endPoint&starttime=$startTime&minmagnitude=$magnitude")
 
     try {

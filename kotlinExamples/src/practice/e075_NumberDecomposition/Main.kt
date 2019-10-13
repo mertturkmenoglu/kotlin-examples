@@ -36,6 +36,6 @@ fun getPrimes() = sequence {
 fun isPrime(n: Int) = when {
     n == 2 -> true
     n % 2 == 0 -> false
-    (3 .. sqrt(n.toDouble()).toInt()).any { n % it == 0 } -> false
+    (3..sqrt(n.toDouble()).toInt()).any { n % it == 0 } -> false
     else -> true
 }

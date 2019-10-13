@@ -17,8 +17,8 @@ fun stoogeSort(l: MutableList<Int>, i: Int = 0, j: Int = l.size - 1) {
 
     if (j - i + 1 > 2) {
         val t = (j - i + 1) / 3
-        stoogeSort(l, i, j-t)
-        stoogeSort(l, i+t, j)
-        stoogeSort(l, i, j-t)
+        stoogeSort(l, i, j - t)
+        stoogeSort(l, i + t, j)
+        stoogeSort(l, i, j - t)
     }
 }

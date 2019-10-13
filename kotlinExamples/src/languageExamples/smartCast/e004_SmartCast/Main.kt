@@ -10,7 +10,7 @@ fun main() {
     smart(str)
 }
 
-fun smart(x: Any) = when(x) {
+fun smart(x: Any) = when (x) {
     is Squirrel -> {
         println(x.getAnimalName())
         x.makeSound()

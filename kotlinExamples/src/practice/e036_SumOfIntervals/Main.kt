@@ -10,11 +10,11 @@ fun sumOfIntervals(list: List<Pair<Int, Int>>): Int {
     val ranges = mutableListOf<IntRange>()
 
     ranges.addAll(sequence {
-        list.associate { it.first to it.second }.forEach { yield(it.key .. it.value) }
+        list.associate { it.first to it.second }.forEach { yield(it.key..it.value) }
     })
 
     for (r in ranges) {
-       intRange = intRange.union(r).toMutableSet()
+        intRange = intRange.union(r).toMutableSet()
     }
 
     return intRange.size

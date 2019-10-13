@@ -12,7 +12,7 @@ interface Player {
     }
 }
 
-class FootballPlayer: Person, Player {
+class FootballPlayer : Person, Player {
 
     override fun introduce() {
         print("Hi")

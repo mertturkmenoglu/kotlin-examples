@@ -13,6 +13,6 @@ fun main() {
     println(result)
 }
 
-fun path(n: Int) = factorial(2*n) / (factorial(n) * factorial(n))
+fun path(n: Int) = factorial(2 * n) / (factorial(n) * factorial(n))
 
-fun factorial(n: Int): BigInteger = if (n == 1) n.toBigInteger() else factorial(n-1) * n.toBigInteger()
+fun factorial(n: Int): BigInteger = if (n == 1) n.toBigInteger() else factorial(n - 1) * n.toBigInteger()

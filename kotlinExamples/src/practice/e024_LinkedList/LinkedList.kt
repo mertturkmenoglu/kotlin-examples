@@ -40,16 +40,16 @@ open class LinkedList<E> {
         size++
     }
 
-    private fun linkBefore(e: E?, succ: Node<E>) {
-        val pred = succ.prev
-        val newNode = Node(pred, e, succ)
+    private fun linkBefore(e: E?, successor: Node<E>) {
+        val predecessor = successor.prev
+        val newNode = Node(predecessor, e, successor)
 
-        succ.prev = newNode
+        successor.prev = newNode
 
-        if (pred == null)
+        if (predecessor == null)
             first = newNode
         else
-            pred.next = newNode
+            predecessor.next = newNode
 
         size++
     }

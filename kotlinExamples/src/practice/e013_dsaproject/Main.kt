@@ -4,7 +4,7 @@ import java.io.File
 
 fun main() {
     println("Enter file path: ")
-    val filePath = readLine()?:""
+    val filePath = readLine() ?: ""
     val wordList = ArrayList<Node>()
 
     File(filePath).forEachLine {

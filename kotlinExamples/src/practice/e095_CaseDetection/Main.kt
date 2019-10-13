@@ -8,7 +8,7 @@ fun main() {
 
 // Assume every string can be categorized
 fun caseDetection(str: String) = when {
-        str[0].isUpperCase() -> "PascalCase"
-        str.contains('_') -> "snake_case"
-        else -> "camelCase"
+    str[0].isUpperCase() -> "PascalCase"
+    str.contains('_') -> "snake_case"
+    else -> "camelCase"
 }

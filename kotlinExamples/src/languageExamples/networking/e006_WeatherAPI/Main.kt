@@ -3,11 +3,11 @@
 
 package languageExamples.networking.e006_WeatherAPI
 
-import com.beust.klaxon.*
+import com.beust.klaxon.Klaxon
 import java.io.StringReader
 import java.net.URL
 
-data class CityWeather(val coord: Coordinate, val weather: Weather, val main: WeatherInfo, val wind: Wind)
+data class CityWeather(@Suppress("SpellCheckingInspection") val coord: Coordinate, val weather: Weather, val main: WeatherInfo, val wind: Wind)
 data class Coordinate(val lon: Double, val lat: Double)
 data class Weather(val id: Int, val main: String, val description: String)
 data class WeatherInfo(val temp: Double, val pressure: Int, val humidity: Int, val temp_min: Double, val temp_max: Double)
@@ -24,6 +24,7 @@ fun main() {
     println("Units: metric or imperial")
     val units = readLine()?.toLowerCase() ?: throw Exception()
 
+    @Suppress("SpellCheckingInspection")
     val url = URL("$endPoint/weather?q=$city&units=$units&mode=json&appid=$API_KEY")
 
     try {
@@ -39,11 +40,13 @@ fun parseWeather(response: String): CityWeather {
     val klaxon = Klaxon()
     val parsed = klaxon.parseJsonObject(StringReader(response))
 
+    @Suppress("SpellCheckingInspection")
     val parsedCoordinate = parsed.obj("coord")
     val parsedWeather = parsed.array<Any>("weather")
     val parsedMain = parsed.obj("main")
     val parsedWind = parsed.obj("wind")
 
+    @Suppress("SpellCheckingInspection")
     val coord = parsedCoordinate?.let { klaxon.parseFromJsonObject<Coordinate>(it) } ?: throw Exception()
     val weather = parsedWeather?.let { klaxon.parseFromJsonArray<Weather>(it) }?.first() ?: throw Exception()
     val main = parsedMain?.let { klaxon.parseFromJsonObject<WeatherInfo>(it) } ?: throw Exception()

@@ -19,7 +19,7 @@ object Mark {
 fun main() {
     val (result, time) = Mark.time {
         var sum = 0
-        for (i in 0 .. 100000) {
+        for (i in 0..100000) {
             sum += i
         }
         sum

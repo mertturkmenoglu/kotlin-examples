@@ -7,5 +7,5 @@ fun main() {
     val lines = ArrayList<String>()
 
     File(file).useLines { lines.addAll(it) }
-    lines.forEachIndexed { i, line -> println("$i - $line")}
+    lines.forEachIndexed { i, line -> println("$i - $line") }
 }

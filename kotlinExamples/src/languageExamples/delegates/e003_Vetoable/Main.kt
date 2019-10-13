@@ -9,7 +9,7 @@ fun main() {
     }
 
     @Suppress("ReplaceWithOperatorAssignment")
-    for (i in 0 .. 10) {
+    for (i in 0..10) {
         counter = counter + 1
     }
 }

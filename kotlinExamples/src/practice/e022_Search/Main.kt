@@ -1,7 +1,7 @@
 package practice.e022_Search
 
-fun <T: Comparable<T>> linearSearch(collection: Collection<T>, value: T): Int {
-    collection.forEachIndexed {i, e ->
+fun <T : Comparable<T>> linearSearch(collection: Collection<T>, value: T): Int {
+    collection.forEachIndexed { i, e ->
         if (e == value)
             return i
     }
@@ -9,11 +9,11 @@ fun <T: Comparable<T>> linearSearch(collection: Collection<T>, value: T): Int {
     return -1
 }
 
-fun <T: Comparable<T>> binarySearch(collection: Collection<T>, value: T): Int {
+fun <T : Comparable<T>> binarySearch(collection: Collection<T>, value: T): Int {
     var left = 0
     var right = collection.size - 1
 
-    while(left <= right) {
+    while (left <= right) {
         val middle = (left + right) / 2
         when {
             value < collection.elementAt(middle) -> right = middle - 1

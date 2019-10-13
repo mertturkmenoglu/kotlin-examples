@@ -12,7 +12,7 @@ private fun <T : Comparable<T>> partition(array: Array<T>, begin: Int, end: Int)
     val pivot = array[end]
     var i = begin - 1
 
-    for (j  in begin until end) {
+    for (j in begin until end) {
         if (array[j] <= pivot) {
             i++
             array[i] = array[j].also { array[j] = array[i] }

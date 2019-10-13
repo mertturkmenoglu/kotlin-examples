@@ -12,5 +12,5 @@ fun main() {
 }
 
 fun leftAndRightSumProduct(input: List<Int>): Int {
-    return input.chunked(input.size / 2).map { it.reduce { acc, i -> acc + i } }.fold(1) { acc, i -> acc * i}
+    return input.chunked(input.size / 2).map { it.reduce { acc, i -> acc + i } }.fold(1) { acc, i -> acc * i }
 }

@@ -1,7 +1,6 @@
 package languageExamples.functional.e006_ScopingFunctions
 
 import languageExamples.oop.e007_OperatorOverloading.Complex
-import java.lang.StringBuilder
 import java.util.*
 
 fun transform(value: Int) = value + 1
@@ -52,7 +51,7 @@ fun main() {
 
     //////////////////////////////////////////////////////////////////////////////
 
-    val cNumber2 = Complex().apply { real = 3.0; imag = 4.0 }
+    val cNumber2 = Complex().apply { real = 3.0; imaginary = 4.0 }
     log(cNumber2)
     val pair = Pair().getKey(3).getValue("Emily")
     log(pair)

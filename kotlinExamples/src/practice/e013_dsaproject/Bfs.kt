@@ -12,7 +12,7 @@ fun bfs(matrix: Array<Array<Boolean>>, wordList: ArrayList<Node>, start: Int, en
     while (!q.isEmpty()) {
         var v: Node? = q.dequeue()
 
-        if (stringCompare(wordList[end].word, v?.word?:"")) {
+        if (stringCompare(wordList[end].word, v?.word ?: "")) {
             val path = Path(Array(v!!.level + 1) { -1 }, v.level + 1, v.level)
 
             var j = v.level

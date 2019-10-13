@@ -11,7 +11,7 @@ fun main() {
     println(recMerge(fst, snd))
 }
 
-fun <T: Comparable<T>> merge(fst: List<T>, snd: List<T>): List<T> {
+fun <T : Comparable<T>> merge(fst: List<T>, snd: List<T>): List<T> {
     val result = ArrayList<T>()
     var i = 0
     var j = 0
@@ -25,7 +25,7 @@ fun <T: Comparable<T>> merge(fst: List<T>, snd: List<T>): List<T> {
     return result
 }
 
-tailrec fun <T: Comparable<T>> recMerge(fst: List<T>, snd: List<T>, result: ArrayList<T> = arrayListOf()): List<T> {
+tailrec fun <T : Comparable<T>> recMerge(fst: List<T>, snd: List<T>, result: ArrayList<T> = arrayListOf()): List<T> {
     return when {
         fst.isEmpty() && snd.isEmpty() -> result
         fst.isEmpty() -> recMerge(fst, snd.drop(1), result.apply { add(snd.first()) })

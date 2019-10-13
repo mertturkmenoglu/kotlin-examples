@@ -9,7 +9,7 @@ fun main() {
 fun <T> List<T>.dropEveryN(n: Int): List<T> {
     val result = ArrayList<T>()
 
-    for (i in 1 .. this.size) {
+    for (i in 1..this.size) {
         if (i % n != 0) {
             result.add(this[i - 1])
         }

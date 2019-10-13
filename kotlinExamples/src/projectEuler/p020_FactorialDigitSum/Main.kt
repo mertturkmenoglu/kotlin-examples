@@ -14,6 +14,6 @@ fun main() {
     println(result)
 }
 
-fun factorialDigitSum(n: Int) = factorial(n).toString().map { it.toString().toInt() }.reduce { acc, i ->  acc + i}
+fun factorialDigitSum(n: Int) = factorial(n).toString().map { it.toString().toInt() }.reduce { acc, i -> acc + i }
 
-fun factorial(n: Int): BigInteger = if (n == 1) n.toBigInteger() else factorial(n-1) * n.toBigInteger()
+fun factorial(n: Int): BigInteger = if (n == 1) n.toBigInteger() else factorial(n - 1) * n.toBigInteger()

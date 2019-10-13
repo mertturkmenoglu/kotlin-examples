@@ -10,7 +10,7 @@ fun getOrders(str: String): String {
 
     while (tmp.length > menu.minBy { it.length }!!.length) {
         result += menu.find { tmp.startsWith(it.decapitalize()) }
-                    .also { tmp = tmp.drop(it!!.length) }
+                .also { tmp = tmp.drop(it!!.length) }
         result += ' '
     }
 

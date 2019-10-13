@@ -10,7 +10,7 @@ fun main() {
 fun countOnes(begin: Int, end: Int): Long {
     assert(begin >= 1)
     var result = 0L
-    for (i in begin.toLong() .. end.toLong())
+    for (i in begin.toLong()..end.toLong())
         result += ones(i)
     return result
 }

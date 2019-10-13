@@ -27,6 +27,7 @@ const val thousandDigitNumber = "73167176531330624919225119674426574742355349194
         "84580156166097919133875499200524063689912560717606" +
         "05886116467109405077541002256983155200055935729725" +
         "71636269561882670428252483600823257530420752963450"
+
 fun main() {
     val result = greatestProduct(n = 13, number = thousandDigitNumber)
     println(result)
@@ -36,7 +37,7 @@ fun greatestProduct(n: Int, number: String): Long {
     var max: Long = -1
     val digits = number.toList().map { it.toString().toInt() }
 
-    for (i in 0 until digits.size) {
+    for (i in digits.indices) {
         var current: Long = 1
         digits.slice(i until digits.size).take(n).forEach { current *= it }
         max = maxOf(max, current)

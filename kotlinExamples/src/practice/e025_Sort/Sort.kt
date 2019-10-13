@@ -5,18 +5,18 @@ fun <T : Comparable<T>> MutableList<T>.insertionSort() {
     for (i in 0 until size) {
         var j = i - 1
         val temp = this[i]
-        while((j >= 0) && (this[j] > temp)) {
+        while ((j >= 0) && (this[j] > temp)) {
             this[j + 1] = this[j]
             j--
         }
-        this[j+1] = temp
+        this[j + 1] = temp
     }
 }
 
 fun <T : Comparable<T>> MutableList<T>.bubbleSort() {
-    for(i in 0 until size - 1) {
-        for(j in 0 until size - i - 1) {
-            if(this[j] > this[j+1]) {
+    for (i in 0 until size - 1) {
+        for (j in 0 until size - i - 1) {
+            if (this[j] > this[j + 1]) {
                 this[j] = this[j + 1].also { this[j + 1] = this[j] }
             }
         }
@@ -36,12 +36,12 @@ fun <T : Comparable<T>> MutableList<T>.selectionSort() {
     var location: Int
     var min: T
 
-    for(i in 0 until size - 1) {
+    for (i in 0 until size - 1) {
         location = i
         min = this[i]
 
-        for(j in i + 1 until size) {
-            if(this[j] < min) {
+        for (j in i + 1 until size) {
+            if (this[j] < min) {
                 min = this[j]
                 location = j
             }

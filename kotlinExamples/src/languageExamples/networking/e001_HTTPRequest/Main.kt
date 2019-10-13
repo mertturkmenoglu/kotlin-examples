@@ -1,6 +1,5 @@
 package languageExamples.networking.e001_HTTPRequest
 
-import java.lang.StringBuilder
 import java.net.HttpURLConnection
 import java.net.URL
 

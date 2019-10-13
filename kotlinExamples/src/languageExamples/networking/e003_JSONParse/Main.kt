@@ -1,6 +1,7 @@
 package languageExamples.networking.e003_JSONParse
 
-import com.beust.klaxon.*
+import com.beust.klaxon.JsonReader
+import com.beust.klaxon.Klaxon
 import java.io.StringReader
 import java.net.HttpURLConnection
 import java.net.URL

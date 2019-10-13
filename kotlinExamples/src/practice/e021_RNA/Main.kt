@@ -1,8 +1,10 @@
+@file:Suppress("SpellCheckingInspection")
+
 package practice.e021_RNA
 
 fun rna(rna: String) = rna.toUpperCase().chunked(3).let {
     it.take(
-            if (it.any { substr -> substr in listOf("UAA", "UAG", "UGA") })
+            if (it.any { subStr -> subStr in listOf("UAA", "UAG", "UGA") })
                 it.indexOf(it.first { s -> s in listOf("UAA", "UAG", "UGA") })
             else
                 it.size

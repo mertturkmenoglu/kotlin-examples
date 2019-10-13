@@ -32,11 +32,11 @@ fun sumOfAll(downLimit: Int, upperLimit: Int): Long {
     for (i in 12..28_123) {
         if (isAbundant(i)) abNumbers.add(i)
     }
-    for (i in downLimit .. upperLimit) {
-        if(!canBeWritten(i, abNumbers)) cannotWritten.add(i)
+    for (i in downLimit..upperLimit) {
+        if (!canBeWritten(i, abNumbers)) cannotWritten.add(i)
     }
 
-    return cannotWritten.map { it.toLong()}.reduce { acc, l -> acc + l }
+    return cannotWritten.map { it.toLong() }.reduce { acc, l -> acc + l }
 }
 
 fun canBeWritten(n: Int, abNumbers: ArrayList<Int>): Boolean {

@@ -37,7 +37,7 @@ fun findTriangleNumber(divisorCount: Int): Long {
 fun getDivisorCount(n: Long): Int {
     var count = 0
 
-    for (i in 1 .. sqrt(n.toDouble()).toLong()) {
+    for (i in 1..sqrt(n.toDouble()).toLong()) {
         if (n % i == 0L) {
             if (n / i != i)
                 count++

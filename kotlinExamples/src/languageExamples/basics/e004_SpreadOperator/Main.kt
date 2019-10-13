@@ -7,7 +7,7 @@ fun main() {
 }
 
 fun <T> printElements(vararg elements: T) {
-    for (e in elements){
+    for (e in elements) {
         println(e)
     }
 }

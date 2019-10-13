@@ -6,10 +6,10 @@ val numbers = mapOf("zero" to 0, "one" to 1, "two" to 2, "three" to 3, "four" to
 val tenToTwenty = mapOf("ten" to 10, "eleven" to 11, "twelve" to 12, "thirteen" to 13, "fourteen" to 14, "fifteen" to 15,
         "sixteen" to 16, "seventeen" to 17, "eighteen" to 18, "nineteen" to 19)
 
-val mult = mapOf("twenty" to 20, "thirty" to 30, "forty" to 40, "fifty" to 50, "sixty" to 60, "seventy" to 70,
+val multiples = mapOf("twenty" to 20, "thirty" to 30, "forty" to 40, "fifty" to 50, "sixty" to 60, "seventy" to 70,
         "eighty" to 80, "ninety" to 90)
 
-val allNumbers = numbers + tenToTwenty + mult
+val allNumbers = numbers + tenToTwenty + multiples
 val upToTwenty = numbers + tenToTwenty
 
 fun main() {
@@ -38,7 +38,7 @@ fun parseInt(input: String): Int {
     if (words.component2() in tenToTwenty)
         throw Exception("Second word is not allowed")
 
-    val first = mult[words.first()] ?: throw Exception("Can not parse first word")
+    val first = multiples[words.first()] ?: throw Exception("Can not parse first word")
     val second = numbers[words.component2()] ?: throw Exception("Can not parse second word")
 
     return first + second

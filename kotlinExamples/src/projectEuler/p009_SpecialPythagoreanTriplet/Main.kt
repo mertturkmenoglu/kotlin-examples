@@ -16,9 +16,9 @@ fun main() {
 }
 
 fun findPythagoreanTriplet(n: Int): Int {
-    for (i in 1 .. n) {
-        for (j in 1 .. n) {
-            val c = sqrt(i*i.toDouble() + j*j.toDouble())
+    for (i in 1..n) {
+        for (j in 1..n) {
+            val c = sqrt(i * i.toDouble() + j * j.toDouble())
             if (c == floor(c)) {
                 if (i + j + c.toInt() == n) {
                     return i * j * c.toInt()

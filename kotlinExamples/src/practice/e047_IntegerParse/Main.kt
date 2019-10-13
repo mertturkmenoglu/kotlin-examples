@@ -18,9 +18,9 @@ fun main() {
     println(result)
 }
 
-fun parseInt(input: String):Int {
+fun parseInt(input: String): Int {
     val groups = getGroups(input.split(" ").filterNot { it.toLowerCase() == "and" })
-    return groups.map { parseParts(it) }.reduce { acc, i ->  acc + i }
+    return groups.map { parseParts(it) }.reduce { acc, i -> acc + i }
 }
 
 fun getGroups(words: List<String>): List<List<String>> {
@@ -35,7 +35,7 @@ fun getGroups(words: List<String>): List<List<String>> {
         }
     }
 
-    groups.add(ArrayList<String>().apply { tmp.forEach { add(it) }})
+    groups.add(ArrayList<String>().apply { tmp.forEach { add(it) } })
     return groups.filterNot { it.isEmpty() }
 }
 

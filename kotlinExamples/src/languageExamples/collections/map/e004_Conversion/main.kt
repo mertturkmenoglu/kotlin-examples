@@ -13,7 +13,7 @@ fun main() {
     itr.forEach { println(it) }
     repeat(3) { println("---") }
 
-    while(iterator.hasNext()) {
+    while (iterator.hasNext()) {
         println(iterator.next())
     }
 }

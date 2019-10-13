@@ -3,7 +3,10 @@ package languageExamples.gui.e004_JCHECKBOX
 import java.awt.Dimension
 import java.awt.EventQueue
 import java.awt.event.ItemEvent
-import javax.swing.*
+import javax.swing.GroupLayout
+import javax.swing.JCheckBox
+import javax.swing.JComponent
+import javax.swing.JFrame
 
 class JCheckBoxExample(title: String) : JFrame() {
     init {
@@ -33,7 +36,7 @@ class JCheckBoxExample(title: String) : JFrame() {
     private fun createLayout(vararg args: JComponent) {
         val groupLayout = GroupLayout(contentPane)
 
-        with (groupLayout) {
+        with(groupLayout) {
             contentPane.layout = this
             autoCreateContainerGaps = true
 

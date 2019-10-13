@@ -1,6 +1,9 @@
 package languageExamples.coroutines.e007_Async
 
-import kotlinx.coroutines.*
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 
 fun main() {
     println("Program started")

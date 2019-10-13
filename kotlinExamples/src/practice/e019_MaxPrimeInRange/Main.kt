@@ -15,6 +15,6 @@ fun Int.isPrime() = when {
     this < 2 -> false
     this == 2 -> true
     this % 2 == 0 -> false
-    (3 .. sqrt(this.toDouble()).toInt()).any { this % it == 0 } -> false
+    (3..sqrt(this.toDouble()).toInt()).any { this % it == 0 } -> false
     else -> true
 }

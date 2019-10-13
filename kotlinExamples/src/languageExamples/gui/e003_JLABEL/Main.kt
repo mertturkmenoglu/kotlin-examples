@@ -22,7 +22,8 @@ class JLabelExample(title: String) : JFrame() {
         val colors = listOf(black, blue, cyan, darkGray, gray, green, lightGray, magenta,
                 orange, pink, red, white, yellow)
 
-        val labels = colors.map { JLabel("", null, LEADING).apply {
+        val labels = colors.map {
+            JLabel("", null, LEADING).apply {
                 minimumSize = Dimension(128, 128)
                 background = it
                 isOpaque = true
@@ -36,7 +37,7 @@ class JLabelExample(title: String) : JFrame() {
         val layout = GroupLayout(contentPane)
         contentPane.layout = layout
 
-        layout.autoCreateContainerGaps= true
+        layout.autoCreateContainerGaps = true
         layout.autoCreateGaps = true
 
         layout.setHorizontalGroup(layout.createParallelGroup().apply {

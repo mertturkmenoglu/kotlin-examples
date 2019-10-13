@@ -1,8 +1,8 @@
 package practice.e009_Image
 
-import java.awt.*
+import java.awt.Color
 import java.awt.image.BufferedImage
-import java.io.*
+import java.io.File
 import javax.imageio.ImageIO
 
 class Pixel {

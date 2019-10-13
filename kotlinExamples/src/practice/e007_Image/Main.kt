@@ -1,9 +1,9 @@
 package practice.e007_Image
 
-import javax.swing.JFrame
 import java.awt.Graphics
-import java.awt.image.BufferedImage
 import java.awt.Image
+import java.awt.image.BufferedImage
+import javax.swing.JFrame
 import javax.swing.JPanel
 
 

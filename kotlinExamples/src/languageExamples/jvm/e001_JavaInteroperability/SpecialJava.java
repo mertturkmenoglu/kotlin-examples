@@ -6,10 +6,10 @@ public class SpecialJava {
         System.out.println(area);
 
         Integer[] arr = new Integer[3];
-        for(int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = i * i;
         }
-        
+
         KotlinUtilKt.printArray(arr);
     }
 }

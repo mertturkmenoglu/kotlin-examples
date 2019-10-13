@@ -1,6 +1,7 @@
 package kotlinNinetyNine.e025_RandomPermutation
 
 fun main() {
+    @Suppress("SpellCheckingInspection")
     val input = "abcdef".toList()
     val result = input.randomPermutation()
     println(result)

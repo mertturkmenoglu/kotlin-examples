@@ -4,7 +4,7 @@ fun main() {
     val regex = Regex("ue")
     val ans = regex.find("To be or not to be that is the question", startIndex = 5)
 
-    with (ans ?: throw Exception()) {
+    with(ans ?: throw Exception()) {
         println("Value: $value")
         println("Group values: $groupValues")
         println("Groups: $groups")

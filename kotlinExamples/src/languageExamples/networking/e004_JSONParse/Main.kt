@@ -11,7 +11,7 @@ fun main() {
     val username = readLine() ?: throw Exception()
     val url = URL("https://api.github.com/users/$username/repos")
 
-    val jsonResponse = with(url.openConnection() as     HttpURLConnection) {
+    val jsonResponse = with(url.openConnection() as HttpURLConnection) {
         requestMethod = "GET"
 
         val strBuilder = StringBuilder()

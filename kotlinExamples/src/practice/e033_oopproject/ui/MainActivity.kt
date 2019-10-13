@@ -7,7 +7,10 @@ import practice.e033_oopproject.util.Time
 import practice.e033_oopproject.vehicle.SubscribedVehicle
 import java.awt.EventQueue
 import java.awt.Toolkit
-import javax.swing.*
+import javax.swing.JButton
+import javax.swing.JFrame
+import javax.swing.JOptionPane
+import javax.swing.JPanel
 
 fun main() {
     EventQueue.invokeLater {
@@ -63,11 +66,11 @@ class MainActivity : JFrame() {
         }
 
         val buttonEnterVehicle = JButton("Enter Vehicle")
-        val buttonExitVehicle  = JButton("Exit Vehicle")
-        val buttonAddVehicle   = JButton("Add Subscribed Vehicles")
+        val buttonExitVehicle = JButton("Exit Vehicle")
+        val buttonAddVehicle = JButton("Add Subscribed Vehicles")
         val buttonViewAutoPark = JButton("View AutoPark")
         val buttonIsSubscribed = JButton("Is Subscribed")
-        val buttonIsParked     = JButton("Is Parked")
+        val buttonIsParked = JButton("Is Parked")
 
         contentPane.add(buttonEnterVehicle)
         contentPane.add(buttonExitVehicle)

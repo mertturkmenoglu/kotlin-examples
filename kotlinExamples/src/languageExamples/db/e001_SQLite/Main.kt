@@ -11,6 +11,7 @@ class Connect {
     companion object {
         @JvmStatic
         fun connect() {
+            @Suppress("SpellCheckingInspection")
             val url = "jdbc:sqlite:${System.getProperty("user.dir")}/test.db"
 
             try {

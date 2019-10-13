@@ -23,7 +23,7 @@ fun format(n: Int): String {
 
         l.drop(1).reversed().forEachIndexed { i, e ->
             if (e.value >= e.mod) {
-                l.reversed()[i+1] += 1
+                l.reversed()[i + 1] += 1
                 e.resetValue()
             }
         }
@@ -40,7 +40,7 @@ fun format(n: Int): String {
     val trimmed = sb.trim { it == ' ' || it == ',' }.toString()
     val tail =
             if (l.last().value != 0)
-                " ${ if (sb.isNotEmpty()) "and " else ""}${l.last().value} second${if (l.last().value > 1) "s" else ""}"
+                " ${if (sb.isNotEmpty()) "and " else ""}${l.last().value} second${if (l.last().value > 1) "s" else ""}"
             else
                 ""
 

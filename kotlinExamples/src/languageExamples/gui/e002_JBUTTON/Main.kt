@@ -1,7 +1,10 @@
 package languageExamples.gui.e002_JBUTTON
 
 import java.awt.EventQueue
-import javax.swing.*
+import javax.swing.GroupLayout
+import javax.swing.JButton
+import javax.swing.JComponent
+import javax.swing.JFrame
 import kotlin.system.exitProcess
 
 class JButtonExample(title: String) : JFrame() {

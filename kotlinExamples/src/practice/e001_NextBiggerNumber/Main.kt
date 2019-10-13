@@ -18,7 +18,7 @@ fun nextNumber(n: Int): Int {
     for (i in digits.indices) {
         for (j in i - 1 downTo 0) {
             digits[i] = digits[j].also { digits[j] = digits[i] }
-            digits.joinToString("").toInt().let { if (it in n .. max) max = it }
+            digits.joinToString("").toInt().let { if (it in n..max) max = it }
         }
     }
 

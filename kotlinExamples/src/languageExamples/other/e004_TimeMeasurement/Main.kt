@@ -8,7 +8,7 @@ fun main() {
 }
 
 fun heavyCalculation() {
-    for (i in 0 .. 1_000_000) {
+    for (i in 0..1_000_000) {
         kotlin.math.sqrt(i.toDouble())
     }
 }

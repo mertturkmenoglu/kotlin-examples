@@ -12,9 +12,9 @@ fun main() {
     println(names.contains("Rory"))
     println(names.isEmpty())
 
-    val iter = names.iterator()
-    while (iter.hasNext()) {
-        print(iter.next())
+    val iterator = names.iterator()
+    while (iterator.hasNext()) {
+        print(iterator.next())
         print('\t')
     }
 

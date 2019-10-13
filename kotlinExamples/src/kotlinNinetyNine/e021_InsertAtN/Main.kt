@@ -1,6 +1,7 @@
 package kotlinNinetyNine.e021_InsertAtN
 
 fun main() {
+    @Suppress("SpellCheckingInspection")
     val input = "abcd".toList()
     val n = 1
     val element = 'X'

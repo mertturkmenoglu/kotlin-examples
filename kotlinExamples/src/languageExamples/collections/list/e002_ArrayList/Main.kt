@@ -3,8 +3,7 @@ package languageExamples.collections.list.e002_ArrayList
 import kotlin.random.Random
 
 fun main() {
-    @Suppress("SpellCheckingInspection")
-    val nums = ArrayList<Int>()
+    val numbers = ArrayList<Int>()
     val names = ArrayList<String>()
     names.add("Emily")
     names.add("Diana")
@@ -13,38 +12,45 @@ fun main() {
     names.add("Raven")
 
     repeat(5) {
-        nums.add(Random.nextInt(-5, 40))
+        numbers.add(Random.nextInt(-5, 40))
     }
 
-    println(nums)
+    println(numbers)
     println(names)
 
-    println(nums.all { it > 0 })
-    println(nums.any { it > 10 })
-    println(nums.binarySearch(3))
-    println(nums.count { num -> num == 5 })
+    println(numbers.all { it > 0 })
+    println(numbers.any { it > 10 })
+    println(numbers.binarySearch(3))
+    println(numbers.count { num -> num == 5 })
+
     @Suppress("SpellCheckingInspection")
     val tmpNums = ArrayList<Int>()
-    nums.forEach {
+
+    numbers.forEach {
         tmpNums.add(it)
     }
     println("tmp: $tmpNums")
-    nums.fill(0)
-    println("Nums: $nums")
-    nums.clear()
-    tmpNums.forEach {
-        nums.add(it)
-    }
-    println("Nums: $nums")
 
-    println("Array: ${nums.toArray().asList()}")
-    println("Sum: ${nums.sum()}")
-    nums.reverse()
-    println("$nums")
-    println(nums.filter { it > 0 })
-    println("$nums")
+    numbers.fill(0)
+    println("Numbers: $numbers")
+
+    numbers.clear()
+
+    tmpNums.forEach {
+        numbers.add(it)
+    }
+    println("Numbers: $numbers")
+
+    println("Array: ${numbers.toArray().asList()}")
+    println("Sum: ${numbers.sum()}")
+
+    numbers.reverse()
+    println("$numbers")
+
+    println(numbers.filter { it > 0 })
+    println("$numbers")
 
     println(names.find { it === "Raven" })
-    println(nums.filter {it > 0 }.joinToString("", "", ""))
+    println(numbers.filter { it > 0 }.joinToString("", "", ""))
     println(names.random())
 }

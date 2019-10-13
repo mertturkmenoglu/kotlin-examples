@@ -20,5 +20,5 @@ fun addBigNumbers(): BigInteger {
         numbers.add(BigInteger(it))
     }
 
-    return numbers.reduce { acc, bigInteger ->  acc + bigInteger }
+    return numbers.reduce { acc, bigInteger -> acc + bigInteger }
 }

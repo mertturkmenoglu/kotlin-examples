@@ -17,10 +17,10 @@ val tens = mapOf(Pair(0, ""), Pair(1, " ten"), Pair(2, " twenty"), Pair(3, " thi
         Pair(4, " forty"), Pair(5, " fifty"), Pair(6, " sixty"), Pair(7, " seventy"),
         Pair(8, " eighty"), Pair(9, " ninety"))
 
-val nums = mapOf(Pair(0, ""), Pair(1, " one"), Pair(2, " two"), Pair(3, " three"), Pair(4, " four"), Pair(5, " five"),
+val numbers = mapOf(Pair(0, ""), Pair(1, " one"), Pair(2, " two"), Pair(3, " three"), Pair(4, " four"), Pair(5, " five"),
         Pair(6, " six"), Pair(7, " seven"), Pair(8, " eight"), Pair(9, " nine"), Pair(10, " ten"),
         Pair(11, " eleven"), Pair(12, " twelve"), Pair(13, " thirteen"), Pair(14, " fourteen"), Pair(15, " fifteen"),
-        Pair(16, " sixteen"), Pair(17, " seventeen"), Pair(18, " eighteen"), Pair(19," nineteen"))
+        Pair(16, " sixteen"), Pair(17, " seventeen"), Pair(18, " eighteen"), Pair(19, " nineteen"))
 
 fun main() {
     val result = letterCount(range = 1..1000)
@@ -39,10 +39,11 @@ fun letterCount(range: IntRange): Int {
 
 fun Int.word(): String {
     return when (this.toString().length) {
-        1 -> nums[this] ?: error("")
-        2 -> if (nums[this] != null) nums[this] ?: error("") else tens[this.toString().first().toString().toInt()] + nums[this.toString().last().toString().toInt()]
+        1 -> numbers[this] ?: error("")
+        2 -> if (numbers[this] != null) numbers[this]
+                ?: error("") else tens[this.toString().first().toString().toInt()] + numbers[this.toString().last().toString().toInt()]
         3 -> {
-            val result = nums[this.toString().first().toString().toInt()] + " hundred"
+            val result = numbers[this.toString().first().toString().toInt()] + " hundred"
             val rest = this.toString().drop(1).toInt().word().trim()
             if (rest != "")
                 "$result and $rest"
@@ -50,7 +51,7 @@ fun Int.word(): String {
                 result
         }
         4 -> {
-            val result = nums[this.toString().first().toString().toInt()] + " thousand"
+            val result = numbers[this.toString().first().toString().toInt()] + " thousand"
             val rest = this.toString().drop(1).toInt().word().trim()
             if (rest != "")
                 "$result and $rest"

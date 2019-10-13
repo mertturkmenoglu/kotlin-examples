@@ -8,5 +8,6 @@ fun calculate(first: String, second: String): Int {
 }
 
 fun main() {
+    @Suppress("SpellCheckingInspection")
     println(calculate("ATGCAATCGCGAAT", "ATGCGATGGCGATT"))
 }

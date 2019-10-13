@@ -29,7 +29,8 @@ fun createAdjacencyMatrix(w: List<Node>) = List(w.size) { i -> List(w.size) { j 
 
 fun <T> printMatrix(mtr: List<List<T>>) = mtr.forEach { println(it.map { e -> if (e == true) 1 else 0 }) }
 
-fun checkNeighboursHandler(mtr: List<List<Boolean>>, w: List<Node>) = println("They are${if (mtr[getIndex(w, readLine() ?: throw Exception())][getIndex(w, readLine() ?: throw Exception())]) " " else " not "}neighbours")
+fun checkNeighboursHandler(mtr: List<List<Boolean>>, w: List<Node>) = println("They are${if (mtr[getIndex(w, readLine()
+                ?: throw Exception())][getIndex(w, readLine() ?: throw Exception())]) " " else " not "}neighbours")
 
 fun printNeighbours(mtr: List<List<Boolean>>, w: List<Node>, index: Int) = w.forEachIndexed { i, node -> if (mtr[index][i]) println(node.word) }
 

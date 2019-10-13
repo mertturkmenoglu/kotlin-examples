@@ -30,7 +30,7 @@ fun improved(l: List<Int>, k: Int): Pair<Boolean, List<Int>> {
 
     for (e in l) {
         if (k - e in passed) {
-            return true to listOf(e, k-e)
+            return true to listOf(e, k - e)
         }
         passed.add(e)
     }

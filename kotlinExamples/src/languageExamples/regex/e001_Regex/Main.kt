@@ -1,6 +1,6 @@
 package languageExamples.regex.e001_Regex
 
-fun main(){
+fun main() {
     val regex = Regex(pattern = "ko")
     val matched = regex.containsMatchIn(input = "kotlin")
     println(matched)

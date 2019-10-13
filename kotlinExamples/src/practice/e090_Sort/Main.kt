@@ -7,11 +7,11 @@ fun main() {
     println(mergeSort(input))
 }
 
-fun <T: Comparable<T>> qSort(l: List<T>): List<T> = if (l.size < 2) l else l.drop(1).partition { it <= l.first() }.run { qSort(first) + l.first() + qSort(second) }
+fun <T : Comparable<T>> qSort(l: List<T>): List<T> = if (l.size < 2) l else l.drop(1).partition { it <= l.first() }.run { qSort(first) + l.first() + qSort(second) }
 
-fun <T: Comparable<T>> mergeSort(l: List<T>): List<T> = if (l.size < 2) l else merge(mergeSort(l.subList(0, l.size / 2)), mergeSort(l.subList(l.size / 2, l.size)))
+fun <T : Comparable<T>> mergeSort(l: List<T>): List<T> = if (l.size < 2) l else merge(mergeSort(l.subList(0, l.size / 2)), mergeSort(l.subList(l.size / 2, l.size)))
 
-tailrec fun <T: Comparable<T>> merge(fst: List<T>, snd: List<T>, result: ArrayList<T> = arrayListOf()): List<T> {
+tailrec fun <T : Comparable<T>> merge(fst: List<T>, snd: List<T>, result: ArrayList<T> = arrayListOf()): List<T> {
     return when {
         fst.isEmpty() && snd.isEmpty() -> result
         fst.isEmpty() -> merge(fst, snd.drop(1), result.apply { add(snd.first()) })

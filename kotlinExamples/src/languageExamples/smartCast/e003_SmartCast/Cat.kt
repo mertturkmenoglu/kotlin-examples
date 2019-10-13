@@ -5,5 +5,6 @@ class Cat : Animal {
 
     override fun makeSound() = println("Meow")
 
+    @Suppress("unused")
     fun catFunction() = println("Cat function")
 }

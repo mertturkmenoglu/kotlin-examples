@@ -1,7 +1,9 @@
 package languageExamples.coroutines.e011_AsyncAwait
 
 import com.beust.klaxon.Klaxon
-import kotlinx.coroutines.*
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
+import kotlinx.coroutines.runBlocking
 import java.net.URL
 
 data class Repository(val id: Number, val node_id: String, val name: String, val full_name: String)

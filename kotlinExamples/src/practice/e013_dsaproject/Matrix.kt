@@ -1,6 +1,6 @@
 package practice.e013_dsaproject
 
-fun createAdjacencyMatrix(wordList: ArrayList<Node>) = Array(wordList.size) { Array(wordList.size) {false} }.also {
+fun createAdjacencyMatrix(wordList: ArrayList<Node>) = Array(wordList.size) { Array(wordList.size) { false } }.also {
     it.forEachIndexed { i, row ->
         row.forEachIndexed { j, _ ->
             row[j] = (if (i == j) false else connection(wordList[i].word, wordList[j].word))

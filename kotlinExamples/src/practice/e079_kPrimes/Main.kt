@@ -10,7 +10,7 @@ fun main() {
     println(result)
 }
 
-fun kPrimes(k: Int, start: Int, end: Int) = (start .. end).filter { kPrimeCount(it) == k }
+fun kPrimes(k: Int, start: Int, end: Int) = (start..end).filter { kPrimeCount(it) == k }
 
 fun kPrimeCount(n: Int): Int {
     return decompose(n).values.reduce { acc, i -> acc + i }
@@ -44,6 +44,6 @@ fun getPrimes() = sequence {
 fun isPrime(n: Int) = when {
     n == 2 -> true
     n % 2 == 0 -> false
-    (3 .. sqrt(n.toDouble()).toInt()).any { n % it == 0 } -> false
+    (3..sqrt(n.toDouble()).toInt()).any { n % it == 0 } -> false
     else -> true
 }

@@ -24,9 +24,9 @@ fun permute(values: MutableList<Char>, p: ArrayList<String>, l: Int = 0, r: Int 
     if (l == r) {
         p.add(values.joinToString(separator = ""))
     } else {
-        for (i in l .. r) {
+        for (i in l..r) {
             swap(values, l, i)
-            permute(values, p, l+1, r)
+            permute(values, p, l + 1, r)
             swap(values, l, i)
         }
     }

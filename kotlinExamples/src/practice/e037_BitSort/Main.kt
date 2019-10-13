@@ -1,8 +1,5 @@
 package practice.e037_BitSort
 
-import kotlin.Comparator
-import kotlin.collections.ArrayList
-
 fun main() {
     val result = bitSort(listOf(3, 8, 3, 6, 5, 7, 9, 1))
     println(result)

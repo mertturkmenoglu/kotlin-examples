@@ -24,7 +24,7 @@ class IconExample(title: String) : JFrame() {
         val groupLayout = GroupLayout(contentPane)
         contentPane.layout = groupLayout
 
-        with (groupLayout) {
+        with(groupLayout) {
             autoCreateContainerGaps = true
             autoCreateGaps = true
 

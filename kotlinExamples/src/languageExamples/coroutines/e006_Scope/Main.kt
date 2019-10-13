@@ -1,6 +1,8 @@
 package languageExamples.coroutines.e006_Scope
 
-import kotlinx.coroutines.*
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import java.time.LocalTime
 
 fun main() = runBlocking {

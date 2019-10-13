@@ -1,7 +1,5 @@
 package languageExamples.basics.e005_OrNull
 
-import java.lang.NumberFormatException
-
 fun main() {
     val validString = "1234"
     println(validString.toInt())

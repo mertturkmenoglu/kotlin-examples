@@ -6,4 +6,4 @@ fun main() {
     println(result)
 }
 
-fun <T> pairCount(l: List<T>) = l.groupingBy { it }.eachCount().values.fold(0) { acc, i ->  acc + i / 2 }
+fun <T> pairCount(l: List<T>) = l.groupingBy { it }.eachCount().values.fold(0) { acc, i -> acc + i / 2 }

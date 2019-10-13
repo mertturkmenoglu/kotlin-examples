@@ -21,7 +21,7 @@ const val relativePath = "/kotlinExamples/src/projectEuler/p022_NamesScores/p022
 
 fun main() {
     val lines = ArrayList<String>()
-    File(System.getProperty("user.dir") + relativePath).forEachLine {lines.add(it) }
+    File(System.getProperty("user.dir") + relativePath).forEachLine { lines.add(it) }
 
     val result = nameScore(lines.first())
     println(result)
@@ -32,7 +32,7 @@ fun nameScore(str: String): Long {
     var score = 0L
 
     names.forEachIndexed { i, it ->
-        score += (i+1) * it.toCharArray().map { it.toInt() - 'A'.toInt() + 1 }.reduce { acc, num -> acc + num }.toLong()
+        score += (i + 1) * it.toCharArray().map { it.toInt() - 'A'.toInt() + 1 }.reduce { acc, num -> acc + num }.toLong()
     }
 
     return score

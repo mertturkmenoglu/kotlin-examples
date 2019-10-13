@@ -7,8 +7,8 @@ object NotANumber : Expr()
 
 @Suppress("unused")
 fun eval(e: Expr): Int =
-    when (e) {
-        is Const -> e.value
-        is Sum -> eval(e.right) + eval(e.left)
-        NotANumber -> java.lang.Double.NaN.toInt()
-    }
+        when (e) {
+            is Const -> e.value
+            is Sum -> eval(e.right) + eval(e.left)
+            NotANumber -> Double.NaN.toInt()
+        }

@@ -15,5 +15,5 @@ tailrec fun persistenceOfN(n: Long, r: Int = 0): Int {
     return if (n.toString().length == 1)
         r
     else
-        persistenceOfN(n.toString().fold(1) { acc: Long, c: Char ->  acc * c.toString().toLong() }, r + 1)
+        persistenceOfN(n.toString().fold(1) { acc: Long, c: Char -> acc * c.toString().toLong() }, r + 1)
 }

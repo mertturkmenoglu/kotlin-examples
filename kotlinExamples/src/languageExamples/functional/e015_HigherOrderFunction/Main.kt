@@ -9,8 +9,8 @@ fun main() {
     println(s.filter { it > 1 })
     println(m.filter { it.key > 1 })
 
-    println(filter(l) { it > 1})
-    println(filter(s) { it > 1})
+    println(filter(l) { it > 1 })
+    println(filter(s) { it > 1 })
     println(filter(m.entries) { it.key > 1 })
 
     println(l.map { it + 1 })
