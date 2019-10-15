@@ -6,9 +6,14 @@ import java.sql.Statement
 import kotlin.system.exitProcess
 
 fun main() {
-    val databaseName = "company"
-    val userName = "postgres"
-    val password = "1234"
+    println("User name(default postgres): ")
+    val userName = readLine() ?: throw Exception()
+
+    println("Password: ")
+    val password = readLine() ?: throw Exception()
+
+    println("Database name: ")
+    val databaseName = readLine() ?: throw Exception()
 
     val connection: Connection?
     val statement: Statement?
