@@ -1,4 +1,4 @@
-package gui.e006_JMenuBar
+package gui.swing.e006_JMenuBar
 
 import java.awt.Dimension
 import java.awt.EventQueue

@@ -1,4 +1,4 @@
-package gui.e005_Icon
+package gui.swing.e005_Icon
 
 import java.awt.EventQueue
 import javax.swing.*

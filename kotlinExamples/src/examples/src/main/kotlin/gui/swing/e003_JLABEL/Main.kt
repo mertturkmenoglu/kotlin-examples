@@ -1,4 +1,4 @@
-package gui.e003_JLABEL
+package gui.swing.e003_JLABEL
 
 import java.awt.Color.*
 import java.awt.Dimension

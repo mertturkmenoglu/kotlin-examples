@@ -1,4 +1,4 @@
-package gui.e004_JCHECKBOX
+package gui.swing.e004_JCHECKBOX
 
 import java.awt.Dimension
 import java.awt.EventQueue

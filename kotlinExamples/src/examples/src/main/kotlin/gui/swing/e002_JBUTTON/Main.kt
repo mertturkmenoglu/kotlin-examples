@@ -1,4 +1,4 @@
-package gui.e002_JBUTTON
+package gui.swing.e002_JBUTTON
 
 import java.awt.EventQueue
 import javax.swing.GroupLayout

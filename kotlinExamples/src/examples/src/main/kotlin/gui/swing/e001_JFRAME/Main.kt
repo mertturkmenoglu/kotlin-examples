@@ -1,4 +1,4 @@
-package gui.e001_JFRAME
+package gui.swing.e001_JFRAME
 
 import java.awt.EventQueue
 import javax.swing.JFrame
