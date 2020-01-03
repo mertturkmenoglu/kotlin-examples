@@ -2,3 +2,8 @@ out/
 .idea/
 .idea/workspace.xml
 lib/
+test.db
+kotlinExamples/src/examples/gradle
+kotlinExamples/src/examples/build
+kotlinExamples/src/examples/.gradle
+
