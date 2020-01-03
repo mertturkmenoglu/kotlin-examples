@@ -9,34 +9,7 @@
 * See the LICENSE file for details.
 * You need to install **IntelliJ IDEA** to your system(or native compiler). Please follow the [original source].
 # Project Structure
-```
-  |-> .idea
-  |-> kotlinExamples
-        |-> src
-            |-> kotlinNinetyNine
-            |-> languageExamples
-            |-> old_examples
-            |-> practice
-            |-> projectEuler
-        |-> test
-  |-> lib
-  .gitignore
-  LICENSE
-  README
-```
-  * `.idea`: IntelliJ settings folder
-  * `kotlinExamples`: Main folder
-    * `src`: Source code folder
-      * `kotlinNinetyNine`: https://github.com/dkandalov/kotlin-99 solutions
-      * `languageExamples`: Code examples focused on language features.
-      * `old_examples`: Old and bad code examples
-      * `practice`: Problem solving or more usable code examples
-      * `projectEuler`: https://projecteuler.net/ solutions
-    * `test`: Unit test folder
-  * `lib`: Library dependencies
-  * `.gitignore`: Add unwanted files on your system to this file
-  * `LICENSE`: Project license file.
-  * `README`: Project description
+**Will be updated**
 # Resources For Learning Kotlin
 * https://kotlinlang.org/
 * https://kotlinlang.org/docs/reference/
