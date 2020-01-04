@@ -1,4 +1,4 @@
-package languageExamples.collections.list.e001_MutableList
+package collections.list.e001_MutableList
 
 fun main() {
     val mList = mutableListOf<String>()

@@ -1,4 +1,4 @@
-package languageExamples.collections.general.e007_CollectionRetrieving
+package collections.general.e007_CollectionRetrieving
 
 fun main() {
     val list = listOf("Emily", "Diana", "Barbara", "Selina", "Carol", "Natasha")

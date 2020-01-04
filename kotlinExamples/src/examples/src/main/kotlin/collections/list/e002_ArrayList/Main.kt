@@ -1,4 +1,4 @@
-package languageExamples.collections.list.e002_ArrayList
+package collections.list.e002_ArrayList
 
 import kotlin.random.Random
 

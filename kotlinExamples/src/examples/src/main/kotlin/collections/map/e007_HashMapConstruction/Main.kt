@@ -1,4 +1,4 @@
-package languageExamples.collections.map.e007_HashMapConstruction
+package collections.map.e007_HashMapConstruction
 
 fun main() {
     val firstHashMap = HashMap<String, Int>()

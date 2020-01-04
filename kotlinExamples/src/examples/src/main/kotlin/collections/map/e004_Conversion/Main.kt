@@ -1,4 +1,4 @@
-package languageExamples.collections.map.e004_Conversion
+package collections.map.e004_Conversion
 
 fun main() {
     val map = mapOf("emily" to 1, "diana" to 2, "barbara" to 3)

@@ -1,4 +1,4 @@
-package languageExamples.collections.general.e001_RandomChoice
+package collections.general.e001_RandomChoice
 
 import kotlin.random.Random
 

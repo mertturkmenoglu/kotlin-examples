@@ -1,4 +1,4 @@
-package languageExamples.collections.set.e002_HashSet
+package collections.set.e002_HashSet
 
 fun main() {
     val hashSet = HashSet<Int>(5)

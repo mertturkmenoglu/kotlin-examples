@@ -1,4 +1,4 @@
-package languageExamples.collections.general.e002_Filter
+package collections.general.e002_Filter
 
 fun main() {
     val set = setOf(10, 7, -6, 3, 0)

@@ -1,4 +1,4 @@
-package languageExamples.collections.general.e005_Association
+package collections.general.e005_Association
 
 fun main() {
     val range = 1..5

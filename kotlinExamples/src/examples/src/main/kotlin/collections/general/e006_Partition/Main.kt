@@ -1,4 +1,4 @@
-package languageExamples.collections.general.e006_Partition
+package collections.general.e006_Partition
 
 import kotlin.random.Random
 

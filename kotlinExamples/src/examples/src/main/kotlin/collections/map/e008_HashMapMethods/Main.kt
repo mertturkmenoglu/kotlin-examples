@@ -1,4 +1,4 @@
-package languageExamples.collections.map.e008_HashMapMethods
+package collections.map.e008_HashMapMethods
 
 fun main() {
     val hashMap = HashMap<String, Int>()

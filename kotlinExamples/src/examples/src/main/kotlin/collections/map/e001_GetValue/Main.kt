@@ -1,4 +1,4 @@
-package languageExamples.collections.map.e001_GetValue
+package collections.map.e001_GetValue
 
 fun main() {
     val map = mapOf(Pair("emily", 1), Pair("diana", 2), Pair("barbara", 3))

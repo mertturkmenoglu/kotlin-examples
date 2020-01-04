@@ -1,4 +1,4 @@
-package languageExamples.collections.general.e004_GroupBy
+package collections.general.e004_GroupBy
 
 fun main() {
     val l = listOf("apple", "banana", "mango", "watermelon", "cherries", "grapes", "clementine")

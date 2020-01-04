@@ -1,4 +1,4 @@
-package languageExamples.collections.general.e003_EnumerateOverList
+package collections.general.e003_EnumerateOverList
 
 fun main() {
     val list = listOf("Emily", "Diana", "Barbara", "Selina")
