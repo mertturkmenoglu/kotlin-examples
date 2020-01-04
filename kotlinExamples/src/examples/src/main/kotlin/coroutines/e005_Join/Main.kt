@@ -1,5 +1,6 @@
 package coroutines.e005_Join
 
+import coroutines.TimeUtil.getCurrentTimeFormatted
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -8,16 +9,16 @@ import java.time.LocalTime
 
 fun main() {
     runBlocking {
-        println("Program starts: ${LocalTime.now()}")
+        println("Program starts: ${getCurrentTimeFormatted()}")
 
         val job = GlobalScope.launch {
-            println("Inside launch, before delay: ${LocalTime.now()}")
-            delay(10_000L)
-            println("Inside launch, after delay: ${LocalTime.now()}")
+            println("Inside launch, before delay: ${getCurrentTimeFormatted()}")
+            delay(5_000L)
+            println("Inside launch, after delay: ${getCurrentTimeFormatted()}")
         }
 
-        println("After launch: ${LocalTime.now()}")
+        println("After launch: ${getCurrentTimeFormatted()}")
         job.join() // Wait until job completes
-        println("Program ends: ${LocalTime.now()}")
+        println("Program ends: ${getCurrentTimeFormatted()}")
     }
 }
