@@ -1,4 +1,4 @@
-package algorithms.search.e002_A_Star
+package algorithms.graph.e001_A_Star
 
 fun main() {
     val grid = listOf(
