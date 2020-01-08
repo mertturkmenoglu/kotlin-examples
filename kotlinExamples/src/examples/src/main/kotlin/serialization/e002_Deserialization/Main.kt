@@ -1,6 +1,5 @@
 package serialization.e002_Deserialization
 
-import serialization.e001_Serialization.Info
 import java.io.*
 
 fun main() {
@@ -51,6 +50,4 @@ fun serialize(o: Info, path: String) {
     } catch (e: IOException) {
         e.printStackTrace()
     }
-
-
 }
