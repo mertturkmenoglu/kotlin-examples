@@ -11,14 +11,4 @@ fun totient(n: Long): Int {
     return (1L..n).count { gcd(n, it) == 1L }
 }
 
-fun gcd(a: Long, b: Long): Long {
-    var max = 0L
-    val limit = if (a < b) a else b
-
-    for (i in 1..limit) {
-        if (a % i == 0L && b % i == 0L)
-            max = i
-    }
-
-    return max
-}
+fun gcd(a: Long, b: Long): Long = (1..minOf(a, b)).reversed().first { a % it == 0L && b % it == 0L }
