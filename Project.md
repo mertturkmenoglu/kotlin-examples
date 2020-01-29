@@ -74,7 +74,7 @@
 * `db`: Database connection examples for SQLite 3 and PostgreSQL.
 * `delegates`: Kotlin delegated properties examples.
 * `designPatterns`: OOP Design Patterns implementations.
-* `dsl`: Domain Spesific Language examples.
+* `dsl`: Domain Specific Language examples.
 * `enums`: Enum data type examples.
 * `fileIO`: File IO operation (read / write) examples.
 * `functional`: Functional programming concepts examples.
