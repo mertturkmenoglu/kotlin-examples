@@ -18,6 +18,7 @@
                             | -> set
                             | -> treemap
                         | -> coroutines
+                        | -> dataStructures
                         | -> datetime
                         | -> db
                         | -> delegates
@@ -70,8 +71,9 @@
     * `set`: Set / Mutable Set / Hash Set collection examples.
     * `treemap`: TreeMap collection examples.
 * `coroutines`: Kotlinx coroutine library examples. Contains examples about asynchronous event handling. 
+* `dataStructures`: Data structures implementation examples
 * `datetime`: Date and time format, get, set examples.
-* `db`: Database connection examples for SQLite 3 and PostgreSQL.
+* `db`: Database connection examples for SQLite3 and PostgresSQL.
 * `delegates`: Kotlin delegated properties examples.
 * `designPatterns`: OOP Design Patterns implementations.
 * `dsl`: Domain Specific Language examples.
