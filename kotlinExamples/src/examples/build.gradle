@@ -25,6 +25,7 @@ dependencies {
     implementation 'no.tornado:tornadofx:1.7.17'
     compile group:'org.xerial', name:'sqlite-jdbc', version:'3.8.11.2'
     compile group: 'org.postgresql', name: 'postgresql', version: '42.2.9'
+    compile 'org.mongodb:mongo-java-driver:2.12.3'
 }
 
 compileKotlin {
