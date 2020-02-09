@@ -35,6 +35,7 @@
 * https://android.jlelse.eu/learn-kotlin-while-developing-an-android-app-introduction-567e21ff9664
 * https://www.kotlindevelopment.com/
 * https://ktor.io/
+* https://github.com/dkandalov/rosettacode-kotlin 
 ***
 # Project Structure
 * Detailed explanation for every package can be found on `Project.md` file.
