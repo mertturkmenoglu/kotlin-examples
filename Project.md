@@ -1,50 +1,17 @@
 # Project Structure
 ***
 ```
+| -> examples
+    | -> build
+    | -> gradle
     | -> src
-        | -> examples
-            | -> build
-            | -> gradle
-            | -> src
-                | -> main
-                    | -> java
-                    | -> kotlin
-                        | -> algorithms
-                        | -> basics
-                        | -> collections
-                            | -> general
-                            | -> list
-                            | -> map
-                            | -> set
-                            | -> treemap
-                        | -> coroutines
-                        | -> dataStructures
-                        | -> datetime
-                        | -> db
-                        | -> delegates
-                        | -> designPatterns
-                        | -> dsl
-                        | -> enums
-                        | -> fileIO
-                        | -> functional
-                        | -> gui
-                            | -> swing
-                            | -> tornadofx
-                        | -> jvm
-                        | -> networking
-                        | -> oop
-                        | -> other
-                        | -> practice
-                            | -> imageProcessing
-                            | -> problemSolving
-                        | -> reflection
-                        | -> regex
-                        | -> serialization
-                        | -> smartCast
-                    | -> resources
-                        | -> img
-                        | -> text
-                | -> test
+        | -> main
+            | -> java
+            | -> kotlin
+            | -> resources
+                | -> img
+                | -> text
+        | -> test
 ```
 ***
 * `src`: Sources folder. It is the root folder of all project files.
@@ -62,6 +29,40 @@
 ***
 # Kotlin Folder
 ***
+```
+| -> algorithms
+| -> basics
+| -> collections
+    | -> general
+    | -> list
+    | -> map
+    | -> set
+    | -> treemap
+| -> coroutines
+| -> dataStructures
+| -> datetime
+| -> db
+| -> delegates
+| -> designPatterns
+| -> dsl
+| -> enums
+| -> fileIO
+| -> functional
+| -> gui
+    | -> swing
+    | -> tornadofx
+| -> jvm
+| -> networking
+| -> oop
+| -> other
+| -> practice
+    | -> imageProcessing
+    | -> problemSolving
+| -> reflection
+| -> regex
+| -> serialization
+| -> smartCast
+```
 * `algorithms`: Different types of algorithm implementations.
 * `basics`: Language basics. Syntax and basic operation/function examples.
 * `collections`: Contains collections library examples.
