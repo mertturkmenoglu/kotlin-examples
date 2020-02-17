@@ -10,11 +10,11 @@ private inline fun String.reverseAndApply(block: String.() -> Unit): String {
     return this.reversed().apply(block)
 }
 
-class MyHTML
+private class MyHTML
 
-class MyBody
+private class MyBody
 
-class MyA {
+private class MyA {
     lateinit var href: String
 
     fun printA() {
