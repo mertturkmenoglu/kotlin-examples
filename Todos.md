@@ -1,0 +1,43 @@
+# Project Plans
+***
+Future example topics(unsorted):
+- [ ] Coroutine examples
+    - [ ] Coroutine basics
+    - [ ] Cancellation and timeouts
+    - [ ] Composing suspending functions
+    - [ ] Coroutine Context and Dispatchers
+    - [ ] Asynchronous flow
+    - [ ] Channels
+    - [ ] Exception handling and supervision
+    - [ ] Shared mutable state and concurrency
+    - [ ] Select expression
+- [ ] Properties annd fields
+- [ ] DSL examples
+- [ ] Instance checks (when - is expressions)
+- [ ] Lazy properties
+- [ ] Singletons
+- [ ] Design Patterns
+- [ ] Reified types
+- [ ] Testing
+- [ ] Bitwise Operations
+- [ ] Primitive type arrays
+- [ ] Unsigned integers
+- [ ] Break and continue labels
+- [ ] Annotations
+- [ ] Sealed classes
+- [ ] Generics
+- [ ] Nested & Inner classes
+- [ ] Enums
+- [ ] Object Expressions
+- [ ] Type aliases
+- [ ] Inline classes
+- [ ] Delegation
+- [ ] Delegated properties
+- [ ] Function types
+- [ ] Inline & No-inline functions
+- [ ] Collection operations
+- [ ] Type checks and casts
+- [ ] Operator overloading
+- [ ] Reflection
+- [ ] Type-safe builders
+- [ ] Kotlin-Numpy
