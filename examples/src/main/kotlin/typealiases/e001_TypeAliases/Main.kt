@@ -1,4 +1,4 @@
-package other.e006_TypeAliases
+package typealiases.e001_TypeAliases
 
 typealias UserCredentials = Pair<String, String>
 
