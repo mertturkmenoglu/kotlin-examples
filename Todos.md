@@ -19,7 +19,7 @@ Future example topics(unsorted):
 - [ ] Design Patterns
 - [ ] Reified types
 - [ ] Testing
-- [ ] Bitwise Operations
+- [x] Bitwise Operations
 - [ ] Primitive type arrays
 - [ ] Unsigned integers
 - [ ] Break and continue labels
