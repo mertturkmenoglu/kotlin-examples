@@ -62,6 +62,7 @@
 | -> regex
 | -> serialization
 | -> smartCast
+| -> typealiases
 ```
 * `algorithms`: Different types of algorithm implementations.
 * `basics`: Language basics. Syntax and basic operation/function examples.
@@ -95,3 +96,4 @@
 * `regex`: Regular Expression examples.
 * `serialization`: JVM Serialization examples.
 * `smartCast`: Smart Cast feature examples.
+* `typealiases`: Type alias examples.
