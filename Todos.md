@@ -29,7 +29,7 @@ Future example topics(unsorted):
 - [ ] Nested & Inner classes
 - [ ] Enums
 - [ ] Object Expressions
-- [ ] Type aliases
+- [x] Type aliases
 - [ ] Inline classes
 - [ ] Delegation
 - [ ] Delegated properties
