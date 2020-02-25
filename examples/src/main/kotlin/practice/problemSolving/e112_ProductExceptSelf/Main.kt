@@ -13,7 +13,6 @@ fun main() {
 }
 
 private fun productExceptSelf(numbers: List<Int>): List<Int> {
-    return numbers.mapIndexed { i, _ ->
-        numbers.foldIndexed(1) { index, acc, t -> if (index == i) acc else acc*t }
-    }
+    val product = numbers.fold(1) { acc, i -> acc * i }
+    return numbers.map { product / it }
 }
