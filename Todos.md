@@ -20,7 +20,7 @@ Future example topics(unsorted):
 - [ ] Reified types
 - [ ] Testing
 - [x] Bitwise Operations
-- [ ] Primitive type arrays
+- [x] Primitive type arrays
 - [ ] Unsigned integers
 - [ ] Break and continue labels
 - [ ] Annotations
