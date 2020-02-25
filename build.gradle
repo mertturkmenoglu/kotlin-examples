@@ -26,6 +26,13 @@ dependencies {
     compile group:'org.xerial', name:'sqlite-jdbc', version:'3.8.11.2'
     compile group: 'org.postgresql', name: 'postgresql', version: '42.2.9'
     compile 'org.mongodb:mongo-java-driver:2.12.3'
+    testImplementation 'junit:junit:4.12'
+}
+
+test {
+    useJUnit()
+
+    maxHeapSize = '1G'
 }
 
 compileKotlin {

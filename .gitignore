@@ -6,3 +6,4 @@ lib/
 
 *.iml
 *.ipr
+/local.properties
