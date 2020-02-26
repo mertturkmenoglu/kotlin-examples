@@ -1,6 +1,6 @@
 ![Kotlin Logo](https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png)  
 # Kotlin Language Examples
-![GitHub top language](https://img.shields.io/github/languages/top/mertturkmenoglu/kotlin.svg?logo=Kotlin) ![GitHub](https://img.shields.io/github/license/mertturkmenoglu/kotlin.svg) ![GitHub followers](https://img.shields.io/github/followers/mertturkmenoglu.svg?style=social)
+![Kotlin CI](https://github.com/mertturkmenoglu/kotlin-examples/workflows/Kotlin%20CI/badge.svg?branch=master) ![CircleCI](https://img.shields.io/circleci/build/github/mertturkmenoglu/kotlin-examples?label=Circle%20CI%20Build) ![GitHub top language](https://img.shields.io/github/languages/top/mertturkmenoglu/kotlin.svg?logo=Kotlin) ![GitHub](https://img.shields.io/github/license/mertturkmenoglu/kotlin.svg) ![GitHub followers](https://img.shields.io/github/followers/mertturkmenoglu.svg?style=social)
 ***
 # Table of Contents
 * [Description](#Description)
@@ -8,7 +8,7 @@
 * [Project Structure](#project-structure)
 * [Prerequisites](#Prerequisites)
 * [Installing the Project](#installing-the-project)
-* [Contributing](#Contribution)
+* [Contributing](#Contributing)
 * [Authors](#Authors)
 * [Contact](#Contact)
 * [License](#License)
