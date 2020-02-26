@@ -52,13 +52,7 @@ Ensure you have met the following requirements:
     * Open repository folder.
     * Rest depends on you environment. If you have any problems, please see the [Contact](#Contact) links down below.
 # Contributing
-1. Fork and clone the repository.
-2. Create a branch: `git checkout -b <branch_name>`
-3. Make your contribution and commit: `git commit -m'<commit_message>'`
-4. Push it to GitHub: `git push origin <project>/<location>`
-5. Create a pull request (See this page if you need help: [GitHub Pull Request Help](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests))
- 
-All ideas and helps are welcome. For more, please contact with me.
+See the `CONTRIBUTING.md` file.
 # Authors
 * Mert Türkmenoğlu
 # Contact
