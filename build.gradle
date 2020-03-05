@@ -35,7 +35,11 @@ test {
 }
 
 compileKotlin {
-    kotlinOptions.jvmTarget = "11"
+    kotlinOptions {
+        jvmTarget = "11"
+        freeCompilerArgs = ["-Xopt-in=kotlin.RequiresOptIn"]
+    }
+
 }
 compileTestKotlin {
     kotlinOptions.jvmTarget = "11"
