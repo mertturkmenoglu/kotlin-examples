@@ -52,6 +52,7 @@ fun decode(str: String): String {
     return result
 }
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     println(encode("MERHABA EMILY"))
     println(decode(encode("MERHABA M")))

@@ -12,6 +12,7 @@ class Pixel {
 
     init {
         try {
+            @Suppress("SpellCheckingInspection")
             val path = "${System.getProperty("user.dir")}/kotlinExamples/src/examples/build/resources/main/img/anitkabir.jpeg"
             val input = File(path)
 

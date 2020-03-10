@@ -2,7 +2,10 @@ package practice.problemSolving.e104_ValidAnagram
 
 fun main() {
     val str1 = "emily"
+
+    @Suppress("SpellCheckingInspection")
     val str2 = "iemyl"
+
     val str3 = "abc"
     val str4 = "def"
 

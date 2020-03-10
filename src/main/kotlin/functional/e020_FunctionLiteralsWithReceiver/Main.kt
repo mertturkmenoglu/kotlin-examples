@@ -42,6 +42,7 @@ private inline fun a(init: MyA.() -> Unit): MyA {
     return a
 }
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     5.myApply {
         println(this)

@@ -6,6 +6,7 @@ fun main() {
     println(result)
 }
 
+@Suppress("SpellCheckingInspection")
 fun totient(n: Long): Int {
     require(n >= 1L) { "Function is valid for n >= 1" }
     return (1L..n).count { gcd(n, it) == 1L }

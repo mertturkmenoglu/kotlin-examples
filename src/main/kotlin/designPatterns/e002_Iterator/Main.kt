@@ -6,6 +6,7 @@ class Library(private val books: MutableList<Book> = mutableListOf()) : Iterable
     override fun iterator(): Iterator<Book> = LibraryIterator(books)
 }
 
+@Suppress("MemberVisibilityCanBePrivate")
 class LibraryIterator(private val books: MutableList<Book> = mutableListOf(), var current: Int = 0) : Iterator<Book> {
     override fun hasNext(): Boolean = books.size > current
     override fun next(): Book {

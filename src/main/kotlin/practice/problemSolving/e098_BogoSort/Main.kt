@@ -10,6 +10,7 @@ fun main() {
     println(result)
 }
 
+@Suppress("SpellCheckingInspection")
 tailrec fun bogoSort(l: List<Int>): List<Int> = if (isSorted(l)) l else bogoSort(l.shuffled())
 
 fun isSorted(l: List<Int>) = l.zipWithNext().all { it.first < it.second }

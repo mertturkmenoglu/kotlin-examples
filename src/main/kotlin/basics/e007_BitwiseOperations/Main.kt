@@ -4,6 +4,7 @@ package basics.e007_BitwiseOperations
  * Kotlin, at least for now, does not have special characters for bitwise operations.
  * Instead of them, Kotlin has infix functions. (For example: kotlin-stdlib/kotlin/Int/or)
  */
+@Suppress("SpellCheckingInspection")
 fun main() {
     val number1 = 27    // 0001_1011
     val number2 = 56    // 0011_1000

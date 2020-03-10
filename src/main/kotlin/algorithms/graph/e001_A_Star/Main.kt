@@ -1,5 +1,6 @@
 package algorithms.graph.e001_A_Star
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     val grid = listOf(
             listOf(0, 0, 0, 0, 1, 0, 0, 0, 0, 0),

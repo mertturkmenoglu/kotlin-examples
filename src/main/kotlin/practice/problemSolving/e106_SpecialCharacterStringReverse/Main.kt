@@ -2,6 +2,7 @@ package practice.problemSolving.e106_SpecialCharacterStringReverse
 
 import java.lang.StringBuilder
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     val input = "emily!is$\$the3be4st"
     val result = reverseAlphabetical(input)

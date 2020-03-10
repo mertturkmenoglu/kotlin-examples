@@ -1,5 +1,6 @@
 package practice.problemSolving.e040_AutomorphicNumber
 
+@Suppress("SpellCheckingInspection")
 // A number is called Automorphic number if and only if
 // its square ends in the same digits as the number itself.
 fun main() {

@@ -25,8 +25,8 @@ fun main() {
     }
 }
 
-
 @SuppressWarnings("serial")
+@Suppress("SpellCheckingInspection")
 class MainActivity : JFrame() {
     private var contentPane: JPanel
     private lateinit var autoPark: AutoPark

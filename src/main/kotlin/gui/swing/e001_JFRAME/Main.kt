@@ -17,6 +17,7 @@ class JFrameExample(title: String) : JFrame() {
     }
 }
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     EventQueue.invokeLater { JFrameExample("JFRAME EXAMPLE") }
 }

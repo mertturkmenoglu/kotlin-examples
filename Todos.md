@@ -11,7 +11,7 @@ Future example topics(unsorted):
     - [ ] Exception handling and supervision
     - [ ] Shared mutable state and concurrency
     - [ ] Select expression
-- [ ] Properties annd fields
+- [ ] Properties and fields
 - [ ] DSL examples
 - [ ] Instance checks (when - is expressions)
 - [ ] Lazy properties

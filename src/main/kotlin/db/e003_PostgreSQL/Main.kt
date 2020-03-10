@@ -5,6 +5,7 @@ import java.sql.DriverManager
 import java.sql.Statement
 import kotlin.system.exitProcess
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     println("User name(default postgres): ")
     val userName = readLine() ?: throw Exception()

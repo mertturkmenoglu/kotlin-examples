@@ -1,4 +1,4 @@
-package languageExamples.collections.set.e001_SetMethods
+package collections.set.e001_SetMethods
 
 fun main() {
     val set = setOf(1, 2, 3, 4)

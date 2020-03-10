@@ -19,6 +19,7 @@ class Graph(val n: Int) {
         parent[u] = parent[v]
     }
 
+    @Suppress("SpellCheckingInspection")
     fun kruskal() {
         graph.sortBy { it.first }
 

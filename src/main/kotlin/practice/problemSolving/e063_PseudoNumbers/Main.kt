@@ -22,6 +22,7 @@ private fun iterationCount(str: String): Int {
     return counter
 }
 
+@Suppress("SpellCheckingInspection")
 private fun neumannRandomNumberGenerator(n: Int) = sequence {
     var num = n
     yield(num)

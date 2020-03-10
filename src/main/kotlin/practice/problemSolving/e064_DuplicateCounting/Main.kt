@@ -1,5 +1,6 @@
 package practice.problemSolving.e064_DuplicateCounting
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     val input = "Indivisibilities"
     val result = duplicateCount(input)

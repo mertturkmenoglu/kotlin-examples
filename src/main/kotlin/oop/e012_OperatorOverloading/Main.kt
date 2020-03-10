@@ -2,6 +2,7 @@ package oop.e012_OperatorOverloading
 
 data class Point(val x: Double, val y: Double)
 
+@Suppress("MemberVisibilityCanBePrivate")
 class Rect(val x1: Double, val y1: Double, val x2: Double, val y2: Double) {
     operator fun contains(p: Point): Boolean {
         return p.x > x1 && p.x < x2 && p.y > y1 && p.y < y2

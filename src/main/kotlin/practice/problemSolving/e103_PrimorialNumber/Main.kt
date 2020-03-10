@@ -10,6 +10,7 @@ fun main() {
     println(result)
 }
 
+@Suppress("SpellCheckingInspection")
 fun primorial(n: Int): Int {
     return getPrimes().take(n).fold(1) { acc, i -> acc * i }
 }

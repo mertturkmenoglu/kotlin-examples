@@ -1,5 +1,6 @@
 package designPatterns.e001_Adapter
 
+@Suppress("MemberVisibilityCanBePrivate")
 class ImperialLength(var metricLength: MetricLength) : Length {
     override var length: Double
         get() = convertMetricToImperial(metricLength.length)

@@ -8,6 +8,7 @@ import javax.swing.JPanel
 
 class ImagePanel : JPanel() {
     override fun paint(g: Graphics) {
+        @Suppress("SpellCheckingInspection")
         val img = ImageIO.read(File("${System.getProperty("user.dir")}/kotlinExamples/src/examples/build/resources/main/img/anitkabir.jpeg"))
         g.drawImage(img, (1920 - img.width) / 2, (1080 - img.height) / 2, this)
     }

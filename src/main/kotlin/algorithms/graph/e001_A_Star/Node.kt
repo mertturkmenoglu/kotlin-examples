@@ -2,6 +2,7 @@ package algorithms.graph.e001_A_Star
 
 import kotlin.math.pow
 
+@Suppress("MemberVisibilityCanBePrivate")
 data class Node(var parent: Node? = null, val pos: Pair<Int, Int>? = null) {
     var f = 0
     var g = 0

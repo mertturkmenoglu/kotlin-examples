@@ -2,6 +2,7 @@ package delegates.e005_Delegates
 
 import kotlin.properties.Delegates
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     // Lazy block will be postponed until it is needed to do some operation
     val lazyDelegate: String by lazy {

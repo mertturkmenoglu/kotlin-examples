@@ -1,10 +1,10 @@
 package coroutines.e001_Suspend
 
-import coroutines.TimeUtil
 import coroutines.TimeUtil.getCurrentTimeFormatted
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     // Run blocking scope
     // It will block the execution until the function call completed

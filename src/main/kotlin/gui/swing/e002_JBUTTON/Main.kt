@@ -38,6 +38,7 @@ class JButtonExample(title: String) : JFrame() {
     }
 }
 
+@Suppress("SpellCheckingInspection")
 fun main() {
     EventQueue.invokeLater { JButtonExample("JBUTTON EXAMPLE") }
 }

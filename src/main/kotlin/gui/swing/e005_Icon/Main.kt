@@ -8,6 +8,7 @@ class IconExample(title: String) : JFrame() {
         initUI(title)
     }
 
+    @Suppress("SpellCheckingInspection")
     private fun initUI(title: String) {
         setTitle(title)
         isVisible = true
