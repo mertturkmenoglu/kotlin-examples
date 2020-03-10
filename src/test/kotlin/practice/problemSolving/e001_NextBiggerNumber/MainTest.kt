@@ -1,7 +1,7 @@
 package practice.problemSolving.e001_NextBiggerNumber
 
-import org.junit.Assert
-import org.junit.Test
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Test
 
 class MainTest {
     @Test
@@ -9,6 +9,7 @@ class MainTest {
         val input = 8392
         val expected = 8923
         val actual = nextNumber(input)
-        Assert.assertEquals(expected, actual)
+
+        assertEquals(expected, actual)
     }
 }

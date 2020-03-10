@@ -1,44 +1,50 @@
 package algorithms.random.e001_FisherYatesShuffle
 
-import org.junit.Assert
-import org.junit.Test
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertTrue
+import org.junit.jupiter.api.Nested
+import org.junit.jupiter.api.Test
 import kotlin.random.Random
 
 class MainTest {
-    @Test
-    fun `shuffle empty int array`() {
-        val input = emptyArray<Int>()
-        val expected = emptyArray<Int>()
-        val actual = input.shuffle()
-        Assert.assertTrue("Shuffled empty arrays must be equal", expected contentDeepEquals actual)
-    }
+    @Nested
+    inner class Shuffle {
+        @Test
+        fun `shuffle empty int array`() {
+            val input = emptyArray<Int>()
+            val expected = emptyArray<Int>()
+            val actual = input.shuffle()
 
-    @Test
-    fun `shuffle static int array compare length`() {
-        val input = Array(100) { it }
-        val actual = input.shuffle()
+            assertTrue(expected contentDeepEquals actual, "Shuffled empty arrays must be equal")
+        }
 
-        Assert.assertEquals("Shuffled arrays must be equal length", actual.size, input.size)
-    }
+        @Test
+        fun `shuffle static int array compare length`() {
+            val input = Array(100) { it }
+            val actual = input.shuffle()
 
-    @Test
-    fun `shuffle static int array compare elements`() {
-        val input = Array(100) { it }
-        val actual = input.shuffle().sortedArray()
+            assertEquals(actual.size, input.size, "Shuffled arrays must be equal length")
+        }
 
-        Assert.assertTrue("Shuffled arrays must be equal when sorted", actual contentDeepEquals input)
-    }
+        @Test
+        fun `shuffle static int array compare elements`() {
+            val input = Array(100) { it }
+            val actual = input.shuffle().sortedArray()
 
-    @Test
-    fun `shuffle dynamic int array compare elements`() {
-        val input = sequence { repeat(10) { yield(Random.nextInt(0, 100)) } }
-                .toList()
-                .toTypedArray()
+            assertTrue(actual contentDeepEquals input, "Shuffled arrays must be equal when sorted")
+        }
 
-        val actual = input.shuffle().sortedArray()
-        val expected = input.sortedArray()
+        @Test
+        fun `shuffle dynamic int array compare elements`() {
+            val input = sequence { repeat(10) { yield(Random.nextInt(0, 100)) } }
+                    .toList()
+                    .toTypedArray()
 
-        Assert.assertTrue("Shuffled dynamically produced arrays must be equal when sorted",
-                expected contentDeepEquals actual)
+            val actual = input.shuffle().sortedArray()
+            val expected = input.sortedArray()
+
+            assertTrue(expected contentDeepEquals actual,
+                    "Shuffled dynamically produced arrays must be equal when sorted")
+        }
     }
 }
