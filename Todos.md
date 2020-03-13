@@ -15,7 +15,7 @@ Future example topics(unsorted):
 - [ ] DSL examples
 - [ ] Instance checks (when - is expressions)
 - [ ] Lazy properties
-- [ ] Singletons
+- [x] Singletons
 - [ ] Design Patterns
 - [ ] Reified types
 - [ ] Testing
