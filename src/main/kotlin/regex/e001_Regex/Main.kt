@@ -21,7 +21,9 @@ fun main() {
     println(matched5)
 
     val emailRegex = "(\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,6})".toRegex()
+
     println("Print an email address: ")
-    val inp = readLine()!!
+    val inp = readLine() ?: throw Exception("Invalid input")
+
     println(emailRegex.matches(input = inp))
 }

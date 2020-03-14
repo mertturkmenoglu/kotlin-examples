@@ -6,5 +6,7 @@ fun main() {
     @Suppress("SpellCheckingInspection")
     val strings = listOf("acd", "aacd", "abcd", "aabcd", "aababcd", "aaaaacd", "aabababcd", "aabcda")
 
-    strings.forEach { println("$it: ${regex.matches(it)}") }
+    for (string in strings) {
+        println("$string: ${regex.matches(string)}")
+    }
 }
