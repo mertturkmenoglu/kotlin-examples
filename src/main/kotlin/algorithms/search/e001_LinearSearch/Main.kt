@@ -10,7 +10,7 @@ fun main() {
     println(index)
 }
 
-private fun <T : Comparable<T>> linearSearch(list: List<T>, e: T): Int {
+fun <T : Comparable<T>> linearSearch(list: List<T?>, e: T?): Int {
     for ((index, element) in list.withIndex()) {
         if (element == e) return index
     }
