@@ -11,6 +11,7 @@ fun main() {
     }
 
     sherlock.saySomethingClever()
+    sherlock.saySomething()
     println(sherlock.name)
     println(sherlock.surname)
 }

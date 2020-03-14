@@ -12,3 +12,9 @@ fun eval(e: Expr): Int =
             is Sum -> eval(e.right) + eval(e.left)
             NotANumber -> Double.NaN.toInt()
         }
+
+fun main() {
+    println(eval(Const(5)))
+    println(eval(Sum(Const(3), Const(4))))
+    println(eval(NotANumber))
+}

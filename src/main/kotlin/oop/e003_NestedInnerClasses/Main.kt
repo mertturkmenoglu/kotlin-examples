@@ -11,6 +11,7 @@ class Canvas {
     class NestedClass {
         fun introduce() {
             println("I am NestedClass inside Canvas")
+            println("Cannot access outerClassName from NestedClass")
         }
     }
 }

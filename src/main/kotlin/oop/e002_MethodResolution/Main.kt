@@ -2,22 +2,20 @@ package oop.e002_MethodResolution
 
 interface Person {
     fun introduce() {
-        print("Person")
+        print(Person::class.simpleName)
     }
 }
 
 interface Player {
     fun introduce() {
-        print("Player")
+        print(Player::class.simpleName)
     }
 }
 
 class FootballPlayer : Person, Player {
-
     override fun introduce() {
-        print("Hi")
+        print(FootballPlayer::class.simpleName)
     }
-
 }
 
 fun main() {
