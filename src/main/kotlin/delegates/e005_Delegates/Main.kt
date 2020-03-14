@@ -14,7 +14,8 @@ fun main() {
     println(lazyDelegate)
 
     // This delegate will observe the variable and will call the block when it's value changes
-    var observableDelegate: String by Delegates.observable("Init") { property, oldValue, newValue ->
+    var observableDelegate: String by Delegates.observable("Init") {
+        property, oldValue, newValue ->
         println("--------")
         println("Property: ${property.name}")
         println("From: $oldValue")
@@ -29,7 +30,8 @@ fun main() {
     println(observableDelegate)
 
     // This delegate will observe the variable and will update it's value if the new value satisfies the given condition
-    var vetoableDelegate: Int by Delegates.vetoable(5) { property, oldValue, newValue ->
+    var vetoableDelegate: Int by Delegates.vetoable(5) {
+        property, oldValue, newValue ->
         println("--------")
         println("Property: ${property.name}")
         println("From: $oldValue")
