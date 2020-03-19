@@ -13,7 +13,7 @@ Future example topics(unsorted):
     - [ ] Select expression
 - [ ] Properties and fields
 - [ ] DSL examples
-- [ ] Instance checks (when - is expressions)
+- [x] Instance checks (when - is expressions)
 - [ ] Lazy properties
 - [x] Singletons
 - [ ] Design Patterns
