@@ -5,24 +5,41 @@ import java.util.*
 fun main() {
     val input = "[(3x+5) + 7 * (5x + 1)] + 2 * 7"
     val result = isBalanced(input)
+
     println(result)
 }
 
-fun isBalanced(str: String): Boolean {
-    val parentheses = "{[()]}"
-    val inp = str.filter { it in parentheses }.apply { if (length % 2 == 1) return false }
+internal fun isBalanced(str: String): Boolean {
+    val openingParentheses = "{[(".toList()
+    val closingParentheses = "}])".toList()
 
-    val s = Stack<Char>()
+    // Get only parentheses
+    val input = str.filter {
+        it in openingParentheses + closingParentheses
+    }
 
-    for (p in inp) {
-        if (p in parentheses.slice(0..2)) {
-            s.push(p)
-        } else {
-            if (s.isEmpty() || (parentheses.indexOf(s.peek()) != (parentheses.length - 1 - parentheses.indexOf(p))))
+    if (input.length % 2 == 1) {
+        return false
+    }
+
+    val stack = Stack<Char>()
+
+    for (c in input) {
+        // If current character c is a closing parentheses
+        // Check the top element of the stack
+        if (c in closingParentheses) {
+            val topElementIndex = openingParentheses.indexOf(stack.peek())
+            val currentElementIndex = closingParentheses.indexOf(c)
+
+            if (stack.isEmpty() || topElementIndex != currentElementIndex) {
                 return false
-            s.pop()
+            }
+
+            stack.pop()
+        } else {
+            stack.push(c)
         }
     }
 
-    return true
+    return stack.isEmpty()
 }
